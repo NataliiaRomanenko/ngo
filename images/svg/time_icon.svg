@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>time_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-365.000000, -70.000000)" fill="#555555" fill-rule="nonzero">
+            <g id="time_icon" transform="translate(365.000000, 70.000000)">
+                <path d="M8.88891406,0.0098989899 C4.41648828,0.0098989899 0.777869141,3.59426263 0.777869141,8 C0.777869141,12.4057374 4.41644727,15.990101 8.88891406,15.990101 C13.3613809,15.990101 17,12.4057374 17,8 C17,3.59426263 13.3613809,0.0098989899 8.88891406,0.0098989899 Z M8.88891406,14.7779798 C5.09496875,14.7779798 2.00833789,11.7373737 2.00833789,8 C2.00833789,4.26262626 5.09496875,1.2220202 8.88891406,1.2220202 C12.6829004,1.2220202 15.7695313,4.26262626 15.7695313,8 C15.7695313,11.7373737 12.6829004,14.7779798 8.88891406,14.7779798 Z" id="Shape"></path>
+                <polygon id="Shape" points="9.28619141 8.30117172 9.28619141 4.38614141 8.05572266 4.38614141 8.05572266 8.94193939 11.2265586 11.0705455 11.9195176 10.0688889"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

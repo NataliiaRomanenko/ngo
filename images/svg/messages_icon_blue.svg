@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M16 7.9733C16 12.3768 12.4183 15.9466 8 15.9466C6.60982 15.9466 5.30247 15.5932 4.16344 14.9716L2.27672 15.7905Q2.17865 15.833 2.09129 15.8328Q2.00392 15.8327 1.93854 15.7898Q1.87316 15.7469 1.83821 15.6668Q1.80326 15.5867 1.80326 15.4798L1.80326 13.0165C0.67614 11.6424 0 9.88656 0 7.9733C0 3.56977 3.58172 0 8 0C12.4183 0 16 3.56977 16 7.9733Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="messages_icon">
+    <g id="Combined-Shape">
+      <g clip-path="url(#clip_1)">
+        <use xlink:href="#path_1" fill="none" stroke="#0097B3" stroke-width="1.548387" />
+      </g>
+    </g>
+    <path d="M0 0L6.70968 0L6.70968 0.774194L0 0.774194L0 0Z" transform="translate(4.645161 9.548388)" id="Rectangle-6" fill="#0097B3" stroke="none" />
+    <path d="M0 0L6.70968 0L6.70968 0.774194L0 0.774194L0 0Z" transform="translate(4.645161 7.483871)" id="Rectangle-6" fill="#0097B3" stroke="none" />
+    <path d="M0 0L6.96774 0L6.96774 0.80397L0 0.80397L0 0Z" transform="translate(4.387097 5.419355)" id="Rectangle-6" fill="#0097B3" stroke="none" />
+  </g>
+</svg>

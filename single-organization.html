@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NGO</title>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
+    <script type="text/javascript" src="./js/jQuery.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/select2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+<div class="page">
+    <div class="pageWrapper">
+        <header>
+            <a href="./index.html" class="logo">
+                <img src="./images/svg/ngo_logo.svg" class="img-fluid" alt="logo">
+            </a>
+            <div class="container">
+                <div class="navWrapp">
+                    <div class="row">
+                            <div class="overlay">
+                                <nav class="overlayMenu">
+                                    <ul class="mainMenu " role="menu" >
+                                        <li class="mainMenuList"><a class="mainMenuLink active homeLink"
+                                                                    href="./index.html">Home</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink organizationsLink" href="./organizations.html">Organizations</a>
+                                            <ul class="subMenu">
+                                                <li class="organizationsType redBlock">
+                                                    <div class="organizationsTypeTitle redBg">NGO</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType greenBlock">
+                                                    <div class="organizationsTypeTitle greenBg">HealthCare</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType blueBlock">
+                                                    <div class="organizationsTypeTitle blueBg">Community</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink programsLink" href="./programs.html">Programs &
+                                            Projects</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink grantsLink" href="./grants.html">Grants</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./news.html">News</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./researches.html">Researhes</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./law-base.html">Law Base</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink faqLink" href="#">FAQ</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink contactsLink" href="#">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                    </div>
+
+
+                    <div class="navBurger" role="navigation" id="navBurger"></div>
+
+                </div>
+
+            </div>
+            <div class="loginBlockWrapper">
+                <div class="loginBlock" data-toggle="modal" data-target="#loginModal">
+                    <p class="loginLink">Login</p>
+                    <img src="./images/svg/sign_in_icon.svg" alt="Login Icon">
+                </div>
+                <!--                <div class="userCabinetWrapp">-->
+                <!--                    <div class="userCabinet">-->
+                <!--                        <img src="images/svg/user_icon.svg" alt="User Icon">-->
+                <!--                        <p class="userName">User Name</p>-->
+                <!--                        <p class="count"><span>9</span></p>-->
+                <!--                    </div>-->
+                <!--                    <div class="userMenu">-->
+                <!--                        <div class="userMenuItems">-->
+                <!--                            <div class="userMenuItem myProfile blueBlock">-->
+                <!--                                <div class="userMenuItemTitle blueBg"><img src="images/svg/profile_icon.svg">My Profile-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="./cabinet-user.html">Messages</a>-->
+                <!--                                    <p class="count"><span>3</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Notifications</a>-->
+                <!--                                    <p class="count"><span>9</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Settings</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem favourite greenBlock">-->
+                <!--                                <div class="userMenuItemTitle greenBg"><img src="images/svg/favorite_icon.svg">Favourite-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Organizations</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Programs</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">News</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem actions redBlock">-->
+                <!--                                <div class="userMenuItemTitle redBg"><img src="images/svg/actions_icon.svg">Actions-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">LogOut</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Delete account</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+
+                <!--                    </div>-->
+                <!--                </div>-->
+
+            </div>
+
+
+        </header>
+        <section class="singleOrganizationPage firstSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-3">
+                        <div class="organizationShortInfo">
+                            <div class="organizationLogo">
+                                <img src="./images/img/osce-logo.png" alt="Organization Logo">
+                            </div>
+                            <a href="https://www.osce.org" class="organizationLink orgInfo">https://www.osce.org</a>
+                            <div class="organizationLocation orgInfo">
+                                Lermontov street, 26, Kharkiv, Kharkiv region, Ukraine, 61000
+                            </div>
+                            <div class="organizationPhone orgInfo">
+                                <a href="tel:08001235467">0 (800) 123-54-67</a>
+                                <a href="tel:+380671235467">+38 (067) 123-54-67</a>
+                                <a href="tel:+380501235467">+38 (050) 123-54-67</a>
+                            </div>
+                            <div class="btnWrapp d-flex flex-column justify-content-center">
+                                <a href="#" class="btn blue"><span class="withIcon">contact us</span></a>
+                                <div class="actionEvent addFavSingle">
+                                    <button class="btn bordered addFavouriteBtn">
+                                        <!--  class inFavourite-->
+                                        <span class="withIcon">add to favourite</span>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-9">
+                        <div class="organizationDescription">
+                            <div class="organizationTitle">
+                                <div class="row">
+                                    <div class="col-md-9 col-lg-10">
+                                        <div class="singleOrganizationName blueFont">Osce</div>
+                                        <div class="organizationRate singleOrg">
+                                            <div class="star-ratings-sprite">
+                                                <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                            </div>
+                                            <span class="rateNumber">4,2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-lg-2">
+                                        <div class="organizationCardTypeTitle greenBg">HealthCare</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="organizationAbout">
+                                <div class="organizationAboutTitle">
+                                    Special Monitoring Mission to Ukraine
+                                </div>
+                                <div class="organizationAboutText">
+                                    <p>The OSCE Special Monitoring Mission in Ukraine (SMM) began its work on March 21, 2014 in connection with the appeal of the Government of Ukraine to the OSCE and a consensus decision of all 57 OSCE participating States. The SMM is an unarmed civilian mission that works 24 hours a day, 7 days a week, in all regions of Ukraine. Its main tasks are to impartially and objectively monitor the situation in Ukraine and report on it, as well as to promote dialogue between all parties to the conflict. </p>
+                                    <p>The starting point in the history of the OSCE is the period of detente of international tensions in the early 1970s, when the Conference on Security and Cooperation in Europe (CSCE) was established, designed to serve as a multilateral forum for dialogue and negotiations between East and West. The outcome of the two-year meetings in Helsinki and Geneva was an agreement signed on August 1, 1975 and called the Helsinki Final Act. This document contains a number of important commitments in the military-political and economic-environmental spheres, as well as on human rights issues that have become fundamental to the so-called "Helsinki process". It also developed ten fundamental principles ("decalogue"), which states should follow in their relations and in relation to their citizens.</p>
+                                    <p>Up until 1990, the work of the CSCE was conducted mainly as a series of meetings and meetings in which the commitments undertaken by the participating States were developed and expanded, and a periodic evaluation of their implementation was carried out. However, the end of the Cold War and the Paris Summit held in November 1990 marked the beginning of a new era for the CSCE. In the Charter of Paris for a New Europe, the Meeting was called upon to play its part in managing the processes of historical change taking place in Europe and responding to new challenges in the aftermath of the Cold War. This has led to the emergence of permanent institutions and operational capacity. </p>
+                                    <p>As part of this institutionalization process, by the decision of the Budapest Summit of Heads of State and Government in December 1994, rename the CSCE into the OSCE. </p>
+                                    <p>More information about the OSCE and its work is available <a href="#">here.</a></p>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </div>
+    <footer>
+        <p>2019 NGO/MED Platform</p>
+    </footer>
+
+</div>
+
+</body>
+
+</html>

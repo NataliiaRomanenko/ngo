@@ -1,0 +1,396 @@
+@media (max-width: 1400px) {
+    .mainMenuList{
+        padding: 0 12px;
+    }
+    .mainContent{
+        padding-bottom: 0;
+    }
+    .serviceItem{
+        height: 260px;
+    }
+    .organizationShortInfoWrapp{
+        grid-template-columns: 220px 1fr;
+    }
+    .radio + .labelRadio:after {
+        top: 3.8px;
+    }
+
+    .socialBlock {
+        right: -80px;
+    }
+    .socialBlock.sticky {
+        right: 2%;
+        top: auto;
+    }
+
+}
+/*Extra large devices (large desktops, 1200px)*/
+@media (max-width: 1200px) {
+    .loginBlockWrapper{
+        right: 5px;
+    }
+    .legalDocPage .section:before, .grantsPage .section:before, .programsPage .section:before{
+        left: -69px;
+        z-index: -1;
+    }
+    .mainMenuList{
+        padding: 0 15px;
+    }
+
+}
+/*Large devices (desktops, 992px)*/
+@media (max-width: 992px) {
+
+}
+/*Medium devices (tablets, 768px)*/
+@media (max-width: 768px) {
+    header .offset-md-2{
+        width: 100%;
+    }
+
+    .navBurger {
+        display: block;
+    }
+    .overlay {
+        position: absolute;
+        background: #ffffff;
+        top: 62px;
+        right: 0;
+        width: 100%;
+        opacity: 0;
+        -webkit-transform-origin: left top;
+        transform-origin: left top;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        visibility: hidden;
+        transition: all 0.4s ease-in-out;
+        overflow: hidden;
+        z-index: -2;
+    }
+    .overlay.open {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        z-index: 1;
+    }
+
+    .overlayMenu .mainMenu {
+        position: relative;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .mainMenuList{
+        width: 100%;
+        padding: 0;
+
+    }
+    .mainMenuLink{
+        color: #555555;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        transition: 0.2s;
+        height: 56px;
+    }
+
+    .loginLink{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .subMenu{
+        display: none;
+    }
+    .subMenu.open{
+        position: relative;
+        box-shadow: none;
+        padding-top: 0;
+        grid-template-columns: 1fr;
+        top: 0;
+        grid-gap: 25px;
+        opacity: 1;
+        z-index: 1;
+        transform: scaleY(1);
+        display: grid;
+    }
+
+    .serviceItem{
+        height: 125px;
+        margin: 15px 0;
+    }
+    .serviceItemTitle{
+        top: 27%;
+        padding: 0 0 0 33px;
+        min-height: auto;
+    }
+    .serviceItemTitle h2{
+        font-size: 40px;
+    }
+    .serviceItemTitle h2 br{
+        display: none;
+    }
+    .serviceItemTitle p{
+        display: none;
+    }
+    .mainContent{
+        background-image: none;
+        padding-bottom: 0;
+
+    }
+    .firstSection{
+        padding-top: 30px;
+    }
+    .sectionTitle{
+        font-size: 24px;
+        line-height: 33px;
+        margin-left: 65px;
+    }
+    .section:before {
+        width: 55px;
+        height: 76px;
+        left: 0;
+        top: -23px;
+    }
+    .statisticItem{
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+    .statisticItem.lastItem{
+        margin-bottom: 0;
+    }
+    .newsSection .bigNews{
+        margin-bottom: 30px;
+    }
+    .bigNewsImg{
+        min-height: 180px;
+    }
+    .bigNewsImg.grant{
+        min-height: 130px;
+    }
+    .statisticSection {
+        padding: 30px 0 0 0;
+    }
+    .statisticImg{
+        width: 40%;
+    }
+    .statisticImg img{
+        margin: 0 auto;
+    }
+    .statisticDescription{
+        width: 60%;
+    }
+    .newsSection, .programsSection {
+        padding-top: 56px;
+    }
+    .bigNews .newsDesc,
+    .smallNews .newsDesc{
+        padding-left: 15px;
+    }
+    .smallNews .newsDesc{
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .smallNews:last-child{
+        margin-bottom: 20px;
+    }
+    .bigNews .newsDetails,
+    .programDetails{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+    .newsAuthor,
+    .programAuthor{
+        margin-bottom: 7px;
+    }
+    .publishTitle{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .newsText{
+        display: none;
+    }
+    .smallNewsImg{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        min-height: 180px;
+    }
+    .programTitle{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 16px;
+    }
+    .programsData{
+        margin-bottom: 0;
+    }
+    .newsItem,
+    .programItem{
+        margin-bottom: 30px;
+    }
+    .newsItems, .programItems {
+         margin-bottom: 0;
+    }
+    .programsSection {
+        padding-bottom: 70px;
+    }
+    .programItem{
+        padding-bottom: 20px;
+    }
+    .modal{
+        position: absolute;
+        background-color: transparent;
+    }
+    .modalBody{
+        height: 100vh;
+        top: 59%;
+        position: absolute;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .tabs{
+        margin: 0 6px 45px;
+    }
+    .organizationsList{
+        grid-template-columns: 1fr 1fr;
+    }
+    .organizationShortInfoWrapp{
+        grid-template-columns: 240px 1fr;
+    }
+    .pageHeader .pageTabs{
+        justify-content: flex-start;
+    }
+    .mainTitlePage{
+        padding: 0;
+    }
+    .pageTabs {
+        padding: 8px 0;
+    }
+    .newsShortText,
+    .filterItem,
+    .pageTabs .nav-item{
+        font-size: 16px;
+    }
+
+    .filterMenu.news,
+    .filterMenu{
+        padding: 10px;
+    }
+    .grantsPage .section:before,
+    .programsPage .section:before{
+        top: -20px;
+        left: 9px;
+    }
+    .filterMenuItem{
+        text-align: left;
+    }
+    .page-link{
+        width: 25px;
+        height: 25px;
+    }
+    .singleNewsImg{
+        min-height: 100px;
+    }
+    .partnersLogo{
+        height: 140px;
+    }
+    .socialBlock{
+        right: 0;
+        top: 0;
+    }
+    .socialBlock.sticky {
+        right: 5%;
+        top: auto;
+    }
+    .socialLink{
+        width: 30px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    .randomNewsItem{
+        margin-bottom: 20px;
+        padding-bottom: 0;
+    }
+    .singleNewsTitle{
+        font-size: 26px;
+    }
+    .infoWithIconsBlock{
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    .infoWithIconsText{
+        font-size: 17px;
+    }
+    .infoWithIconsText .boldText{
+        font-size: 22px;
+    }
+    .newsInfoWithIcons{
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+    .infoWithIconsImg{
+        width: 50px;
+    }
+    .pageTabs .nav-item:first-child{
+        margin-left: 0;
+    }
+    .notifBlockWrapp{
+        padding: 0;
+    }
+    .notifFrom{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+    .notifAuthor{
+        grid-template-columns: 1fr;
+    }
+    .notifAuthor img{
+        margin: 0 auto;
+    }
+    .notifText,
+    .notifData,
+    .notifAuthor span{
+        font-size: 14px;
+    }
+    .settingsUserIcon{
+        width: 150px;
+        height: 150px;
+    }
+    .settingsUserName{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .userSettings.user .userInfo{
+        width: 100%;
+    }
+    .docsList .publishTitle, .newsList .newsItem .publishTitle {
+        font-size: 16px
+    }
+    .newsList .newsItem.grant .publishTitle {
+        width: 95%;
+    }
+
+}
+/*Small devices (landscape phones, 576px)*/
+@media (max-width: 576px) {
+    .organizationsList{
+        grid-template-columns:  1fr;
+    }
+    .filterBlock{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-tabs.pageTabs{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+
+}

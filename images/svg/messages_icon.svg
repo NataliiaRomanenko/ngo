@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>messages_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Messages-Client" transform="translate(-449.000000, -90.000000)">
+            <g id="Group-9" transform="translate(449.000000, 88.000000)">
+                <g id="Group-2" transform="translate(0.000000, 2.000000)">
+                    <g id="messages_icon">
+                        <path d="M3.55614587,22.9914917 L6.27425145,21.8118206 L6.5233015,21.9477314 C8.18822378,22.8563077 10.058368,23.3392659 12,23.3392659 C18.3071692,23.3392659 23.4193548,18.2441398 23.4193548,11.9599555 C23.4193548,5.67577122 18.3071692,0.580645161 12,0.580645161 C5.69283079,0.580645161 0.580645161,5.67577122 0.580645161,11.9599555 C0.580645161,14.6205728 1.49913605,17.1392708 3.15382742,19.1564891 L3.28554084,19.3170597 L3.28554084,22.8139438 C3.28554084,22.8404541 3.29098691,22.8666818 3.30154134,22.8910005 C3.34409855,22.9890574 3.45808889,23.0340489 3.55614587,22.9914917 Z" id="Combined-Shape" stroke="#0097B3" stroke-width="1.16129032"></path>
+                        <rect id="Rectangle-6" fill="#0097B3" x="6.96774194" y="14.3225806" width="10.0645161" height="1.16129032" rx="0.580645161"></rect>
+                        <rect id="Rectangle-6" fill="#0097B3" x="6.96774194" y="11.2258065" width="10.0645161" height="1.16129032" rx="0.580645161"></rect>
+                        <rect id="Rectangle-6" fill="#0097B3" x="6.58064516" y="8.12903226" width="10.4516129" height="1.20595533" rx="0.602977667"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

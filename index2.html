@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NGO</title>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
+    <script type="text/javascript" src="./js/jQuery.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/select2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+<div class="page">
+    <div class="pageWrapper">
+        <header>
+            <a href="./index.html" class="logo">
+                <img src="./images/svg/ngo_logo.svg" class="img-fluid" alt="logo">
+            </a>
+            <div class="container">
+                <div class="navWrapp">
+                    <div class="row">
+                            <div class="overlay">
+                                <nav class="overlayMenu">
+                                    <ul class="mainMenu " role="menu" >
+                                        <li class="mainMenuList"><a class="mainMenuLink active homeLink"
+                                                                    href="./index.html">Home</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink organizationsLink" href="./organizations.html">Organizations</a>
+                                            <ul class="subMenu">
+                                                <li class="organizationsType redBlock">
+                                                    <div class="organizationsTypeTitle redBg">NGO</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType greenBlock">
+                                                    <div class="organizationsTypeTitle greenBg">HealthCare</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType blueBlock">
+                                                    <div class="organizationsTypeTitle blueBg">Community</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink programsLink" href="./programs.html">Programs &
+                                            Projects</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink grantsLink" href="./grants.html">Grants</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./news.html">News</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./researches.html">Researhes</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./law-base.html">Law Base</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink faqLink" href="#">FAQ</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink contactsLink" href="#">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                    </div>
+
+
+                    <div class="navBurger" role="navigation" id="navBurger"></div>
+
+                </div>
+
+            </div>
+            <div class="loginBlockWrapper">
+                <div class="loginBlock" data-toggle="modal" data-target="#loginModal">
+                    <p class="loginLink">Login</p>
+                    <img src="./images/svg/sign_in_icon.svg" alt="Login Icon">
+                </div>
+                <!--                <div class="userCabinetWrapp">-->
+                <!--                    <div class="userCabinet">-->
+                <!--                        <img src="images/svg/user_icon.svg" alt="User Icon">-->
+                <!--                        <p class="userName">User Name</p>-->
+                <!--                        <p class="count"><span>9</span></p>-->
+                <!--                    </div>-->
+                <!--                    <div class="userMenu">-->
+                <!--                        <div class="userMenuItems">-->
+                <!--                            <div class="userMenuItem myProfile blueBlock">-->
+                <!--                                <div class="userMenuItemTitle blueBg"><img src="images/svg/profile_icon.svg">My Profile-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="./cabinet-user.html">Messages</a>-->
+                <!--                                    <p class="count"><span>3</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Notifications</a>-->
+                <!--                                    <p class="count"><span>9</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Settings</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem favourite greenBlock">-->
+                <!--                                <div class="userMenuItemTitle greenBg"><img src="images/svg/favorite_icon.svg">Favourite-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Organizations</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Programs</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">News</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem actions redBlock">-->
+                <!--                                <div class="userMenuItemTitle redBg"><img src="images/svg/actions_icon.svg">Actions-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">LogOut</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Delete account</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+
+                <!--                    </div>-->
+                <!--                </div>-->
+
+            </div>
+
+
+        </header>
+        <section class="mainContent version2 firstSection">
+            <div class="container">
+                <div class="serviceItems">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="serviceItem ngo card">
+                                <div class="bg"></div>
+                                <div class="serviceItemTitle">
+                                    <h2>NGO</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="serviceItem health card">
+                                <div class="bg"></div>
+                                <div class="serviceItemTitle">
+                                    <h2>HealthCare</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="serviceItem community card">
+                                <div class="bg"></div>
+                                <div class="serviceItemTitle">
+                                    <h2>Community</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="statisticSection version2">
+            <div class="container">
+                <div class="statisticItems">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="statisticItem">
+                                <div class="statisticImg">
+                                    <img src="images/svg/countries_icon.svg" alt="statisticIcon">
+                                </div>
+                                <div class="statisticDescription">
+                                    <p class="statisticTitle"><span>13</span> countries</p>
+                                    <p class="statisticText">Are participating <br/>in the project.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="statisticItem">
+                                <div class="statisticImg">
+                                    <img src="images/svg/organizations_icon.svg" alt="statisticIcon">
+                                </div>
+                                <div class="statisticDescription">
+                                    <p class="statisticTitle"><span>137</span> organizations</p>
+                                    <p class="statisticText">Are members of the <br/>community</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="statisticItem lastItem">
+                                <div class="statisticImg">
+                                    <img src="images/svg/users_icon.svg" alt="statisticIcon">
+                                </div>
+                                <div class="statisticDescription">
+                                    <p class="statisticTitle"><span>57,8</span> million</p>
+                                    <p class="statisticText">People got help <br/>thanks to us</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    <footer>
+        <p>2019 NGO/MED Platform</p>
+    </footer>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modalBody">
+                    <div class="modalHeader">
+                        <img src="./images/img/sign_in_icon.png" alt="loginIcon">
+                        Login
+                    </div>
+                    <div class="modalContent">
+                        <p class="helpText">Please login to your account:</p>
+                        <form action="">
+                            <div class="formItem">
+                                <input type="text" id="nameUser" name="username" placeholder="">
+                                <label for="nameUser">Username or Email</label>
+                            </div>
+                            <div class="formItem">
+                                <input type="password" id="passUser" name="password" placeholder="">
+                                <label for="passUser">Password</label>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="forgot">Forgot your password?</a>
+                                <button class="formButton blue">login</button>
+                                <div class="formButton btnReg" data-toggle="modal" data-target="#regModal">register</div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modalBody">
+                    <div class="modalHeader">
+                        <img src="./images/img/key.png" alt="Register Icon">
+                        Register new account
+                    </div>
+                    <div class="modalContent">
+                        <div id="tabs">
+                            <nav class="tabs">
+                                <a href="#newClient" class=" tab active">new client</a>
+                                <a href="#organization" class="tab">organization</a>
+                                <div class="tabUnderline"></div>
+                            </nav>
+
+                            <div class="tabs-content">
+                                <div id="newClient">
+                                    <form action="">
+                                        <div class="formItem">
+                                            <input type="text" id="name" name="username" placeholder="">
+                                            <label for="name">Username or Email</label>
+                                        </div>
+                                        <div class="formItem">
+                                            <input type="password" id="pass" name="password" placeholder="">
+                                            <label for="pass">Password</label>
+                                        </div>
+                                        <div class="actions">
+                                            <div class="agreeText">
+                                                <input type="checkbox" class="checkbox" id="checkbox"/>
+                                                <label for="checkbox">I agree</label>
+                                                <a href="#" class="regLink">Terms and Conditions</a>
+                                            </div>
+                                            <button class="formButton blue">register</button>
+                                            <div class="regText">
+                                                You have account?
+                                                <a href="#" class="regLink">Login</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div id="organization">
+                                    <form action="">
+                                        <div class="formItem">
+                                            <input type="text" id="nameOrg" name="name" placeholder="">
+                                            <label for="nameOrg">Organization name</label>
+                                        </div>
+
+                                        <div class="formItem">
+                                            <select name="typeOrganization" id="typeOrg">
+                                                <option value="1">Medical</option>
+                                                <option value="2">Other</option>
+                                                <option value="3">Other</option>
+                                            </select>
+                                            <label for="typeOrg">Type of organization</label>
+                                        </div>
+                                        <div class="formItem">
+                                            <select name="profitability" id="profitabilityOrg">
+                                                <option value="1">Profitable</option>
+                                                <option value="2">Other</option>
+                                                <option value="3">Other</option>
+                                            </select>
+                                            <label for="profitabilityOrg">Profitability</label>
+                                        </div>
+                                        <div class="formItem">
+                                            <input type="text" id="emailOrg" name="name" placeholder="">
+                                            <label for="emailOrg">Organization email</label>
+                                        </div>
+                                        <div class="formItem">
+                                            <input type="password" id="passOrg" name="password" placeholder="">
+                                            <label for="passOrg">Password</label>
+                                        </div>
+                                        <div class="actions">
+                                            <div class="agreeText">
+                                                <input type="checkbox" class="checkbox" id="checkboxOrg"/>
+                                                <label for="checkboxOrg">I agree</label>
+                                                <a href="#" class="regLink">Terms and Conditions</a>
+                                            </div>
+                                            <button class="formButton blue">register</button>
+                                            <div class="regText">
+                                                You have account?
+                                                <a href="#" class="regLink">Login</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--                <div class="successReg">-->
+                        <!--                    <div class="successIcon">-->
+                        <!--                        <img src="images/img/success_icon.png" alt="success">-->
+                        <!--                    </div>-->
+                        <!--                    <p class="successTitle">success!</p>-->
+                        <!--                    <p class="successText">Soon you will receive a message on your email confirmation of registration in-->
+                        <!--                        the system</p>-->
+                        <!--                    <button class="formButton green">ok</button>-->
+                        <!--                </div>-->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NGO</title>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="style/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
+    <script type="text/javascript" src="./js/jQuery.js"></script>
+    <script type="text/javascript" src="./js/datepicker.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="./js/select2.min.js"></script>
+
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+<div class="page">
+    <div class="pageWrapper">
+        <header>
+            <a href="./index.html" class="logo">
+                <img src="./images/svg/ngo_logo.svg" class="img-fluid" alt="logo">
+            </a>
+            <div class="container">
+                <div class="navWrapp">
+                    <div class="row">
+                            <div class="overlay">
+                                <nav class="overlayMenu">
+                                    <ul class="mainMenu " role="menu" >
+                                        <li class="mainMenuList"><a class="mainMenuLink active homeLink"
+                                                                    href="./index.html">Home</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink organizationsLink" href="./organizations.html">Organizations</a>
+                                            <ul class="subMenu">
+                                                <li class="organizationsType redBlock">
+                                                    <div class="organizationsTypeTitle redBg">NGO</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType greenBlock">
+                                                    <div class="organizationsTypeTitle greenBg">HealthCare</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType blueBlock">
+                                                    <div class="organizationsTypeTitle blueBg">Community</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink programsLink" href="./programs.html">Programs &
+                                            Projects</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink grantsLink" href="./grants.html">Grants</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./news.html">News</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./researches.html">Researhes</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./law-base.html">Law Base</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink faqLink" href="#">FAQ</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink contactsLink" href="#">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                    </div>
+
+
+                    <div class="navBurger" role="navigation" id="navBurger"></div>
+
+                </div>
+
+            </div>
+            <div class="loginBlockWrapper">
+                <!--                <div class="loginBlock" data-toggle="modal" data-target="#loginModal">-->
+                <!--                    <p class="loginLink">Login</p>-->
+                <!--                    <img src="./images/svg/sign_in_icon.svg" alt="Login Icon">-->
+                <!--                </div>-->
+                <div class="userCabinetWrapp">
+                    <div class="userCabinet">
+                        <img src="images/svg/user_icon.svg" alt="User Icon">
+                        <p class="userName">User Name</p>
+                        <p class="count"><span>9</span></p>
+                    </div>
+                    <div class="userMenu">
+                        <div class="userMenuItems">
+                            <div class="userMenuItem myProfile blueBlock">
+                                <div class="userMenuItemTitle blueBg"><img src="images/svg/profile_icon.svg">My Profile
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="./cabinet-user.html">Messages</a>
+                                    <p class="count"><span>3</span></p>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Notifications</a>
+                                    <p class="count"><span>9</span></p>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Settings</a>
+                                </div>
+                            </div>
+
+                            <div class="userMenuItem favourite greenBlock">
+                                <div class="userMenuItemTitle greenBg"><img src="images/svg/favorite_icon.svg">Favourite
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Organizations</a>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Programs</a>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">News</a>
+                                </div>
+                            </div>
+
+                            <div class="userMenuItem actions redBlock">
+                                <div class="userMenuItemTitle redBg"><img src="images/svg/actions_icon.svg">Actions
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">LogOut</a>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Delete account</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </header>
+        <section class="newsPage">
+            <div class="container section">
+                <div class="pageHeader">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h2 class="mainTitlePage blueFont">Law Base</h2>
+                        </div>
+                        <div class="col-md-3">
+                            <form class="searchBlock mainTitle">
+                                <input type="text" placeholder="Search" id="search">
+                                <label for="search">
+                                    <svg  class="searchLoupe blue" width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.7796 16.7216L13.4522 12.3943C14.5249 11.0865 15.1714 9.41143 15.1714 7.58571C15.1714 3.39796 11.7735 0 7.58571 0C3.39429 0 0 3.39796 0 7.58571C0 11.7735 3.39429 15.1714 7.58571 15.1714C9.41143 15.1714 11.0829 14.5286 12.3906 13.4559L16.718 17.7796C17.0118 18.0735 17.4857 18.0735 17.7796 17.7796C18.0735 17.4894 18.0735 17.0118 17.7796 16.7216ZM7.58571 13.6616C4.23184 13.6616 1.50612 10.9359 1.50612 7.58571C1.50612 4.23551 4.23184 1.50612 7.58571 1.50612C10.9359 1.50612 13.6653 4.23551 13.6653 7.58571C13.6653 10.9359 10.9359 13.6616 7.58571 13.6616Z" id="Shape" fill="#EF5350" stroke="none" />
+                                    </svg>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterMenu news">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div class="filterMenuItem blueFont textCenter">
+                                Filters
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="filterMenuItem dropdown textCenter">
+                                By Publisher
+                                <svg class="arr" width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0L4.99743 4L10 0" transform="translate(1 1)" id="Path-3" fill="none" stroke-width="2" />
+                                </svg>
+                                <div class="filterSubMenu">
+                                    <svg class="triangle" viewBox="0 0 9 9">
+                                        <polygon points="0,0 9,0 0,9" fill="currentColor"/>
+                                    </svg>
+                                    <ul class="filterSubMenuList">
+                                        <li>belarus</li>
+                                        <li>georgia</li>
+                                        <li>kazakhstan</li>
+                                        <li>ukraine</li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="filterMenuItem dropdown textCenter">
+                                By Type of Document
+                                <svg class="arr" width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0L4.99743 4L10 0" transform="translate(1 1)" id="Path-3" fill="none" stroke-width="2" />
+                                </svg>
+                                <div class="filterSubMenu">
+                                    <svg class="triangle" viewBox="0 0 9 9">
+                                        <polygon points="0,0 9,0 0,9" fill="currentColor"/>
+                                    </svg>
+                                    <ul class="filterSubMenuList">
+                                        <li>NGO</li>
+                                        <li>HealthCare</li>
+                                        <li>Community</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="filterMenuItem dropdown">
+                                By Type Act
+                                <svg class="arr" width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0L4.99743 4L10 0" transform="translate(1 1)" id="Path-3" fill="none" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="filterMenuItem dropdown">
+                                By Jurisdiction
+                                <svg class="arr" width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0L4.99743 4L10 0" transform="translate(1 1)" id="Path-3" fill="none" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="filterMenuItem dropdown">
+                                By Subjects
+                                <svg class="arr" width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0L4.99743 4L10 0" transform="translate(1 1)" id="Path-3" fill="none" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="newsList">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="./single-law-base.html" class="cardItem rectangle card">
+                                <div class="cardRectangleImg">
+                                    <div class="sharedFilesWrapp">
+                                        <div class="sharedFile law">
+                                            <div class="sharedFileName law">LAW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cardItemDesc">
+                                    <div class="publishTitle">Competition for small grants for trans
+                                        initiatives 2019
+                                    </div>
+                                    <div class="shortLawInfo">
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Publisher:</span>
+                                            <span class="shortLawInfoText">Supreme Court of Ukraine, OSCE</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Jurisdiction:</span>
+                                            <span class="shortLawInfoText">International</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Effective date:</span>
+                                            <span class="shortLawInfoText">24.07.2014</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="actionEvent lawPage">
+                                    <p class="btnSingleFavourite"></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" class="cardItem rectangle card ">
+                                <div class="cardRectangleImg">
+                                    <div class="sharedFilesWrapp">
+                                        <div class="sharedFile law">
+                                            <div class="sharedFileName law">LAW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cardItemDesc">
+                                    <div class="publishTitle">Competition for small grants for trans
+                                        initiatives 2019
+                                    </div>
+                                    <div class="shortLawInfo">
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Publisher:</span>
+                                            <span class="shortLawInfoText">Supreme Court of Ukraine, OSCE</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Jurisdiction:</span>
+                                            <span class="shortLawInfoText">International</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Effective date:</span>
+                                            <span class="shortLawInfoText">24.07.2014</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                    <div class="actionEvent lawPage">
+                                        <p class="btnSingleFavourite inFavourite"></p>
+                                    </div>
+
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" class="cardItem rectangle card">
+                                <div class="cardRectangleImg">
+                                    <div class="sharedFilesWrapp">
+                                        <div class="sharedFile law">
+                                            <div class="sharedFileName law">LAW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cardItemDesc">
+                                    <div class="publishTitle">Competition for small grants for trans
+                                        initiatives 2019
+                                    </div>
+                                    <div class="shortLawInfo">
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Publisher:</span>
+                                            <span class="shortLawInfoText">Supreme Court of Ukraine, OSCE</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Jurisdiction:</span>
+                                            <span class="shortLawInfoText">International</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Effective date:</span>
+                                            <span class="shortLawInfoText">24.07.2014</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" class="cardItem rectangle card">
+                                <div class="cardRectangleImg">
+                                    <div class="sharedFilesWrapp">
+                                        <div class="sharedFile court">
+                                            <div class="sharedFileName court">COURT</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cardItemDesc">
+                                    <div class="publishTitle">Competition for small grants for trans
+                                        initiatives 2019
+                                    </div>
+                                    <div class="shortLawInfo">
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Publisher:</span>
+                                            <span class="shortLawInfoText">Supreme Court of Ukraine, OSCE</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Jurisdiction:</span>
+                                            <span class="shortLawInfoText">International</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Effective date:</span>
+                                            <span class="shortLawInfoText">24.07.2014</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" class="cardItem rectangle card">
+                                <div class="cardRectangleImg">
+                                    <div class="sharedFilesWrapp">
+                                        <div class="sharedFile law">
+                                            <div class="sharedFileName law">LAW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cardItemDesc">
+                                    <div class="publishTitle">Competition for small grants for trans
+                                        initiatives 2019
+                                    </div>
+                                    <div class="shortLawInfo">
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Publisher:</span>
+                                            <span class="shortLawInfoText">Supreme Court of Ukraine, OSCE</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Jurisdiction:</span>
+                                            <span class="shortLawInfoText">International</span>
+                                        </div>
+                                        <div class="shortLawInfoRow">
+                                            <span class="shortLawInfoLabel">Effective date:</span>
+                                            <span class="shortLawInfoText">24.07.2014</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled prevpage">
+                        <a class="page-link blue" href="#" tabindex="-1" aria-disabled="true">
+                            <svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0L0 8.99676L10 17.9968" transform="translate(1 1)" id="Path-5" fill="none"
+                                      stroke="#0097B3" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link blue" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link blue" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link blue" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link blue" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link blue" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link blue points" href="#">...</a></li>
+                    <li class="page-item"><a class="page-link blue" href="#">14</a></li>
+                    <li class="page-item nextpage">
+                        <a class="page-link blue" href="#">
+                            <svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0L0 8.99676L10 17.9968" transform="translate(1 1)" id="Path-5" fill="none"
+                                      stroke="#0097B3" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+
+        </section>
+
+    </div>
+    <footer>
+        <p>2019 NGO/MED Platform</p>
+    </footer>
+
+</div>
+
+</body>
+
+</html>

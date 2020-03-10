@@ -1,0 +1,1701 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NGO</title>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="style/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
+    <script type="text/javascript" src="./js/jQuery.js"></script>
+    <script type="text/javascript" src="./js/datepicker.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/select2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="./tinymce/tinymce.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+<body>
+<div class="page">
+    <div class="pageWrapper">
+        <header>
+            <a href="./index.html" class="logo">
+                <img src="./images/svg/ngo_logo.svg" class="img-fluid" alt="logo">
+            </a>
+            <div class="container">
+                <div class="navWrapp">
+                    <div class="row">
+                            <div class="overlay">
+                                <nav class="overlayMenu">
+                                    <ul class="mainMenu " role="menu">
+                                        <li class="mainMenuList"><a class="mainMenuLink active homeLink"
+                                                                    href="./index.html">Home</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink organizationsLink"
+                                                                    href="./organizations.html">Organizations</a>
+                                            <ul class="subMenu">
+                                                <li class="organizationsType redBlock">
+                                                    <div class="organizationsTypeTitle redBg">NGO</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType greenBlock">
+                                                    <div class="organizationsTypeTitle greenBg">HealthCare</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType blueBlock">
+                                                    <div class="organizationsTypeTitle blueBg">Community</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink programsLink"
+                                                                    href="./programs.html">Programs &
+                                            Projects</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink grantsLink"
+                                                                    href="./grants.html">Grants</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./news.html">News</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink"
+                                                                    href="./researches.html">Researhes</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink"
+                                                                    href="./law-base.html">Law Base</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink faqLink" href="#">FAQ</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink contactsLink"
+                                                                    href="#">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                    </div>
+
+
+                    <div class="navBurger" role="navigation" id="navBurger"></div>
+
+                </div>
+
+            </div>
+            <div class="loginBlockWrapper">
+                <div class="loginBlock" data-toggle="modal" data-target="#loginModal">
+                    <p class="loginLink">Login</p>
+                    <img src="./images/svg/sign_in_icon.svg" alt="Login Icon">
+                </div>
+                <!--                <div class="userCabinetWrapp">-->
+                <!--                    <div class="userCabinet">-->
+                <!--                        <img src="images/svg/user_icon.svg" alt="User Icon">-->
+                <!--                        <p class="userName">User Name</p>-->
+                <!--                        <p class="count"><span>9</span></p>-->
+                <!--                    </div>-->
+                <!--                    <div class="userMenu">-->
+                <!--                        <div class="userMenuItems">-->
+                <!--                            <div class="userMenuItem myProfile blueBlock">-->
+                <!--                                <div class="userMenuItemTitle blueBg"><img src="images/svg/profile_icon.svg">My Profile-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="./cabinet-user.html">Messages</a>-->
+                <!--                                    <p class="count"><span>3</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Notifications</a>-->
+                <!--                                    <p class="count"><span>9</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Settings</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem favourite greenBlock">-->
+                <!--                                <div class="userMenuItemTitle greenBg"><img src="images/svg/favorite_icon.svg">Favourite-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Organizations</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Programs</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">News</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem actions redBlock">-->
+                <!--                                <div class="userMenuItemTitle redBg"><img src="images/svg/actions_icon.svg">Actions-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">LogOut</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Delete account</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+
+                <!--                    </div>-->
+                <!--                </div>-->
+
+            </div>
+
+
+        </header>
+        <section class="userCabinetPage firstSection organization">
+            <nav class="navOrgCabinet">
+                <div class="nav nav-tabs pageTabs flex-column" id="nav-tab" role="tablist">
+                    <div class="organizationLogo user">
+                        <div class="settingsUserIcon"></div>
+                        <div class="settingsUserName">User Name</div>
+                    </div>
+
+                    <a class="nav-item nav-link mainTab active" id="nav-mess-tab" data-toggle="tab" href="#nav-mess"
+                       role="tab" aria-controls="nav-mess" aria-selected="true">
+                        <svg class="cabinetIconStroke" width="16px" height="16px" viewBox="0 0 16 16" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Desktop-Messages-Client" transform="translate(-449.000000, -90.000000)">
+                                    <g id="Group-9" transform="translate(449.000000, 88.000000)">
+                                        <g id="Group-2" transform="translate(0.000000, 2.000000)">
+                                            <g id="messages_icon">
+                                                <path d="M16 7.9733C16 12.3768 12.4183 15.9466 8 15.9466C6.60982 15.9466 5.30247 15.5932 4.16344 14.9716L2.27672 15.7905Q2.17865 15.833 2.09129 15.8328Q2.00392 15.8327 1.93854 15.7898Q1.87316 15.7469 1.83821 15.6668Q1.80326 15.5867 1.80326 15.4798L1.80326 13.0165C0.67614 11.6424 0 9.88656 0 7.9733C0 3.56977 3.58172 0 8 0C12.4183 0 16 3.56977 16 7.9733Z"
+                                                      id="path_1" stroke="#555555" stroke-width="1.16129032"></path>
+                                                <path d="M0 0L6.70968 0L6.70968 0.774194L0 0.774194L0 0Z"
+                                                      transform="translate(4.645161 9.548388)" id="Rectangle-6"
+                                                      fill="#555555" stroke="none"/>
+                                                <path d="M0 0L6.70968 0L6.70968 0.774194L0 0.774194L0 0Z"
+                                                      transform="translate(4.645161 7.483871)" id="Rectangle-6"
+                                                      fill="#555555" stroke="none"/>
+                                                <path d="M0 0L6.96774 0L6.96774 0.80397L0 0.80397L0 0Z"
+                                                      transform="translate(4.387097 5.419355)" id="Rectangle-6"
+                                                      fill="#555555" stroke="none"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        Messages
+                        <span class="count">3</span>
+                    </a>
+                    <a class="nav-item nav-link mainTab" id="nav-notif-tab" data-toggle="tab" href="#nav-notif"
+                       role="tab" aria-controls="nav-notif" aria-selected="false">
+                        <svg class="cabinetIconFill" width="13px" height="16px" viewBox="0 0 13 16" version="1.1"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                            <g id="notification_icon">
+                                <path d="M12.9138 11.162L11.8006 9.254C11.2874 8.37334 11.0158 7.36534 11.0158 6.338L11.0158 4.66666C11.0158 2.094 8.98056 0 6.48003 0C3.97951 0 1.94422 2.094 1.94422 4.66666L1.94422 6.338C1.94422 7.36534 1.67271 8.37334 1.15951 9.254L0.0462789 11.162C-0.0139827 11.2647 -0.0152888 11.3933 0.0417532 11.4973C0.0994331 11.602 0.207625 11.6667 0.32426 11.6667L12.6358 11.6667C12.7524 11.6667 12.8606 11.602 12.9183 11.4973C12.9753 11.3933 12.9741 11.2647 12.9138 11.162ZM0.896442 11L1.71483 9.59666C2.28893 8.61266 2.59218 7.486 2.59218 6.338L2.59218 4.66666C2.59218 2.46066 4.33588 0.666656 6.48003 0.666656C8.62418 0.666656 10.3679 2.46066 10.3679 4.66666L10.3679 6.338C10.3679 7.486 10.6711 8.61266 11.2446 9.59666L12.0636 11L0.896442 11Z"
+                                      transform="translate(0.01996639 2.333344)" id="Shape" fill="#555555"
+                                      stroke="none"/>
+                                <path d="M1.29596 0C0.581234 0 0 0.598 0 1.33334L0 2.66669C0 2.85066 0.145157 3 0.323998 3C0.502839 3 0.647995 2.85066 0.647995 2.66666L0.647995 1.33334C0.647995 0.965344 0.938278 0.666687 1.29596 0.666687C1.65364 0.666687 1.94393 0.965344 1.94393 1.33334L1.94393 2.66669C1.94393 2.85066 2.08908 3 2.26792 3C2.44676 3 2.59192 2.85066 2.59192 2.66666L2.59192 1.33334C2.59192 0.598 2.01069 0 1.29596 0Z"
+                                      transform="translate(5.20404 0)" id="Shape" fill="#555555" stroke="none"/>
+                                <path d="M3.02217 0.164264C2.9308 0.00560776 2.73316 -0.0463922 2.57831 0.0449203C2.42344 0.138264 2.37162 0.34292 2.46232 0.501576C2.54654 0.64892 2.59256 0.825576 2.59256 0.999577C2.59256 1.55092 2.15648 1.99958 1.6206 1.99958C1.08471 1.99958 0.648633 1.55092 0.648633 0.999577C0.648633 0.825576 0.69465 0.64892 0.778876 0.501576C0.868935 0.342233 0.817117 0.138233 0.662879 0.0449203C0.506727 -0.0464235 0.309722 0.00557651 0.219026 0.164264C0.0758131 0.416264 0 0.70492 0 0.999608C3.03738e-05 1.91892 0.72639 2.66626 1.61996 2.66626C2.51353 2.66626 3.23989 1.91892 3.24119 0.999608C3.24119 0.70492 3.16538 0.416264 3.02217 0.164264Z"
+                                      transform="translate(4.880042 13.33374)" id="Shape" fill="#555555"
+                                      stroke="none"/>
+                            </g>
+                        </svg>
+                        notifications
+                        <span class="count">3</span>
+                    </a>
+                    <span class="favouriteTab" id="nav-fav-tab">
+                        <svg class="cabinetIconFill" width="17.31px" height="16px" viewBox="0 0 26 24" version="1.1"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.923 9.05408C25.8377 8.80172 25.6139 8.62146 25.3422 8.58026L17.2439 7.46781L13.5996 0.386266C13.4771 0.149356 13.2266 0 12.9549 0L12.9549 0C12.6832 0 12.4328 0.149356 12.3103 0.391416L8.71394 7.49356L0.615578 8.65751C0.343857 8.69871 0.120087 8.87897 0.0348408 9.13133C-0.0504051 9.38369 0.0241851 9.6618 0.221316 9.84206L6.09796 15.3476L4.73935 23.1451C4.6914 23.4077 4.80328 23.6704 5.02705 23.8249C5.14959 23.9124 5.29878 23.9588 5.44796 23.9588C5.56517 23.9588 5.67705 23.933 5.78361 23.8764L13.0135 20.1734L20.2648 23.8352C20.3713 23.8867 20.4832 23.9124 20.5951 23.9124L20.5951 23.9124C20.9893 23.9124 21.3143 23.5983 21.3143 23.2172C21.3143 23.1605 21.309 23.109 21.293 23.0575L19.8918 15.3064L25.7312 9.76996C25.9389 9.58455 26.0082 9.30644 25.923 9.05408ZM18.6238 14.57C18.4533 14.7296 18.3787 14.9614 18.4213 15.188L19.6414 21.9502L13.3439 18.7725C13.1361 18.6644 12.8857 18.6695 12.6725 18.7725L6.39632 21.9863L7.57378 15.2137C7.61107 14.9871 7.53648 14.7605 7.36599 14.6009L2.27255 9.82146L9.3 8.81202C9.53443 8.77597 9.73689 8.63691 9.83812 8.4309L12.9602 2.26609L16.125 8.41545C16.2316 8.62146 16.434 8.76052 16.6684 8.79657L23.7012 9.76481L18.6238 14.57Z"
+                                  id="Shape" fill="#555555" stroke="none"/>
+                        </svg>
+                        favourites
+
+                    </span>
+                        <div class="nav nav-tabs favouriteSubMenu" role="tablist">
+                            <a class="nav-item nav-link subTab active" id="nav-org-tab" data-toggle="tab" href="#nav-org"
+                               role="tab" aria-controls="nav-org" aria-selected="true">
+                                <svg class="cabinetIconFill" width="13px" height="16px" viewBox="0 0 13 16" version="1.1"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <desc>Created with Lunacy</desc>
+                                    <defs>
+                                        <path d="M0 0L3.9 0L3.9 6L0 6L0 0Z" transform="translate(1.95 2)" id="path_1"/>
+                                        <path d="M0 0L4.55 0L4.55 0.666667L0 0.666667L0 0Z"
+                                              transform="translate(6.5 2.666667)" id="path_2"/>
+                                        <path d="M0 0L4.55 0L4.55 0.666667L0 0.666667L0 0Z"
+                                              transform="translate(6.5 4.666667)" id="path_3"/>
+                                        <path d="M0 0L4.55 0L4.55 0.666667L0 0.666667L0 0Z"
+                                              transform="translate(6.5 6.666667)" id="path_4"/>
+                                        <path d="M0 0L9.1 0L9.1 0.666667L0 0.666667L0 0Z"
+                                              transform="translate(1.95 9.333333)" id="path_5"/>
+                                        <path d="M0 0L9.1 0L9.1 0.666667L0 0.666667L0 0Z"
+                                              transform="translate(1.95 11.33333)" id="path_6"/>
+                                        <path d="M0 0L9.1 0L9.1 0.666667L0 0.666667L0 0Z"
+                                              transform="translate(1.95 13.33333)" id="path_7"/>
+                                        <clipPath id="clip_1">
+                                            <use xlink:href="#path_1"/>
+                                        </clipPath>
+                                        <clipPath id="clip_2">
+                                            <use xlink:href="#path_2"/>
+                                        </clipPath>
+                                        <clipPath id="clip_3">
+                                            <use xlink:href="#path_3"/>
+                                        </clipPath>
+                                        <clipPath id="clip_4">
+                                            <use xlink:href="#path_4"/>
+                                        </clipPath>
+                                        <clipPath id="clip_5">
+                                            <use xlink:href="#path_5"/>
+                                        </clipPath>
+                                        <clipPath id="clip_6">
+                                            <use xlink:href="#path_6"/>
+                                        </clipPath>
+                                        <clipPath id="clip_7">
+                                            <use xlink:href="#path_7"/>
+                                        </clipPath>
+                                    </defs>
+                                    <g id="Group-4">
+                                        <path d="M12.3333 0L0.666667 0Q0.598188 0 0.532375 0.012403Q0.466562 0.024806 0.405556 0.0492081Q0.344551 0.0736103 0.29034 0.109217Q0.236128 0.144824 0.190476 0.190476Q0.144824 0.236128 0.109217 0.29034Q0.0736103 0.344551 0.0492081 0.405556Q0.024806 0.466562 0.012403 0.532375Q0 0.598188 0 0.666667L0 15.3333Q0 15.4018 0.012403 15.4676Q0.024806 15.5334 0.0492081 15.5944Q0.0736103 15.6554 0.109217 15.7097Q0.144824 15.7639 0.190476 15.8095Q0.236128 15.8552 0.29034 15.8908Q0.344551 15.9264 0.405556 15.9508Q0.466562 15.9752 0.532375 15.9876Q0.598188 16 0.666667 16L12.3333 16Q12.4018 16 12.4676 15.9876Q12.5334 15.9752 12.5944 15.9508Q12.6554 15.9264 12.7097 15.8908Q12.7639 15.8552 12.8095 15.8095Q12.8552 15.7639 12.8908 15.7097Q12.9264 15.6554 12.9508 15.5944Q12.9752 15.5334 12.9876 15.4676Q13 15.4018 13 15.3333L13 0.666667Q13 0.598188 12.9876 0.532375Q12.9752 0.466562 12.9508 0.405556Q12.9264 0.344551 12.8908 0.29034Q12.8552 0.236128 12.8095 0.190476Q12.7639 0.144824 12.7097 0.109217Q12.6554 0.0736103 12.5944 0.0492081Q12.5334 0.024806 12.4676 0.012403Q12.4018 0 12.3333 0ZM12.0167 0.666667L0.983333 0.666667Q0.949094 0.666667 0.916188 0.672868Q0.883281 0.67907 0.852778 0.691271Q0.822276 0.703472 0.79517 0.721275Q0.768064 0.739079 0.745238 0.761905Q0.722412 0.784731 0.704609 0.811837Q0.686805 0.838942 0.674604 0.869445Q0.662403 0.899948 0.656201 0.932854Q0.65 0.965761 0.65 1L0.65 15Q0.65 15.0342 0.656201 15.0671Q0.662403 15.1001 0.674604 15.1306Q0.686805 15.1611 0.704609 15.1882Q0.722412 15.2153 0.745238 15.2381Q0.768064 15.2609 0.79517 15.2787Q0.822276 15.2965 0.852778 15.3087Q0.883281 15.3209 0.916188 15.3271Q0.949094 15.3333 0.983333 15.3333L12.0167 15.3333Q12.0509 15.3333 12.0838 15.3271Q12.1167 15.3209 12.1472 15.3087Q12.1777 15.2965 12.2048 15.2787Q12.2319 15.2609 12.2548 15.2381Q12.2776 15.2153 12.2954 15.1882Q12.3132 15.1611 12.3254 15.1306Q12.3376 15.1001 12.3438 15.0671Q12.35 15.0342 12.35 15L12.35 1Q12.35 0.965761 12.3438 0.932854Q12.3376 0.899948 12.3254 0.869445Q12.3132 0.838942 12.2954 0.811837Q12.2776 0.784731 12.2548 0.761905Q12.2319 0.739079 12.2048 0.721275Q12.1777 0.703472 12.1472 0.691271Q12.1167 0.67907 12.0838 0.672868Q12.0509 0.666667 12.0167 0.666667Z"
+                                              id="Combined-Shape" fill="#555555" fill-rule="evenodd" stroke="none"/>
+                                        <g id="Rectangle-15">
+                                            <g clip-path="url(#clip_1)">
+                                                <use xlink:href="#path_1" fill="none" stroke="#555555"
+                                                     stroke-width="1.33333337"/>
+                                            </g>
+                                        </g>
+                                        <g id="Rectangle-15-Copy">
+                                            <g clip-path="url(#clip_2)">
+                                                <use xlink:href="#path_2" fill="none" stroke="#555555"
+                                                     stroke-width="1.33333337"/>
+                                            </g>
+                                        </g>
+                                        <g id="Rectangle-15-Copy-6">
+                                            <g clip-path="url(#clip_3)">
+                                                <use xlink:href="#path_3" fill="none" stroke="#555555"
+                                                     stroke-width="1.33333337"/>
+                                            </g>
+                                        </g>
+                                        <g id="Rectangle-15-Copy-8">
+                                            <g clip-path="url(#clip_4)">
+                                                <use xlink:href="#path_4" fill="none" stroke="#555555"
+                                                     stroke-width="1.33333337"/>
+                                            </g>
+                                        </g>
+                                        <g id="Rectangle-15-Copy-3">
+                                            <g clip-path="url(#clip_5)">
+                                                <use xlink:href="#path_5" fill="none" stroke="#555555"
+                                                     stroke-width="1.33333337"/>
+                                            </g>
+                                        </g>
+                                        <g id="Rectangle-15-Copy-5">
+                                            <g clip-path="url(#clip_6)">
+                                                <use xlink:href="#path_6" fill="none" stroke="#555555"
+                                                     stroke-width="1.33333337"/>
+                                            </g>
+                                        </g>
+                                        <g id="Rectangle-15-Copy-7">
+                                            <g clip-path="url(#clip_7)">
+                                                <use xlink:href="#path_7" fill="none" stroke="#555555"
+                                                     stroke-width="1.33333337"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                organizations
+                            </a>
+                            <a class="nav-item nav-link subTab" id="nav-news-tab" data-toggle="tab" href="#nav-news"
+                               role="tab" aria-controls="nav-news" aria-selected="false">
+                                <svg class="cabinetIconFill" width="15px" height="16px" viewBox="0 0 15 16" version="1.1"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="newspaper-2">
+                                        <path d="M3.62069 0L0 0L0 3.73333L3.62069 3.73333L3.62069 0ZM3.10345 3.2L0.517241 3.2L0.517241 0.533333L3.10345 0.533333L3.10345 3.2Z"
+                                              transform="translate(4.137931 4.266667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M4.39655 0L0.258621 0C0.115603 0 0 0.1192 0 0.266667C0 0.414133 0.115603 0.533333 0.258621 0.533333L4.39655 0.533333C4.53957 0.533333 4.65517 0.414133 4.65517 0.266667C4.65517 0.1192 4.53957 0 4.39655 0Z"
+                                              transform="translate(8.793103 4.266667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M4.39655 0L0.258621 0C0.115603 0 0 0.1192 0 0.266667C0 0.414133 0.115603 0.533333 0.258621 0.533333L4.39655 0.533333C4.53957 0.533333 4.65517 0.414133 4.65517 0.266667C4.65517 0.1192 4.53957 0 4.39655 0Z"
+                                              transform="translate(8.793103 5.866667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M4.39655 0L0.258621 0C0.115603 0 0 0.1192 0 0.266667C0 0.414133 0.115603 0.533333 0.258621 0.533333L4.39655 0.533333C4.53957 0.533333 4.65517 0.414133 4.65517 0.266667C4.65517 0.1192 4.53957 0 4.39655 0Z"
+                                              transform="translate(8.793103 7.466667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M8.7931 0L0.258621 0C0.115603 0 0 0.1192 0 0.266667C0 0.414133 0.115603 0.533333 0.258621 0.533333L8.7931 0.533333C8.93612 0.533333 9.05172 0.414133 9.05172 0.266667C9.05172 0.1192 8.93612 0 8.7931 0Z"
+                                              transform="translate(4.396552 9.066667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M4.13793 0L0.258621 0C0.115603 0 0 0.1192 0 0.266667C0 0.414133 0.115603 0.533333 0.258621 0.533333L4.13793 0.533333C4.28095 0.533333 4.39655 0.414133 4.39655 0.266667C4.39655 0.1192 4.28095 0 4.13793 0Z"
+                                              transform="translate(4.396552 10.66667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M4.13793 0L0.258621 0C0.115603 0 0 0.1192 0 0.266667C0 0.414133 0.115603 0.533333 0.258621 0.533333L4.13793 0.533333C4.28095 0.533333 4.39655 0.414133 4.39655 0.266667C4.39655 0.1192 4.28095 0 4.13793 0Z"
+                                              transform="translate(4.396552 12.26667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M4.13793 0L0.258621 0C0.115603 0 0 0.1192 0 0.266667C0 0.414133 0.115603 0.533333 0.258621 0.533333L4.13793 0.533333C4.28095 0.533333 4.39655 0.414133 4.39655 0.266667C4.39655 0.1192 4.28095 0 4.13793 0Z"
+                                              transform="translate(4.396552 13.86667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0 3.73333L3.62069 3.73333L3.62069 0L0 0L0 3.73333ZM0.517241 0.533333L3.10345 0.533333L3.10345 3.2L0.517241 3.2L0.517241 0.533333Z"
+                                              transform="translate(9.827586 10.66667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M15 3.46667C15 3.46213 14.9977 3.4584 14.9974 3.45387L14.9974 0L2.58621 0L2.58621 8L0 8L0 14.4C0 15.2824 0.695948 16 1.55172 16L13.4483 16C14.3025 16 14.9974 15.2832 14.9974 14.4027L14.9974 3.47947C14.9977 3.47493 15 3.4712 15 3.46667ZM14.4802 0.533333L14.4802 3.2L3.10345 3.2L3.10345 0.533333L14.4802 0.533333ZM0.517241 14.4L0.517241 8.53333L2.58621 8.53333L2.58621 14.4C2.58621 14.9883 2.12224 15.4667 1.55172 15.4667C0.981207 15.4667 0.517241 14.9883 0.517241 14.4ZM13.4483 15.4667L2.7075 15.4667C2.71164 15.4619 2.71448 15.4563 2.71836 15.4515C2.77112 15.3893 2.81922 15.3229 2.86216 15.2528C2.86914 15.2416 2.8756 15.2304 2.88233 15.2187C2.92422 15.1467 2.96121 15.0715 2.99172 14.9925C2.99586 14.9816 2.99948 14.9707 3.00336 14.9597C3.0331 14.8781 3.05741 14.7939 3.07397 14.7067C3.07552 14.6987 3.07603 14.6904 3.07759 14.6827C3.09362 14.5909 3.10345 14.4965 3.10345 14.4L3.10345 8L3.10345 3.73333L14.4802 3.73333L14.4802 14.4027C14.4802 14.9893 14.0172 15.4667 13.4483 15.4667Z"
+                                              id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M6.2069 0L0 0L0 1.6L6.2069 1.6L6.2069 0ZM5.68966 1.06667L0.517241 1.06667L0.517241 0.533333L5.68966 0.533333L5.68966 1.06667Z"
+                                              transform="translate(5.689655 1.066667)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                    </g>
+                                </svg>
+                                news
+                            </a>
+                            <a class="nav-item nav-link subTab" id="nav-research-tab" data-toggle="tab" href="#nav-research"
+                               role="tab" aria-controls="nav-research" aria-selected="false">
+                                <svg class="cabinetIconFill" width="13px" height="16px" viewBox="0 0 13 16" version="1.1"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+
+                                    <g id="file-4">
+                                        <path d="M12.9206 15.5448L12.1875 14.8229L12.1875 5.4896L12.0529 5.35707L10.8333 4.15627L10.8333 0L0 0L0 13.8667L1.35417 13.8667L1.35417 15.2L11.8045 15.2L12.5377 15.9219C12.5905 15.9739 12.6598 16 12.7292 16C12.7985 16 12.8678 15.9739 12.9206 15.9219C13.0265 15.8176 13.0265 15.6491 12.9206 15.5448ZM11.2629 5.33333L8.125 5.33333L8.125 2.24373L10.8333 4.9104L11.2629 5.33333ZM0.541667 13.3333L0.541667 0.533333L10.2917 0.533333L10.2917 3.62293L8.1009 1.46587L7.96629 1.33333L1.35417 1.33333L1.35417 13.3333L0.541667 13.3333ZM1.89583 14.6667L1.89583 13.8667L1.89583 1.86667L7.58333 1.86667L7.58333 5.86667L11.6458 5.86667L11.6458 14.2896L9.61079 12.2859C10.082 11.7365 10.3678 11.028 10.3678 10.2541C10.3678 8.51493 8.93073 7.1 7.16435 7.1C5.39798 7.1 3.96094 8.51493 3.96094 10.2541C3.96094 11.9933 5.39798 13.4083 7.16435 13.4083C7.95031 13.4083 8.66992 13.1269 9.22783 12.6629L11.2629 14.6667L1.89583 14.6667ZM7.16435 12.8749C5.69671 12.8749 4.5026 11.6992 4.5026 10.2541C4.5026 8.80907 5.69671 7.63333 7.16435 7.63333C8.632 7.63333 9.8261 8.80907 9.8261 10.2541C9.8261 11.6992 8.632 12.8749 7.16435 12.8749Z"
+                                              id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M0.270833 0.533333L1.89583 0.533333C2.0456 0.533333 2.16667 0.414133 2.16667 0.266667C2.16667 0.1192 2.0456 0 1.89583 0L0.270833 0C0.121063 0 0 0.1192 0 0.266667C0 0.414133 0.121063 0.533333 0.270833 0.533333Z"
+                                              transform="translate(5.315104 9.066667)" id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M3.52083 0L0.270833 0C0.121063 0 0 0.1192 0 0.266667C0 0.414133 0.121063 0.533333 0.270833 0.533333L3.52083 0.533333C3.6706 0.533333 3.79167 0.414133 3.79167 0.266667C3.79167 0.1192 3.6706 0 3.52083 0Z"
+                                              transform="translate(5.315104 10.66667)" id="Shape" fill="#555555" stroke="none"/>
+                                    </g>
+                                </svg>
+                                researches
+                            </a>
+                            <a class="nav-item nav-link subTab" id="nav-programs-tab" data-toggle="tab" href="#nav-programs"
+                               role="tab" aria-controls="nav-programs" aria-selected="false">
+                                <svg class="cabinetIconFill" width="11px" height="16px" viewBox="0 0 11 16" version="1.1"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="document-2">
+                                        <path d="M10.7037 3.03543L9.65161 1.9424L9.65161 0.294931C9.65161 0.1322 9.52479 0 9.36774 0L0.283871 0C0.126827 0 0 0.1322 0 0.294931L0 13.8618C0 14.0245 0.126827 14.1567 0.283871 14.1567L1.13548 14.1567L1.13548 15.0415C1.13548 15.2042 1.26231 15.3364 1.41935 15.3364L10.5032 15.3364C10.6603 15.3364 10.7871 15.2042 10.7871 15.0415L10.7871 3.24424C10.7871 3.16259 10.7554 3.08885 10.7037 3.03543ZM9.08387 2.18664L9.81794 2.94931L9.08387 2.94931L9.08387 2.18664ZM1.13548 1.47465L1.13548 13.5668L0.567742 13.5668L0.567742 0.589862L9.08387 0.589862L9.08387 1.35253L9.00098 1.26642C8.94956 1.2127 8.87859 1.17972 8.8 1.17972L1.41935 1.17972C1.26231 1.17972 1.13548 1.31192 1.13548 1.47465ZM10.2194 14.7465L1.70323 14.7465L1.70323 1.76959L8.51613 1.76959L8.51613 3.24424C8.51613 3.40697 8.64296 3.53917 8.8 3.53917L10.2194 3.53917L10.2194 14.7465Z"
+                                              transform="translate(0.2129032 0)" id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M0.283871 2.35945L5.39355 2.35945C5.55059 2.35945 5.67742 2.22725 5.67742 2.06452L5.67742 0.294931C5.67742 0.1322 5.55059 0 5.39355 0L0.283871 0C0.126827 0 0 0.1322 0 0.294931L0 2.06452C0 2.22725 0.126827 2.35945 0.283871 2.35945ZM0.567742 0.589862L5.10968 0.589862L5.10968 1.76959L0.567742 1.76959L0.567742 0.589862Z"
+                                              transform="translate(2.483871 2.359447)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0 0L7.38065 0L7.38065 0.589862L0 0.589862L0 0Z"
+                                              transform="translate(2.483871 5.308756)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0 0L7.38065 0L7.38065 0.589862L0 0.589862L0 0Z"
+                                              transform="translate(2.483871 6.488479)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0.829158 1.46616L0.472379 0.90985L0 1.23704L0.567742 2.12183C0.617364 2.19931 0.69942 2.2477 0.788546 2.25274C0.793952 2.25331 0.798803 2.25331 0.803931 2.25331C0.887928 2.25331 0.968044 2.21472 1.02224 2.14718L2.4416 0.377592L2.00525 0L0.829158 1.46616Z"
+                                              transform="translate(7.357359 7.774338)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0.829158 1.46616L0.472379 0.90985L0 1.23704L0.567742 2.12183C0.617364 2.19931 0.69942 2.2477 0.788546 2.25274C0.793952 2.25331 0.798803 2.25331 0.803931 2.25331C0.887928 2.25331 0.968044 2.21472 1.02224 2.14718L2.4416 0.377592L2.00525 0L0.829158 1.46616Z"
+                                              transform="translate(7.357359 9.838854)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0.829158 1.46616L0.472379 0.90985L0 1.23704L0.567742 2.12183C0.617364 2.19931 0.69942 2.2477 0.788546 2.25274C0.793952 2.25331 0.798803 2.25331 0.803931 2.25331C0.887928 2.25331 0.968044 2.21472 1.02224 2.14718L2.4416 0.377592L2.00525 0L0.829158 1.46616Z"
+                                              transform="translate(7.357359 11.90337)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0 0L4.54194 0L4.54194 0.589862L0 0.589862L0 0Z"
+                                              transform="translate(2.483871 13.56682)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0 0L4.54194 0L4.54194 0.589862L0 0.589862L0 0Z"
+                                              transform="translate(2.483871 11.5023)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                        <path d="M0 0L4.54194 0L4.54194 0.589862L0 0.589862L0 0Z"
+                                              transform="translate(2.483871 9.437788)" id="Shape" fill="#555555"
+                                              stroke="none"/>
+                                    </g>
+                                </svg>
+                                programs
+                            </a>
+                            <a class="nav-item nav-link subTab" id="nav-grants-tab" data-toggle="tab" href="#nav-grants"
+                               role="tab" aria-controls="nav-grants" aria-selected="false">
+                                <svg class="cabinetIconFill" width="14px" height="16px" viewBox="0 0 14 16" version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs></defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Desktop-Personal-Page-Organization"
+                                           transform="translate(-34.000000, -576.000000)" fill="#555555"
+                                           fill-rule="nonzero">
+                                            <g id="Group-13-Copy-3" transform="translate(0.000000, 554.000000)">
+                                                <g id="medal-2" transform="translate(34.000000, 22.000000)">
+                                                    <path d="M13.9386435,13.2837438 L11.5363246,9.18522167 C11.7798029,9.07487685 11.9258899,8.8226601 11.909658,8.53891626 L11.7311072,7.08866995 L12.7537159,6.04827586 C12.9809623,5.82758621 12.9971942,5.44926108 12.7699478,5.18128079 L11.7473391,4.10935961 L11.9583536,2.64334975 C11.9908174,2.32807882 11.763571,2.01280788 11.4389333,1.94975369 L9.96183188,1.66600985 L9.24762899,0.389162562 C9.10154203,0.0896551724 8.74444058,-0.036453202 8.4198029,0.0896551724 L8.40357101,0.0896551724 L7.04009275,0.704433498 L5.70907826,0.0738916256 C5.5629913,-0.00492610837 5.38444058,-0.0206896552 5.22212174,0.0266009852 C5.0598029,0.0738916256 4.92994783,0.184236453 4.84878841,0.326108374 L4.11835362,1.60295567 L2.64125217,1.85517241 C2.30038261,1.9182266 2.07313623,2.21773399 2.1056,2.56453202 L2.28415072,4.01477833 L1.26154203,5.05517241 C1.03429565,5.27586207 1.01806377,5.65418719 1.24531014,5.92216749 L2.26791884,6.99408867 L2.05690435,8.46009852 C2.02444058,8.74384236 2.2029913,9.01182266 2.47893333,9.12216749 L0.0603826087,13.2837438 C-0.00454492754,13.3783251 0.0116869565,13.5044335 0.0603826087,13.5990148 C0.125310145,13.6935961 0.222701449,13.7566502 0.336324638,13.7566502 L2.93342609,13.7566502 L4.11835362,15.7586207 C4.18328116,15.853202 4.28067246,15.9162562 4.39429565,15.9162562 C4.50791884,15.9162562 4.62154203,15.853202 4.67023768,15.7586207 L6.9913971,11.9123153 L9.31255652,15.8059113 C9.37748406,15.9004926 9.47487536,15.9635468 9.58849855,15.9635468 C9.70212174,15.9635468 9.81574493,15.9004926 9.86444058,15.8059113 L11.0493681,13.7566502 L13.6464696,13.7566502 C13.7600928,13.7566502 13.8737159,13.6935961 13.9224116,13.5990148 C14.003571,13.5044335 14.003571,13.3783251 13.9386435,13.2837438 Z M4.41052754,14.9704433 L3.40415072,13.2837438 C3.33922319,13.1891626 3.24183188,13.1261084 3.1282087,13.1261084 L0.888208696,13.1261084 L3.1282087,9.27980296 L4.05342609,9.43743842 L4.76762899,10.7142857 C4.91371594,11.0137931 5.27081739,11.1399015 5.59545507,11.0137931 L5.61168696,11.0137931 L6.2771942,10.7142857 L6.60183188,11.2660099 L4.41052754,14.9704433 Z M5.35197681,10.4463054 C5.33574493,10.4463054 5.33574493,10.4463054 5.33574493,10.4463054 L4.62154203,9.13793103 C4.52415072,8.98029557 4.36183188,8.85418719 4.16704928,8.83842365 L2.67371594,8.57044335 L2.88473043,7.12019704 C2.9171942,6.93103448 2.85226667,6.72610837 2.72241159,6.6 L1.71603478,5.52807882 L2.73864348,4.48768473 C2.88473043,4.34581281 2.94965797,4.15665025 2.9171942,3.96748768 L2.73864348,2.53300493 C2.73864348,2.53300493 2.73864348,2.51724138 2.75487536,2.50147783 L4.23197681,2.24926108 C4.41052754,2.21773399 4.58907826,2.10738916 4.68646957,1.93399015 L5.41690435,0.657142857 L6.74791884,1.28768473 C6.92646957,1.38226601 7.15371594,1.38226601 7.33226667,1.28768473 L8.67951304,0.688669951 C8.69574493,0.688669951 8.69574493,0.688669951 8.69574493,0.688669951 L9.40994783,1.99704433 C9.50733913,2.1546798 9.66965797,2.28078818 9.8482087,2.29655172 L11.3253101,2.58029557 L11.1142957,4.03054187 C11.0818319,4.21970443 11.1467594,4.42463054 11.2766145,4.55073892 L12.2992232,5.6226601 L11.2603826,6.66305419 C11.1142957,6.80492611 11.0493681,6.99408867 11.0818319,7.18325123 L11.2603826,8.63349754 L9.79951304,8.86995074 C9.62096232,8.90147783 9.44241159,9.01182266 9.34502029,9.18522167 L8.61458551,10.462069 L7.28357101,9.83152709 C7.10502029,9.73694581 6.87777391,9.73694581 6.69922319,9.83152709 L5.35197681,10.4463054 Z M10.8708174,13.1261084 C10.7571942,13.1261084 10.643571,13.1891626 10.5948754,13.2837438 L9.58849855,15.017734 L7.2998029,11.1714286 C7.28357101,11.1241379 7.26733913,11.0926108 7.23487536,11.0610837 L6.87777391,10.4463054 L6.9913971,10.3990148 L8.32241159,11.0295567 C8.4198029,11.0768473 8.5171942,11.0926108 8.61458551,11.0926108 C8.84183188,11.0926108 9.06907826,10.982266 9.18270145,10.7773399 L9.91313623,9.50049261 L10.8870493,9.3270936 L13.1108174,13.1261084 L10.8708174,13.1261084 Z"
+                                                          id="Shape"></path>
+                                                    <path d="M10.2377739,5.55960591 C10.2377739,3.82561576 8.77690435,2.40689655 6.9913971,2.40689655 C5.20588986,2.40689655 3.74502029,3.82561576 3.74502029,5.55960591 C3.74502029,7.29359606 5.20588986,8.71231527 6.9913971,8.71231527 C8.77690435,8.71231527 10.2377739,7.29359606 10.2377739,5.55960591 Z M6.9913971,8.0817734 C5.5629913,8.0817734 4.39429565,6.94679803 4.39429565,5.55960591 C4.39429565,4.17241379 5.5629913,3.03743842 6.9913971,3.03743842 C8.4198029,3.03743842 9.58849855,4.17241379 9.58849855,5.55960591 C9.58849855,6.94679803 8.4198029,8.0817734 6.9913971,8.0817734 Z"
+                                                          id="Shape"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                grants
+                            </a>
+                            <a class="nav-item nav-link subTab" id="nav-laws-tab" data-toggle="tab" href="#nav-laws"
+                               role="tab" aria-controls="nav-laws" aria-selected="false">
+                                <svg class="cabinetIconFill" width="11px" height="16px" viewBox="0 0 11 16" version="1.1"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="law">
+                                        <path d="M10.3039 0L0.656716 0C0.294004 0 0 0.297683 0 0.664935L0 13.5181C0 13.8854 0.294004 14.1831 0.656716 14.1831L1.67791 14.1831L1.67791 15.626C1.67791 15.8096 1.82489 15.9584 2.00623 15.9585C2.10223 15.9585 2.19343 15.916 2.25582 15.8421L2.97821 14.991L3.7006 15.8421C3.81848 15.9816 4.02575 15.998 4.16354 15.8787C4.23648 15.8155 4.27851 15.7232 4.27851 15.626L4.27851 14.1831L10.3039 14.1831C10.6666 14.1831 10.9606 13.8854 10.9606 13.5181L10.9606 0.664935C10.9606 0.297683 10.6666 0 10.3039 0ZM3.22776 14.2529C3.10988 14.1133 2.9026 14.097 2.76482 14.2163C2.75185 14.2275 2.73978 14.2397 2.72866 14.2529L2.33463 14.7183L2.33463 13.455C2.74947 13.6132 3.20695 13.6132 3.62179 13.455L3.62179 14.7183L3.22776 14.2529ZM4.17015 11.6862C4.17019 12.3549 3.63862 12.8991 2.97821 12.9064L2.96507 12.9064C2.29953 12.9064 1.76 12.3601 1.76 11.6862C1.76 11.0124 2.29953 10.4661 2.96507 10.4661C3.63062 10.4661 4.17015 11.0124 4.17015 11.6862C4.17015 11.6862 4.17015 11.6862 4.17015 11.6862ZM10.2875 13.5148L4.27851 13.5148L4.27851 13.0327C5.0144 12.3056 5.02881 11.1121 4.31069 10.367C3.59257 9.6219 2.4138 9.60731 1.67791 10.3344C0.942019 11.0615 0.927612 12.255 1.64573 13.0001C1.65632 13.0112 1.66703 13.022 1.67791 13.0327L1.67791 13.5148L0.656716 13.5148L0.656716 0.664935L10.3039 0.664935L10.2875 13.5148Z"
+                                              transform="translate(0.01970149 0)" id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M6.03522 0L0.328358 0C0.147022 0 0 0.148862 0 0.332468C0 0.516073 0.147022 0.664935 0.328358 0.664935L6.03522 0.664935C6.21656 0.664935 6.36358 0.516073 6.36358 0.332468C6.36358 0.148862 6.2166 0 6.03522 0Z"
+                                              transform="translate(2.318209 2.629818)" id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M6.03522 0L0.328358 0C0.147022 0 0 0.148862 0 0.332468C0 0.516073 0.147022 0.664935 0.328358 0.664935L6.03522 0.664935C6.21656 0.664935 6.36358 0.516073 6.36358 0.332468C6.36358 0.148862 6.2166 0 6.03522 0Z"
+                                              transform="translate(2.318209 4.541506)" id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M6.03522 0L0.328358 0C0.147022 0 0 0.148862 0 0.332468C0 0.516073 0.147022 0.664935 0.328358 0.664935L6.03522 0.664935C6.21656 0.664935 6.36358 0.516073 6.36358 0.332468C6.36358 0.148862 6.2166 0 6.03522 0Z"
+                                              transform="translate(2.318209 6.453195)" id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M6.03522 0L0.328358 0C0.147022 0 0 0.148862 0 0.332468C0 0.516073 0.147022 0.664935 0.328358 0.664935L6.03522 0.664935C6.21656 0.664935 6.36358 0.516073 6.36358 0.332468C6.36358 0.148862 6.2166 0 6.03522 0Z"
+                                              transform="translate(2.318209 8.364883)" id="Shape" fill="#555555" stroke="none"/>
+                                        <path d="M2.93552 0L0.328358 0C0.147022 0 0 0.148862 0 0.332468C0 0.516073 0.147022 0.664935 0.328358 0.664935L2.93552 0.664935C3.11686 0.664935 3.26388 0.516073 3.26388 0.332468C3.26388 0.148862 3.1169 0 2.93552 0Z"
+                                              transform="translate(5.417911 10.27657)" id="Shape" fill="#555555" stroke="none"/>
+                                    </g>
+                                </svg>
+                                law acts
+                            </a>
+                        </div>
+                    <a class="nav-item nav-link mainTab" id="nav-personal-tab" data-toggle="tab" href="#nav-personal"
+                       role="tab" aria-controls="nav-personal" aria-selected="false">
+                        <svg class="cabinetIconFill" width="13px" height="16px" viewBox="0 0 13 16" version="1.1"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                            <desc>Created with Lunacy</desc>
+                            <defs>
+                                <path d="M0 0L3.9 0L3.9 6L0 6L0 0Z" transform="translate(1.95 2)" id="path_1"/>
+                                <path d="M0 0L4.55 0L4.55 0.666667L0 0.666667L0 0Z"
+                                      transform="translate(6.5 2.666667)" id="path_2"/>
+                                <path d="M0 0L4.55 0L4.55 0.666667L0 0.666667L0 0Z"
+                                      transform="translate(6.5 4.666667)" id="path_3"/>
+                                <path d="M0 0L4.55 0L4.55 0.666667L0 0.666667L0 0Z"
+                                      transform="translate(6.5 6.666667)" id="path_4"/>
+                                <path d="M0 0L9.1 0L9.1 0.666667L0 0.666667L0 0Z"
+                                      transform="translate(1.95 9.333333)" id="path_5"/>
+                                <path d="M0 0L9.1 0L9.1 0.666667L0 0.666667L0 0Z"
+                                      transform="translate(1.95 11.33333)" id="path_6"/>
+                                <path d="M0 0L9.1 0L9.1 0.666667L0 0.666667L0 0Z"
+                                      transform="translate(1.95 13.33333)" id="path_7"/>
+                                <clipPath id="clip_1">
+                                    <use xlink:href="#path_1"/>
+                                </clipPath>
+                                <clipPath id="clip_2">
+                                    <use xlink:href="#path_2"/>
+                                </clipPath>
+                                <clipPath id="clip_3">
+                                    <use xlink:href="#path_3"/>
+                                </clipPath>
+                                <clipPath id="clip_4">
+                                    <use xlink:href="#path_4"/>
+                                </clipPath>
+                                <clipPath id="clip_5">
+                                    <use xlink:href="#path_5"/>
+                                </clipPath>
+                                <clipPath id="clip_6">
+                                    <use xlink:href="#path_6"/>
+                                </clipPath>
+                                <clipPath id="clip_7">
+                                    <use xlink:href="#path_7"/>
+                                </clipPath>
+                            </defs>
+                            <g id="Group-4">
+                                <path d="M12.3333 0L0.666667 0Q0.598188 0 0.532375 0.012403Q0.466562 0.024806 0.405556 0.0492081Q0.344551 0.0736103 0.29034 0.109217Q0.236128 0.144824 0.190476 0.190476Q0.144824 0.236128 0.109217 0.29034Q0.0736103 0.344551 0.0492081 0.405556Q0.024806 0.466562 0.012403 0.532375Q0 0.598188 0 0.666667L0 15.3333Q0 15.4018 0.012403 15.4676Q0.024806 15.5334 0.0492081 15.5944Q0.0736103 15.6554 0.109217 15.7097Q0.144824 15.7639 0.190476 15.8095Q0.236128 15.8552 0.29034 15.8908Q0.344551 15.9264 0.405556 15.9508Q0.466562 15.9752 0.532375 15.9876Q0.598188 16 0.666667 16L12.3333 16Q12.4018 16 12.4676 15.9876Q12.5334 15.9752 12.5944 15.9508Q12.6554 15.9264 12.7097 15.8908Q12.7639 15.8552 12.8095 15.8095Q12.8552 15.7639 12.8908 15.7097Q12.9264 15.6554 12.9508 15.5944Q12.9752 15.5334 12.9876 15.4676Q13 15.4018 13 15.3333L13 0.666667Q13 0.598188 12.9876 0.532375Q12.9752 0.466562 12.9508 0.405556Q12.9264 0.344551 12.8908 0.29034Q12.8552 0.236128 12.8095 0.190476Q12.7639 0.144824 12.7097 0.109217Q12.6554 0.0736103 12.5944 0.0492081Q12.5334 0.024806 12.4676 0.012403Q12.4018 0 12.3333 0ZM12.0167 0.666667L0.983333 0.666667Q0.949094 0.666667 0.916188 0.672868Q0.883281 0.67907 0.852778 0.691271Q0.822276 0.703472 0.79517 0.721275Q0.768064 0.739079 0.745238 0.761905Q0.722412 0.784731 0.704609 0.811837Q0.686805 0.838942 0.674604 0.869445Q0.662403 0.899948 0.656201 0.932854Q0.65 0.965761 0.65 1L0.65 15Q0.65 15.0342 0.656201 15.0671Q0.662403 15.1001 0.674604 15.1306Q0.686805 15.1611 0.704609 15.1882Q0.722412 15.2153 0.745238 15.2381Q0.768064 15.2609 0.79517 15.2787Q0.822276 15.2965 0.852778 15.3087Q0.883281 15.3209 0.916188 15.3271Q0.949094 15.3333 0.983333 15.3333L12.0167 15.3333Q12.0509 15.3333 12.0838 15.3271Q12.1167 15.3209 12.1472 15.3087Q12.1777 15.2965 12.2048 15.2787Q12.2319 15.2609 12.2548 15.2381Q12.2776 15.2153 12.2954 15.1882Q12.3132 15.1611 12.3254 15.1306Q12.3376 15.1001 12.3438 15.0671Q12.35 15.0342 12.35 15L12.35 1Q12.35 0.965761 12.3438 0.932854Q12.3376 0.899948 12.3254 0.869445Q12.3132 0.838942 12.2954 0.811837Q12.2776 0.784731 12.2548 0.761905Q12.2319 0.739079 12.2048 0.721275Q12.1777 0.703472 12.1472 0.691271Q12.1167 0.67907 12.0838 0.672868Q12.0509 0.666667 12.0167 0.666667Z"
+                                      id="Combined-Shape" fill="#555555" fill-rule="evenodd" stroke="none"/>
+                                <g id="Rectangle-15">
+                                    <g clip-path="url(#clip_1)">
+                                        <use xlink:href="#path_1" fill="none" stroke="#555555"
+                                             stroke-width="1.33333337"/>
+                                    </g>
+                                </g>
+                                <g id="Rectangle-15-Copy">
+                                    <g clip-path="url(#clip_2)">
+                                        <use xlink:href="#path_2" fill="none" stroke="#555555"
+                                             stroke-width="1.33333337"/>
+                                    </g>
+                                </g>
+                                <g id="Rectangle-15-Copy-6">
+                                    <g clip-path="url(#clip_3)">
+                                        <use xlink:href="#path_3" fill="none" stroke="#555555"
+                                             stroke-width="1.33333337"/>
+                                    </g>
+                                </g>
+                                <g id="Rectangle-15-Copy-8">
+                                    <g clip-path="url(#clip_4)">
+                                        <use xlink:href="#path_4" fill="none" stroke="#555555"
+                                             stroke-width="1.33333337"/>
+                                    </g>
+                                </g>
+                                <g id="Rectangle-15-Copy-3">
+                                    <g clip-path="url(#clip_5)">
+                                        <use xlink:href="#path_5" fill="none" stroke="#555555"
+                                             stroke-width="1.33333337"/>
+                                    </g>
+                                </g>
+                                <g id="Rectangle-15-Copy-5">
+                                    <g clip-path="url(#clip_6)">
+                                        <use xlink:href="#path_6" fill="none" stroke="#555555"
+                                             stroke-width="1.33333337"/>
+                                    </g>
+                                </g>
+                                <g id="Rectangle-15-Copy-7">
+                                    <g clip-path="url(#clip_7)">
+                                        <use xlink:href="#path_7" fill="none" stroke="#555555"
+                                             stroke-width="1.33333337"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        personal page
+                    </a>
+
+                </div>
+            </nav>
+            <div class="container-fluid relativeBlock">
+                <div class="row">
+                    <div class="col-9">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active"><a href="#">Messages</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="tab-content userCabinetTabsContent" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-mess" role="tabpanel" aria-labelledby="nav-mess-tab">
+                        <div class="chat tabWrapp">
+                            <div class="chatMenu">
+                                <form class="searchBlock">
+                                    <input type="text" placeholder="Search" id="search">
+                                    <label for="search">
+                                        <svg class="searchLoupe blue" width="18px" height="18px" viewBox="0 0 18 18"
+                                             version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.7796 16.7216L13.4522 12.3943C14.5249 11.0865 15.1714 9.41143 15.1714 7.58571C15.1714 3.39796 11.7735 0 7.58571 0C3.39429 0 0 3.39796 0 7.58571C0 11.7735 3.39429 15.1714 7.58571 15.1714C9.41143 15.1714 11.0829 14.5286 12.3906 13.4559L16.718 17.7796C17.0118 18.0735 17.4857 18.0735 17.7796 17.7796C18.0735 17.4894 18.0735 17.0118 17.7796 16.7216ZM7.58571 13.6616C4.23184 13.6616 1.50612 10.9359 1.50612 7.58571C1.50612 4.23551 4.23184 1.50612 7.58571 1.50612C10.9359 1.50612 13.6653 4.23551 13.6653 7.58571C13.6653 10.9359 10.9359 13.6616 7.58571 13.6616Z"
+                                                  id="Shape" fill="#EF5350" stroke="none"/>
+                                        </svg>
+                                    </label>
+                                </form>
+                                <div class="chatUsersList scrollBlock">
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <!--                                                <p class="chatUserCompany">UNAIDS</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="chatBody">
+                                <div class="chatBodyHeader">
+                                    <div class="chatBodyHeaderUSer">
+                                        <p class="chatUserName">Gunilla Carlsson </p>
+                                        <p class="chatUserCompany">UNAIDS</p>
+                                    </div>
+                                    <div class="chatFavouriteIcon">
+                                        <img src="images/img/star.png" alt="favourite icon">
+                                    </div>
+
+                                </div>
+
+                                <div class="chatBodyMessages scrollBlock">
+                                    <div class="userMessage">
+                                        <div class="chatMessageWrapper left">
+                                            <div class="chatMessage messageLeft">
+                                                <div class="chatMessageTextWrapp">
+                                                    <p class="chatMessageText">I am writing this text so that this text will
+                                                        fill the place where the text should be. Do not look for any meaning
+                                                        in this text, it simply replaces the message in the dialogue</p>
+                                                    <p class="chatMessageData">12:57 PM</p>
+                                                </div>
+                                                <div class="messageOwner">
+                                                    <div class="messageUserIcon"></div>
+                                                    <div class="messageUserName">Gunilla</div>
+                                                </div>
+
+                                            </div>
+                                            <div class="chatMessage messageLeft">
+                                                <div class="chatMessageTextWrapp">
+                                                    <p class="chatMessageText">I am writing this text so that this text </p>
+                                                    <p class="chatMessageData">12:57 PM</p>
+                                                </div>
+                                                <div class="messageOwner">
+                                                    <div class="messageUserIcon"></div>
+                                                    <div class="messageUserName">Gunilla</div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="userMessage">
+                                        <div class="chatMessageWrapper right">
+                                            <div class="chatMessage messageRight">
+                                                <div class="chatMessageTextWrapp">
+                                                    <p class="chatMessageText">This is just a text</p>
+                                                    <p class="chatMessageData">13:04 PM</p>
+                                                </div>
+                                                <div class="messageOwner">
+                                                    <div class="messageUserIcon"></div>
+                                                    <div class="messageUserName">Gunilla</div>
+                                                </div>
+
+                                            </div>
+                                            <div class="chatMessage messageRight">
+                                                <div class="chatMessageTextWrapp">
+                                                    <p class="chatMessageText">I am writing this text so that this text will
+                                                        fill the place where the text should be. Do not look for any meaning
+                                                        in this text, it simply replaces the message in the dialogue</p>
+                                                    <p class="chatMessageData">13:04 PM</p>
+                                                </div>
+                                                <div class="messageOwner">
+                                                    <div class="messageUserIcon"></div>
+                                                    <div class="messageUserName">Gunilla</div>
+                                                </div>
+                                            </div>
+                                            <div class="chatMessage messageRight">
+                                                <div class="chatMessageTextWrapp">
+                                                    <p class="chatMessageText">This is just a text</p>
+                                                    <p class="chatMessageData">13:04 PM</p>
+                                                </div>
+                                                <div class="messageOwner">
+                                                    <div class="messageUserIcon"></div>
+                                                    <div class="messageUserName">Gunilla</div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="userMessage">
+                                        <div class="chatMessageWrapper left">
+                                            <div class="chatMessage messageLeft">
+                                                <div class="chatMessageTextWrapp">
+                                                    <p class="chatMessageText">I am writing this text so that this text will
+                                                        fill the place where the text should be. Do not look for any meaning
+                                                        in this text, it simply replaces the message in the dialogue</p>
+                                                    <p class="chatMessageData">12:57 PM</p>
+                                                </div>
+                                                <div class="messageOwner">
+                                                    <div class="messageUserIcon"></div>
+                                                    <div class="messageUserName">Gunilla</div>
+                                                </div>
+
+                                            </div>
+                                            <div class="chatMessage messageLeft">
+                                                <div class="chatMessageTextWrapp">
+                                                    <p class="chatMessageText">I am writing this text so that this text </p>
+                                                    <p class="chatMessageData">12:57 PM</p>
+                                                </div>
+                                                <div class="messageOwner">
+                                                    <div class="messageUserIcon"></div>
+                                                    <div class="messageUserName">Gunilla</div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="userMessage">
+                                        <div class="chatMessageWrapper right">
+                                            <div class="chatMessage messageRight">
+                                                <div class="chatMessageTextWrapp">
+                                                    <p class="chatMessageText">This is just a text</p>
+                                                    <p class="chatMessageData">13:04 PM</p>
+                                                </div>
+                                                <div class="messageOwner">
+                                                    <div class="messageUserIcon"></div>
+                                                    <div class="messageUserName">Gunilla</div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chatBodySendMess">
+                                    <form enctype="multipart/form-data" method="post">
+                                        <p class="inputFileWrapp">
+                                            <label for="uploadbtn" class="uploadButton">
+                                                <img src="images/img/shape.png" alt="input file">
+                                            </label>
+                                            <input style="opacity: 0; z-index: -1; width: 0" type="file" name="upload"
+                                                   id="uploadbtn">
+
+                                        </p>
+                                        <input type="text" class="chatWriteMess" placeholder="Your message">
+                                        <button type="submit" class="chatSendBtn"><img src="images/img/sent_icon.png"
+                                                                                       alt="send"></button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="nav-notif" role="tabpanel" aria-labelledby="nav-notif-tab">
+                        <div class="notifBlockWrapp  orgNotif tabWrapp scrollBlock">
+                            <div class="notifBlock">
+                                <p class="blockTitle">New Notifications</p>
+                                <div class="notifItem newNotifNews">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem newNotifNews">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem newNotifOrganization">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="notifBlock">
+                                <p class="blockTitle">All Notifications</p>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives
+                                                2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade " id="nav-personal" role="tabpanel" aria-labelledby="nav-personal-tab">
+                        <div class="userSettings user tabWrapp">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="userAction">
+                                        <div class="settingsUserIcon"></div>
+                                        <div class="settingsUserName">User Name</div>
+                                        <button class="inputFileWrapp btn bordered">
+                                            <label for="uploadUserIcon" class="uploadButton">
+                                                + ADD PHOTO
+                                            </label>
+                                            <input style="opacity: 0; z-index: -1; width: 0; height: 0" type="file"
+                                                   name="upload" id="uploadUserIcon"/>
+
+                                        </button>
+                                        <button class="btn blue">save</button>
+                                        <button class="btn red">delete account</button>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="userInfo">
+                                                    <p class="blockTitle">User Information</p>
+
+                                                    <div class="formItem">
+                                                        <input type="text" id="userFirstName" name="name"
+                                                               placeholder="">
+                                                        <label for="userFirstName">First Name</label>
+                                                    </div>
+                                                    <div class="formItem">
+                                                        <input type="text" id="userLastName" name="name" placeholder="">
+                                                        <label for="userLastName">Last Name</label>
+                                                    </div>
+                                                    <div class="formItemGroup">
+                                                        <div class="formItem">
+                                                            <input type="text" id="userAge" name="name" placeholder="">
+                                                            <label for="userAge">Age</label>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <select name="userGender" id="gender">
+                                                                <option value="1">Male</option>
+                                                                <option value="2">Female</option>
+                                                            </select>
+                                                            <label for="gender">Gender</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="formItem">
+                                                        <input type="email" id="userEmail" name="name" placeholder="">
+                                                        <label for="userEmail">Organization email</label>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="userInfo">
+                                                    <p class="blockTitle">Contact Information</p>
+                                                    <div class="formItem">
+                                                        <input type="text" id="userPhone" name="name" placeholder="">
+                                                        <label for="userPhone">Phone</label>
+                                                    </div>
+                                                    <div class="formWithIcon">
+                                                        <div class="countrySelectIcon userCountry"><img
+                                                                src="./images/svg/select-country.svg"
+                                                                alt="select country"></div>
+                                                        <div class="formItem">
+                                                            <select name="userCountry" id="userCountry">
+                                                                <option value="1">Ukraine</option>
+                                                                <option value="2">Albania</option>
+                                                                <option value="3">Poland</option>
+                                                            </select>
+                                                            <label for="userCountry">Country</label>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="formItem">
+                                                        <input type="text" id="userAdress1" name="name" placeholder="">
+                                                        <label for="userAdress1">Adress 1</label>
+                                                    </div>
+                                                    <div class="formItem">
+                                                        <input type="text" id="userAdress2" name="name" placeholder="">
+                                                        <label for="userAdress2">Adress 2</label>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="userInfo">
+                                                    <p class="blockTitle">Security</p>
+
+                                                    <div class="formItem">
+                                                        <input type="text" id="currentPassUser" name="name"
+                                                               placeholder="">
+                                                        <label for="currentPassUser">Current Password</label>
+                                                    </div>
+                                                    <div class="formItem">
+                                                        <input type="password" id="newPassUser" name="name"
+                                                               placeholder="">
+                                                        <label for="newPassUser">New Password</label>
+                                                    </div>
+                                                    <div class="formItem">
+                                                        <input type="password" id="confirmPassUser" name="name"
+                                                               placeholder="">
+                                                        <label for="confirmPassUser">Confirm New Password</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content submenu userCabinetTabsContent"  id="nav-tabSubContent">
+                    <div class="tab-pane fade orgTab show active" id="nav-org" role="tabpanel" aria-labelledby="nav-org-tab">
+                        <div class="organizationsListWrapp tabWrapp">
+                            <div class="organizationsList ">
+                                <a href="./single-organization.html" class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region,
+                                        61000
+                                    </div>
+
+                                </a>
+                                <a href="./single-organization.html" class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle greenBg">HealthCare</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region,
+                                        61000
+                                    </div>
+
+                                </a>
+
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region,
+                                        61000
+                                    </div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region,
+                                        61000
+                                    </div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle blueBg">Community</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region,
+                                        61000
+                                    </div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region,
+                                        61000
+                                    </div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region,
+                                        61000
+                                    </div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region,
+                                        61000
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab">
+                        <div class="userSettings user tabWrapp">
+                            news
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="nav-research" role="tabpanel" aria-labelledby="nav-research-tab">
+                        <div class="userSettings user tabWrapp">
+                            research
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade " id="nav-programs" role="tabpanel" aria-labelledby="nav-programs-tab">
+                        <div class="userSettings user tabWrapp">
+                            programs
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade " id="nav-grants" role="tabpanel" aria-labelledby="nav-grants-tab">
+                        <div class="userSettings user tabWrapp">
+                            grants
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="nav-laws" role="tabpanel" aria-labelledby="nav-laws-tab">
+                        <div class="userSettings user tabWrapp">
+                            law
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        <p>2019 NGO/MED Platform</p>
+    </footer>
+    <div class="modal fade" id="changePassModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modalBody">
+                    <div class="modalHeader">
+                        <img src="./images/img/key.png" alt="Change Password Icon">
+                        change password
+                    </div>
+                    <div class="modalContent">
+
+                        <form action="">
+                            <div class="formItem">
+                                <input type="password" id="currentPass" name="password" placeholder="">
+                                <label for="currentPass">Current Password</label>
+                            </div>
+                            <div class="formItem">
+                                <input type="password" id="newPass" name="password" placeholder="">
+                                <label for="newPass">New Password</label>
+                            </div>
+                            <div class="formItem">
+                                <input type="password" id="confirmPass" name="password" placeholder="">
+                                <label for="confirmPass">Confirm New Password</label>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="forgot">Forgot your password?</a>
+                                <button class="formButton blue">change password</button>
+                                <div class="formButton noBorder">cancel</div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addOrganization" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modalBody">
+                    <div class="modalHeader">
+                        Add Organization
+                    </div>
+                    <div class="modalContent">
+                        <form class="addOrgForm">
+                            <div class="searchBlock">
+                                <input type="text" placeholder="Search" id="searchOrg">
+                                <label for="searchOrg">
+                                    <svg class="searchLoupe blue" width="18px" height="18px" viewBox="0 0 18 18"
+                                         version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.7796 16.7216L13.4522 12.3943C14.5249 11.0865 15.1714 9.41143 15.1714 7.58571C15.1714 3.39796 11.7735 0 7.58571 0C3.39429 0 0 3.39796 0 7.58571C0 11.7735 3.39429 15.1714 7.58571 15.1714C9.41143 15.1714 11.0829 14.5286 12.3906 13.4559L16.718 17.7796C17.0118 18.0735 17.4857 18.0735 17.7796 17.7796C18.0735 17.4894 18.0735 17.0118 17.7796 16.7216ZM7.58571 13.6616C4.23184 13.6616 1.50612 10.9359 1.50612 7.58571C1.50612 4.23551 4.23184 1.50612 7.58571 1.50612C10.9359 1.50612 13.6653 4.23551 13.6653 7.58571C13.6653 10.9359 10.9359 13.6616 7.58571 13.6616Z"
+                                              id="Shape" fill="#EF5350" stroke="none"></path>
+                                    </svg>
+                                </label>
+                            </div>
+                            <div class="searchOrgList scrollBlock">
+                                <p class="searchOrgItem">Simple Name Organization 1</p>
+                                <p class="searchOrgItem">Simple Name Organization 2</p>
+                                <p class="searchOrgItem">Simple Name Organization 3</p>
+                                <p class="searchOrgItem">Simple Name Organization 4</p>
+                                <p class="searchOrgItem">Simple Name Organization 5</p>
+                                <p class="searchOrgItem">Simple Name Organization 6</p>
+                                <p class="searchOrgItem">Simple Name Organization 7</p>
+                                <p class="searchOrgItem">Simple Name Organization 8</p>
+                                <p class="searchOrgItem">Simple Name Organization 9</p>
+                                <p class="searchOrgItem">Simple Name Organization 10</p>
+                                <p class="searchOrgItem">Simple Name Organization 11</p>
+                                <p class="searchOrgItem">Simple Name Organization 12</p>
+                            </div>
+                            <div class="actions">
+                                <button class="formButton blue">add organization</button>
+                                <div class="formButton noBorder">cancel</div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~plugin tinyMCE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+    tinymce.init({
+        selector: 'textarea.full-featured',
+        plugins: [
+            'advlist autolink lists link image charmap preview hr anchor pagebreak',
+            'searchreplace wordcount visualblocks visualchars code',
+            'insertdatetime media nonbreaking table contextmenu directionality',
+            'emoticons template paste textcolor colorpicker textpattern imagetools codesample'
+        ],
+        toolbar: 'codesample | bold italic sizeselect fontselect fontsizeselect | hr alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | insertfile undo redo | forecolor backcolor emoticons | code',
+        fontsize_formats: "8pt 10pt 12pt 14pt 18pt 24pt 36pt",
+        height: "350",
+        menubar: false
+    });
+</script>
+</body>
+</html>

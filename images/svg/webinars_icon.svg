@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>webinars_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-My-News-Organization-Copy" transform="translate(-33.000000, -518.000000)" stroke="#555555" stroke-width="0.599999964">
+            <g id="Group-13-Copy-4" transform="translate(0.000000, 494.000000)">
+                <g id="webinars_icon" transform="translate(33.000000, 24.000000)">
+                    <rect id="Rectangle-17" x="0.299999982" y="0.299999982" width="15.4" height="11.4" rx="1"></rect>
+                    <path d="M6,3.80901699 L6,8.19098301 C6,8.46712538 6.22385763,8.69098301 6.5,8.69098301 C6.57762255,8.69098301 6.65417908,8.67291046 6.7236068,8.6381966 L11.1055728,6.4472136 C11.3525621,6.32371897 11.4526742,6.02338245 11.3291796,5.7763932 C11.2807978,5.6796295 11.2023365,5.60116826 11.1055728,5.5527864 L6.7236068,3.3618034 C6.47661755,3.23830877 6.17628103,3.33842095 6.0527864,3.5854102 C6.01807255,3.65483791 6,3.73139445 6,3.80901699 Z" id="Path-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

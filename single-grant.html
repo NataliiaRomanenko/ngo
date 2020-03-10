@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NGO</title>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
+    <script type="text/javascript" src="./js/jQuery.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/select2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+<div class="page">
+    <div class="pageWrapper">
+        <header>
+            <a href="./index.html" class="logo">
+                <img src="./images/svg/ngo_logo.svg" class="img-fluid" alt="logo">
+            </a>
+            <div class="container">
+                <div class="navWrapp">
+                    <div class="row">
+                            <div class="overlay">
+                                <nav class="overlayMenu">
+                                    <ul class="mainMenu " role="menu" >
+                                        <li class="mainMenuList"><a class="mainMenuLink active homeLink"
+                                                                    href="./index.html">Home</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink organizationsLink" href="./organizations.html">Organizations</a>
+                                            <ul class="subMenu">
+                                                <li class="organizationsType redBlock">
+                                                    <div class="organizationsTypeTitle redBg">NGO</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType greenBlock">
+                                                    <div class="organizationsTypeTitle greenBg">HealthCare</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType blueBlock">
+                                                    <div class="organizationsTypeTitle blueBg">Community</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink programsLink" href="./programs.html">Programs &
+                                            Projects</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink grantsLink" href="./grants.html">Grants</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./news.html">News</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./researches.html">Researhes</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./law-base.html">Law Base</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink faqLink" href="#">FAQ</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink contactsLink" href="#">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                    </div>
+
+
+                    <div class="navBurger" role="navigation" id="navBurger"></div>
+
+                </div>
+
+            </div>
+            <div class="loginBlockWrapper">
+                <div class="loginBlock" data-toggle="modal" data-target="#loginModal">
+                    <p class="loginLink">Login</p>
+                    <img src="./images/svg/sign_in_icon.svg" alt="Login Icon">
+                </div>
+                <!--                <div class="userCabinetWrapp">-->
+                <!--                    <div class="userCabinet">-->
+                <!--                        <img src="images/svg/user_icon.svg" alt="User Icon">-->
+                <!--                        <p class="userName">User Name</p>-->
+                <!--                        <p class="count"><span>9</span></p>-->
+                <!--                    </div>-->
+                <!--                    <div class="userMenu">-->
+                <!--                        <div class="userMenuItems">-->
+                <!--                            <div class="userMenuItem myProfile blueBlock">-->
+                <!--                                <div class="userMenuItemTitle blueBg"><img src="images/svg/profile_icon.svg">My Profile-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="./cabinet-user.html">Messages</a>-->
+                <!--                                    <p class="count"><span>3</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Notifications</a>-->
+                <!--                                    <p class="count"><span>9</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Settings</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem favourite greenBlock">-->
+                <!--                                <div class="userMenuItemTitle greenBg"><img src="images/svg/favorite_icon.svg">Favourite-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Organizations</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Programs</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">News</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem actions redBlock">-->
+                <!--                                <div class="userMenuItemTitle redBg"><img src="images/svg/actions_icon.svg">Actions-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">LogOut</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Delete account</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+
+                <!--                    </div>-->
+                <!--                </div>-->
+
+            </div>
+
+
+        </header>
+        <section class="singleGrantPage firstSection">
+            <div class="singleNewsImg align-items-center">
+                <div class="container ">
+                    <div class="singleNewsImgText">
+                        <div class="newsAuthor d-flex align-items-center">
+                            <img src="images/svg/author_logo.svg" alt="news author">
+                            <span class="authorName whiteFont">NGO Healthcare Platform</span>
+                        </div>
+                        <div class="singleNewsTitle whiteFont">Competition for small grants <br/> for trans
+                            initiatives 2019
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="singleNews">
+                    <div class="socialBlock">
+                        <a href="#" class="socialLink facebook orange">
+                            <svg width="40px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group-3">
+                                    <path d="M5 0L35 0Q35.1281 0 35.2553 0.00582875Q35.3825 0.0116575 35.5086 0.0233031Q35.6347 0.0349487 35.7594 0.0523874Q35.8841 0.0698261 36.0072 0.0930224Q36.1303 0.116219 36.2515 0.145125Q36.3727 0.174032 36.4918 0.208589Q36.6108 0.243147 36.7275 0.283285Q36.8442 0.323424 36.9583 0.369061Q37.0724 0.414698 37.1837 0.465741Q37.2949 0.516784 37.4031 0.573129Q37.5113 0.629473 37.6162 0.691005Q37.7211 0.752536 37.8225 0.819128Q37.9238 0.885721 38.0215 0.957238Q38.1192 1.02876 38.213 1.10505Q38.3067 1.18135 38.3964 1.26227Q38.4861 1.34319 38.5714 1.42857Q38.6568 1.51395 38.7377 1.60362Q38.8187 1.69328 38.895 1.78704Q38.9712 1.88081 39.0428 1.97849Q39.1143 2.07616 39.1809 2.17755Q39.2475 2.27894 39.309 2.38383Q39.3705 2.48872 39.4269 2.5969Q39.4832 2.70508 39.5343 2.81633Q39.5853 2.92758 39.6309 3.04167Q39.6766 3.15577 39.7167 3.27247Q39.7569 3.38917 39.7914 3.50825Q39.826 3.62732 39.8549 3.74853Q39.8838 3.86973 39.907 3.99281Q39.9302 4.1159 39.9476 4.24061Q39.9651 4.36533 39.9767 4.49142Q39.9883 4.61751 39.9942 4.74472Q40 4.87193 40 5L40 35Q40 35.1281 39.9942 35.2553Q39.9883 35.3825 39.9767 35.5086Q39.9651 35.6347 39.9476 35.7594Q39.9302 35.8841 39.907 36.0072Q39.8838 36.1303 39.8549 36.2515Q39.826 36.3727 39.7914 36.4918Q39.7569 36.6108 39.7167 36.7275Q39.6766 36.8442 39.6309 36.9583Q39.5853 37.0724 39.5343 37.1837Q39.4832 37.2949 39.4269 37.4031Q39.3705 37.5113 39.309 37.6162Q39.2475 37.7211 39.1809 37.8225Q39.1143 37.9238 39.0428 38.0215Q38.9712 38.1192 38.895 38.213Q38.8187 38.3067 38.7377 38.3964Q38.6568 38.4861 38.5714 38.5714Q38.4861 38.6568 38.3964 38.7377Q38.3067 38.8187 38.213 38.895Q38.1192 38.9712 38.0215 39.0428Q37.9238 39.1143 37.8225 39.1809Q37.7211 39.2475 37.6162 39.309Q37.5113 39.3705 37.4031 39.4269Q37.2949 39.4832 37.1837 39.5343Q37.0724 39.5853 36.9583 39.6309Q36.8442 39.6766 36.7275 39.7167Q36.6108 39.7569 36.4918 39.7914Q36.3727 39.826 36.2515 39.8549Q36.1303 39.8838 36.0072 39.907Q35.8841 39.9302 35.7594 39.9476Q35.6347 39.9651 35.5086 39.9767Q35.3825 39.9883 35.2553 39.9942Q35.1281 40 35 40L5 40Q4.87193 40 4.74472 39.9942Q4.61751 39.9883 4.49142 39.9767Q4.36533 39.9651 4.24061 39.9476Q4.1159 39.9302 3.99281 39.907Q3.86973 39.8838 3.74853 39.8549Q3.62732 39.826 3.50825 39.7914Q3.38917 39.7569 3.27247 39.7167Q3.15577 39.6766 3.04167 39.6309Q2.92758 39.5853 2.81633 39.5343Q2.70508 39.4832 2.5969 39.4269Q2.48872 39.3705 2.38383 39.309Q2.27894 39.2475 2.17755 39.1809Q2.07616 39.1143 1.97849 39.0428Q1.88081 38.9712 1.78704 38.895Q1.69328 38.8187 1.60362 38.7377Q1.51395 38.6568 1.42857 38.5714Q1.34319 38.4861 1.26227 38.3964Q1.18135 38.3067 1.10505 38.213Q1.02876 38.1192 0.957239 38.0215Q0.885721 37.9238 0.819128 37.8225Q0.752536 37.7211 0.691005 37.6162Q0.629473 37.5113 0.573129 37.4031Q0.516784 37.2949 0.465741 37.1837Q0.414698 37.0724 0.369061 36.9583Q0.323424 36.8442 0.283285 36.7275Q0.243147 36.6108 0.208589 36.4918Q0.174031 36.3727 0.145125 36.2515Q0.116219 36.1303 0.0930224 36.0072Q0.0698261 35.8841 0.0523874 35.7594Q0.0349487 35.6347 0.0233031 35.5086Q0.0116575 35.3825 0.00582875 35.2553Q0 35.1281 0 35L0 5Q0 4.87193 0.00582875 4.74472Q0.0116575 4.61751 0.0233031 4.49142Q0.0349487 4.36533 0.0523874 4.24061Q0.0698261 4.1159 0.0930224 3.99281Q0.116219 3.86973 0.145125 3.74853Q0.174032 3.62732 0.208589 3.50825Q0.243147 3.38917 0.283285 3.27247Q0.323424 3.15577 0.369061 3.04167Q0.414698 2.92758 0.465741 2.81633Q0.516784 2.70508 0.573129 2.5969Q0.629473 2.48872 0.691005 2.38383Q0.752536 2.27894 0.819128 2.17755Q0.885721 2.07616 0.957238 1.97849Q1.02876 1.88081 1.10505 1.78704Q1.18135 1.69328 1.26227 1.60362Q1.34319 1.51395 1.42857 1.42857Q1.51395 1.34319 1.60362 1.26227Q1.69328 1.18135 1.78704 1.10505Q1.88081 1.02876 1.97849 0.957239Q2.07616 0.885721 2.17755 0.819128Q2.27894 0.752536 2.38383 0.691005Q2.48872 0.629473 2.5969 0.573129Q2.70508 0.516784 2.81633 0.465741Q2.92758 0.414698 3.04167 0.369061Q3.15577 0.323424 3.27247 0.283285Q3.38917 0.243147 3.50825 0.208589Q3.62732 0.174031 3.74853 0.145125Q3.86973 0.116219 3.99281 0.0930224Q4.1159 0.0698261 4.24061 0.0523874Q4.36533 0.0349487 4.49142 0.0233031Q4.61751 0.0116575 4.74472 0.00582875Q4.87193 0 5 0Z" id="Rectangle-8" stroke="none" />
+                                    <g id="facebook-letter-logo" transform="translate(15 9)">
+                                        <path d="M2.16145 4.2607C2.16145 4.81511 2.16145 7.28967 2.16145 7.28967L0 7.28967L0 10.9935L2.16145 10.9935L2.16145 22L6.60152 22L6.60152 10.9938L9.58101 10.9938C9.58101 10.9938 9.86006 9.21785 9.99532 7.27601C9.60752 7.27601 6.61831 7.27601 6.61831 7.27601C6.61831 7.27601 6.61831 5.12124 6.61831 4.74355C6.61831 4.36504 7.10241 3.8559 7.58088 3.8559C8.05846 3.8559 9.06642 3.8559 10 3.8559C10 3.35162 10 1.60921 10 0C8.7537 0 7.33582 0 6.71082 0C2.05169 -0.000255747 2.16145 3.70726 2.16145 4.2607Z" id="Facebook" fill="#FFFFFF" stroke="none" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="#" class="socialLink telegram orange">
+                            <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group-3-Copy-3">
+                                    <path d="M5 0L35 0Q35.1281 0 35.2553 0.00582875Q35.3825 0.0116575 35.5086 0.0233031Q35.6347 0.0349487 35.7594 0.0523874Q35.8841 0.0698261 36.0072 0.0930224Q36.1303 0.116219 36.2515 0.145125Q36.3727 0.174032 36.4918 0.208589Q36.6108 0.243147 36.7275 0.283285Q36.8442 0.323424 36.9583 0.369061Q37.0724 0.414698 37.1837 0.465741Q37.2949 0.516784 37.4031 0.573129Q37.5113 0.629473 37.6162 0.691005Q37.7211 0.752536 37.8225 0.819128Q37.9238 0.885721 38.0215 0.957238Q38.1192 1.02876 38.213 1.10505Q38.3067 1.18135 38.3964 1.26227Q38.4861 1.34319 38.5714 1.42857Q38.6568 1.51395 38.7377 1.60362Q38.8187 1.69328 38.895 1.78704Q38.9712 1.88081 39.0428 1.97849Q39.1143 2.07616 39.1809 2.17755Q39.2475 2.27894 39.309 2.38383Q39.3705 2.48872 39.4269 2.5969Q39.4832 2.70508 39.5343 2.81633Q39.5853 2.92758 39.6309 3.04167Q39.6766 3.15577 39.7167 3.27247Q39.7569 3.38917 39.7914 3.50825Q39.826 3.62732 39.8549 3.74853Q39.8838 3.86973 39.907 3.99281Q39.9302 4.1159 39.9476 4.24061Q39.9651 4.36533 39.9767 4.49142Q39.9883 4.61751 39.9942 4.74472Q40 4.87193 40 5L40 35Q40 35.1281 39.9942 35.2553Q39.9883 35.3825 39.9767 35.5086Q39.9651 35.6347 39.9476 35.7594Q39.9302 35.8841 39.907 36.0072Q39.8838 36.1303 39.8549 36.2515Q39.826 36.3727 39.7914 36.4918Q39.7569 36.6108 39.7167 36.7275Q39.6766 36.8442 39.6309 36.9583Q39.5853 37.0724 39.5343 37.1837Q39.4832 37.2949 39.4269 37.4031Q39.3705 37.5113 39.309 37.6162Q39.2475 37.7211 39.1809 37.8225Q39.1143 37.9238 39.0428 38.0215Q38.9712 38.1192 38.895 38.213Q38.8187 38.3067 38.7377 38.3964Q38.6568 38.4861 38.5714 38.5714Q38.4861 38.6568 38.3964 38.7377Q38.3067 38.8187 38.213 38.895Q38.1192 38.9712 38.0215 39.0428Q37.9238 39.1143 37.8225 39.1809Q37.7211 39.2475 37.6162 39.309Q37.5113 39.3705 37.4031 39.4269Q37.2949 39.4832 37.1837 39.5343Q37.0724 39.5853 36.9583 39.6309Q36.8442 39.6766 36.7275 39.7167Q36.6108 39.7569 36.4918 39.7914Q36.3727 39.826 36.2515 39.8549Q36.1303 39.8838 36.0072 39.907Q35.8841 39.9302 35.7594 39.9476Q35.6347 39.9651 35.5086 39.9767Q35.3825 39.9883 35.2553 39.9942Q35.1281 40 35 40L5 40Q4.87193 40 4.74472 39.9942Q4.61751 39.9883 4.49142 39.9767Q4.36533 39.9651 4.24061 39.9476Q4.1159 39.9302 3.99281 39.907Q3.86973 39.8838 3.74853 39.8549Q3.62732 39.826 3.50825 39.7914Q3.38917 39.7569 3.27247 39.7167Q3.15577 39.6766 3.04167 39.6309Q2.92758 39.5853 2.81633 39.5343Q2.70508 39.4832 2.5969 39.4269Q2.48872 39.3705 2.38383 39.309Q2.27894 39.2475 2.17755 39.1809Q2.07616 39.1143 1.97849 39.0428Q1.88081 38.9712 1.78704 38.895Q1.69328 38.8187 1.60362 38.7377Q1.51395 38.6568 1.42857 38.5714Q1.34319 38.4861 1.26227 38.3964Q1.18135 38.3067 1.10505 38.213Q1.02876 38.1192 0.957239 38.0215Q0.885721 37.9238 0.819128 37.8225Q0.752536 37.7211 0.691005 37.6162Q0.629473 37.5113 0.573129 37.4031Q0.516784 37.2949 0.465741 37.1837Q0.414698 37.0724 0.369061 36.9583Q0.323424 36.8442 0.283285 36.7275Q0.243147 36.6108 0.208589 36.4918Q0.174031 36.3727 0.145125 36.2515Q0.116219 36.1303 0.0930224 36.0072Q0.0698261 35.8841 0.0523874 35.7594Q0.0349487 35.6347 0.0233031 35.5086Q0.0116575 35.3825 0.00582875 35.2553Q0 35.1281 0 35L0 5Q0 4.87193 0.00582875 4.74472Q0.0116575 4.61751 0.0233031 4.49142Q0.0349487 4.36533 0.0523874 4.24061Q0.0698261 4.1159 0.0930224 3.99281Q0.116219 3.86973 0.145125 3.74853Q0.174032 3.62732 0.208589 3.50825Q0.243147 3.38917 0.283285 3.27247Q0.323424 3.15577 0.369061 3.04167Q0.414698 2.92758 0.465741 2.81633Q0.516784 2.70508 0.573129 2.5969Q0.629473 2.48872 0.691005 2.38383Q0.752536 2.27894 0.819128 2.17755Q0.885721 2.07616 0.957238 1.97849Q1.02876 1.88081 1.10505 1.78704Q1.18135 1.69328 1.26227 1.60362Q1.34319 1.51395 1.42857 1.42857Q1.51395 1.34319 1.60362 1.26227Q1.69328 1.18135 1.78704 1.10505Q1.88081 1.02876 1.97849 0.957239Q2.07616 0.885721 2.17755 0.819128Q2.27894 0.752536 2.38383 0.691005Q2.48872 0.629473 2.5969 0.573129Q2.70508 0.516784 2.81633 0.465741Q2.92758 0.414698 3.04167 0.369061Q3.15577 0.323424 3.27247 0.283285Q3.38917 0.243147 3.50825 0.208589Q3.62732 0.174031 3.74853 0.145125Q3.86973 0.116219 3.99281 0.0930224Q4.1159 0.0698261 4.24061 0.0523874Q4.36533 0.0349487 4.49142 0.0233031Q4.61751 0.0116575 4.74472 0.00582875Q4.87193 0 5 0Z" id="Rectangle-7" stroke="none" />
+                                    <g id="telegram-5" transform="translate(8 11)">
+                                        <path d="M0.388585 9.11043L5.45783 10.9872L7.41994 17.2463C7.54549 17.6472 8.03968 17.7954 8.3677 17.5294L11.1934 15.2444C11.4896 15.005 11.9115 14.9931 12.221 15.216L17.3175 18.8863C17.6684 19.1393 18.1656 18.9485 18.2536 18.5279L21.987 0.714279C22.0831 0.254846 21.628 -0.128427 21.187 0.0407688L0.382645 8.00164C-0.130762 8.19804 -0.126289 8.91905 0.388585 9.11043ZM7.10373 9.98813L17.0109 3.93555C17.189 3.82709 17.3722 4.0659 17.2193 4.20658L9.04296 11.7455C8.75556 12.0108 8.57018 12.366 8.51767 12.7514L8.23915 14.7988C8.20226 15.0722 7.81514 15.0993 7.73909 14.8347L6.66791 11.1013C6.54522 10.6755 6.72401 10.2206 7.10373 9.98813Z" id="XMLID_497_" fill="#FFFFFF" stroke="none" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="#" class="socialLink twitter orange">
+                            <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group-3-Copy-2">
+                                    <path d="M5 0L35 0Q35.1281 0 35.2553 0.00582875Q35.3825 0.0116575 35.5086 0.0233031Q35.6347 0.0349487 35.7594 0.0523874Q35.8841 0.0698261 36.0072 0.0930224Q36.1303 0.116219 36.2515 0.145125Q36.3727 0.174032 36.4918 0.208589Q36.6108 0.243147 36.7275 0.283285Q36.8442 0.323424 36.9583 0.369061Q37.0724 0.414698 37.1837 0.465741Q37.2949 0.516784 37.4031 0.573129Q37.5113 0.629473 37.6162 0.691005Q37.7211 0.752536 37.8225 0.819128Q37.9238 0.885721 38.0215 0.957238Q38.1192 1.02876 38.213 1.10505Q38.3067 1.18135 38.3964 1.26227Q38.4861 1.34319 38.5714 1.42857Q38.6568 1.51395 38.7377 1.60362Q38.8187 1.69328 38.895 1.78704Q38.9712 1.88081 39.0428 1.97849Q39.1143 2.07616 39.1809 2.17755Q39.2475 2.27894 39.309 2.38383Q39.3705 2.48872 39.4269 2.5969Q39.4832 2.70508 39.5343 2.81633Q39.5853 2.92758 39.6309 3.04167Q39.6766 3.15577 39.7167 3.27247Q39.7569 3.38917 39.7914 3.50825Q39.826 3.62732 39.8549 3.74853Q39.8838 3.86973 39.907 3.99281Q39.9302 4.1159 39.9476 4.24061Q39.9651 4.36533 39.9767 4.49142Q39.9883 4.61751 39.9942 4.74472Q40 4.87193 40 5L40 35Q40 35.1281 39.9942 35.2553Q39.9883 35.3825 39.9767 35.5086Q39.9651 35.6347 39.9476 35.7594Q39.9302 35.8841 39.907 36.0072Q39.8838 36.1303 39.8549 36.2515Q39.826 36.3727 39.7914 36.4918Q39.7569 36.6108 39.7167 36.7275Q39.6766 36.8442 39.6309 36.9583Q39.5853 37.0724 39.5343 37.1837Q39.4832 37.2949 39.4269 37.4031Q39.3705 37.5113 39.309 37.6162Q39.2475 37.7211 39.1809 37.8225Q39.1143 37.9238 39.0428 38.0215Q38.9712 38.1192 38.895 38.213Q38.8187 38.3067 38.7377 38.3964Q38.6568 38.4861 38.5714 38.5714Q38.4861 38.6568 38.3964 38.7377Q38.3067 38.8187 38.213 38.895Q38.1192 38.9712 38.0215 39.0428Q37.9238 39.1143 37.8225 39.1809Q37.7211 39.2475 37.6162 39.309Q37.5113 39.3705 37.4031 39.4269Q37.2949 39.4832 37.1837 39.5343Q37.0724 39.5853 36.9583 39.6309Q36.8442 39.6766 36.7275 39.7167Q36.6108 39.7569 36.4918 39.7914Q36.3727 39.826 36.2515 39.8549Q36.1303 39.8838 36.0072 39.907Q35.8841 39.9302 35.7594 39.9476Q35.6347 39.9651 35.5086 39.9767Q35.3825 39.9883 35.2553 39.9942Q35.1281 40 35 40L5 40Q4.87193 40 4.74472 39.9942Q4.61751 39.9883 4.49142 39.9767Q4.36533 39.9651 4.24061 39.9476Q4.1159 39.9302 3.99281 39.907Q3.86973 39.8838 3.74853 39.8549Q3.62732 39.826 3.50825 39.7914Q3.38917 39.7569 3.27247 39.7167Q3.15577 39.6766 3.04167 39.6309Q2.92758 39.5853 2.81633 39.5343Q2.70508 39.4832 2.5969 39.4269Q2.48872 39.3705 2.38383 39.309Q2.27894 39.2475 2.17755 39.1809Q2.07616 39.1143 1.97849 39.0428Q1.88081 38.9712 1.78704 38.895Q1.69328 38.8187 1.60362 38.7377Q1.51395 38.6568 1.42857 38.5714Q1.34319 38.4861 1.26227 38.3964Q1.18135 38.3067 1.10505 38.213Q1.02876 38.1192 0.957239 38.0215Q0.885721 37.9238 0.819128 37.8225Q0.752536 37.7211 0.691005 37.6162Q0.629473 37.5113 0.573129 37.4031Q0.516784 37.2949 0.465741 37.1837Q0.414698 37.0724 0.369061 36.9583Q0.323424 36.8442 0.283285 36.7275Q0.243147 36.6108 0.208589 36.4918Q0.174031 36.3727 0.145125 36.2515Q0.116219 36.1303 0.0930224 36.0072Q0.0698261 35.8841 0.0523874 35.7594Q0.0349487 35.6347 0.0233031 35.5086Q0.0116575 35.3825 0.00582875 35.2553Q0 35.1281 0 35L0 5Q0 4.87193 0.00582875 4.74472Q0.0116575 4.61751 0.0233031 4.49142Q0.0349487 4.36533 0.0523874 4.24061Q0.0698261 4.1159 0.0930224 3.99281Q0.116219 3.86973 0.145125 3.74853Q0.174032 3.62732 0.208589 3.50825Q0.243147 3.38917 0.283285 3.27247Q0.323424 3.15577 0.369061 3.04167Q0.414698 2.92758 0.465741 2.81633Q0.516784 2.70508 0.573129 2.5969Q0.629473 2.48872 0.691005 2.38383Q0.752536 2.27894 0.819128 2.17755Q0.885721 2.07616 0.957238 1.97849Q1.02876 1.88081 1.10505 1.78704Q1.18135 1.69328 1.26227 1.60362Q1.34319 1.51395 1.42857 1.42857Q1.51395 1.34319 1.60362 1.26227Q1.69328 1.18135 1.78704 1.10505Q1.88081 1.02876 1.97849 0.957239Q2.07616 0.885721 2.17755 0.819128Q2.27894 0.752536 2.38383 0.691005Q2.48872 0.629473 2.5969 0.573129Q2.70508 0.516784 2.81633 0.465741Q2.92758 0.414698 3.04167 0.369061Q3.15577 0.323424 3.27247 0.283285Q3.38917 0.243147 3.50825 0.208589Q3.62732 0.174031 3.74853 0.145125Q3.86973 0.116219 3.99281 0.0930224Q4.1159 0.0698261 4.24061 0.0523874Q4.36533 0.0349487 4.49142 0.0233031Q4.61751 0.0116575 4.74472 0.00582875Q4.87193 0 5 0Z" id="Rectangle-7" stroke="none" />
+                                    <g id="twitter-logo-silhouette" transform="translate(8 10)">
+                                        <path d="M24 2.36631C23.1167 2.76787 22.1689 3.0402 21.173 3.16178C22.1898 2.5371 22.9682 1.54627 23.3371 0.369248C22.3833 0.947741 21.3305 1.3678 20.2087 1.59551C19.3103 0.612368 18.0326 0 16.6153 0C13.8963 0 11.6917 2.26171 11.6917 5.04962C11.6917 5.44501 11.7352 5.8312 11.8192 6.20049C7.72801 5.98967 4.1002 3.97877 1.67216 0.923119C1.24773 1.66781 1.00628 2.53553 1.00628 3.46179C1.00628 5.21424 1.87612 6.76051 3.19589 7.66517C2.38902 7.63749 1.63016 7.40978 0.965806 7.03127L0.965806 7.09436C0.965806 9.54069 2.66349 11.5824 4.91456 12.0471C4.50212 12.1609 4.06722 12.224 3.6173 12.224C3.29938 12.224 2.99193 12.1917 2.69047 12.1301C3.31734 14.138 5.13503 15.5981 7.28864 15.6381C5.60444 16.9921 3.48083 17.7967 1.17428 17.7967C0.776864 17.7967 0.385412 17.7721 0 17.7275C2.1791 19.163 4.76613 20 7.5466 20C16.6034 20 21.554 12.304 21.554 5.62968L21.5375 4.97579C22.5048 4.26799 23.3416 3.37871 24 2.36631Z" id="Shape" fill="#FFFFFF" stroke="none" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="newsDesc">
+                        <div class="newsDetails">
+                            <div class="shortInfo">
+                                <div class="author-Title">
+                                    <div class="newsAuthor d-flex align-items-center">
+                                        <img src="images/svg/author_logo.svg" alt="news author">
+                                        <span class="authorName">NGO Healthcare Platform</span>
+                                    </div>
+                                    <div class="singleNewsTitle orangeFont">Competition for small grants for trans initiatives 2019</div>
+                                </div>
+                            </div>
+
+                            <div class="newsShortText">
+                                The Eurasian Men's Health Coalition announces a competition for the selection of a
+                                consultant for mapping available services for trans people in organizations and medical
+                                institutions in the Kyrgyz Republic under the Right to Health program with the support
+                                of the Global Fund.
+                            </div>
+                            <div class="newsInfoWithIcons">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="infoWithIconsBlock">
+                                            <div class="infoWithIconsImg">
+                                                <img src="images/svg/funds-2.svg" alt="icon">
+                                            </div>
+                                            <div class="infoWithIconsText">Grant Amount <p class="boldText">$250,000</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="infoWithIconsBlock">
+                                            <div class="infoWithIconsImg">
+                                                <img src="images/svg/month-calendar.svg" alt="icon">
+                                            </div>
+                                            <div class="infoWithIconsText">Holding Period <p class="boldText">1.05-1.08.2019</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="infoWithIconsBlock">
+                                            <div class="infoWithIconsImg">
+                                                <img src="images/svg/global-2.svg" alt="icon">
+                                            </div>
+                                            <div class="infoWithIconsText">Member Countries <p class="boldText">12 countries</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="newsText">
+                                <div class="newsSubTitle">Introductory information</div>
+                                <p>The NGO Healthcare Platform is an international non-governmental membership
+                                    organization registered in Tallinn, Estonia. We are an association of
+                                    non-governmental organizations and individuals working in the field of HIV infection
+                                    and other sexual health issues of gay men, other MSM and trans people in Eastern
+                                    Europe and Central Asia (EECA).</p>
+                                <p>Since 2017, NGO Healthcare Platform has been implementing the “Right to Health”
+                                    program, which aims to increase the number of MSM and trans people who have constant
+                                    access to the continuum of HIV services in EECA.</p>
+                                <p>The main activities of the program are implemented at the regional level by the NGO
+                                    Healthcare Platform secretariat, and at the country level - by the sub-recipients of
+                                    the program in five countries: Armenia, Belarus, Georgia, Kyrgyzstan and Macedonia.
+                                    In Kyrgyzstan, NGO Healthcare Platform supports the work of the Kyrgyz Indigo Public
+                                    Association in the framework of the Right to Health program.</p>
+                                <p>In the framework of the provision of technical assistance to the NGO “Kyrgyz Indigo”,
+                                    NGO Healthcare Platform announces a tender for the selection of a consultant for
+                                    conducting mapping of affordable services for trans people in organizations and
+                                    medical institutions in the Kyrgyz Republic.</p>
+                            </div>
+                            <div class="newsText">
+                                <div class="newsSubTitle">Research</div>
+                                <p><b>Objective:</b><br/>
+                                    To determine whether the services provided to trans people by public organizations
+                                    and government bodies in the context of HIV prevention and health in the Kyrgyz
+                                    Republic are attractive.</p>
+                                <p><b>Objectives of the study:</b><br/>
+                                    Review services for trans people today; <br/>
+                                    Create a tool for mapping available services for trans people;<br/>
+                                    Determine whether the services provided meet the needs of trans people;<br/>
+                                    Develop targeted recommendations to medical organizations, government institutions,
+                                    NGOs, donors working in the fields of HIV and providing services for transgender
+                                    people to improve access to and quality of services for trans people, as well as to
+                                    involve trans people in decision-making processes.</p>
+                            </div>
+
+                            <button class="btn orange">more details</button>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+
+        </section>
+
+    </div>
+    <footer>
+        <p>2019 NGO/MED Platform</p>
+    </footer>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NGO</title>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="style/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
+    <script type="text/javascript" src="./js/jQuery.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/select2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="./js/datepicker.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+<div class="page">
+    <div class="pageWrapper">
+        <header>
+            <a href="./index.html" class="logo">
+                <img src="./images/svg/ngo_logo.svg" class="img-fluid" alt="logo">
+            </a>
+            <div class="container">
+                <div class="navWrapp">
+                    <div class="row">
+                        <div class="overlay">
+                            <nav class="overlayMenu">
+                                <ul class="mainMenu " role="menu" >
+                                    <li class="mainMenuList"><a class="mainMenuLink active homeLink"
+                                                                href="./index.html">Home</a>
+                                    </li>
+                                    <li class="mainMenuList"><a class="mainMenuLink organizationsLink" href="./organizations.html">Organizations</a>
+                                        <ul class="subMenu">
+                                            <li class="organizationsType redBlock">
+                                                <div class="organizationsTypeTitle redBg">NGO</div>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                            </li>
+                                            <li class="organizationsType greenBlock">
+                                                <div class="organizationsTypeTitle greenBg">HealthCare</div>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                            </li>
+                                            <li class="organizationsType blueBlock">
+                                                <div class="organizationsTypeTitle blueBg">Community</div>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                                <a class="subMenuLink" href="#">Simple organization</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mainMenuList"><a class="mainMenuLink programsLink" href="./programs.html">Programs &
+                                        Projects</a>
+                                    </li>
+                                    <li class="mainMenuList"><a class="mainMenuLink grantsLink" href="./grants.html">Grants</a></li>
+                                    <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./news.html">News</a></li>
+                                    <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./events.html">Events</a></li>
+                                    <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./researches.html">Researhes</a></li>
+                                    <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./law-base.html">Law Base</a></li>
+                                    <li class="mainMenuList"><a class="mainMenuLink faqLink" href="#">FAQ</a></li>
+                                    <li class="mainMenuList"><a class="mainMenuLink contactsLink" href="#">Contacts</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="navBurger" role="navigation" id="navBurger"></div>
+
+                </div>
+
+            </div>
+            <div class="loginBlockWrapper">
+                <!--                <div class="loginBlock" data-toggle="modal" data-target="#loginModal">-->
+                <!--                    <p class="loginLink">Login</p>-->
+                <!--                    <img src="./images/svg/sign_in_icon.svg" alt="Login Icon">-->
+                <!--                </div>-->
+                <div class="userCabinetWrapp">
+                    <div class="userCabinet">
+                        <img src="images/svg/user_icon.svg" alt="User Icon">
+                        <p class="userName">User Name</p>
+                        <p class="count"><span>9</span></p>
+                    </div>
+                    <div class="userMenu">
+                        <div class="userMenuItems">
+                            <div class="userMenuItem myProfile blueBlock">
+                                <div class="userMenuItemTitle blueBg"><img src="images/svg/profile_icon.svg">My Profile
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="./cabinet-user.html">Messages</a>
+                                    <p class="count"><span>3</span></p>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Notifications</a>
+                                    <p class="count"><span>9</span></p>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Settings</a>
+                                </div>
+                            </div>
+
+                            <div class="userMenuItem favourite greenBlock">
+                                <div class="userMenuItemTitle greenBg"><img src="images/svg/favorite_icon.svg">Favourite
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Organizations</a>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Programs</a>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">News</a>
+                                </div>
+                            </div>
+
+                            <div class="userMenuItem actions redBlock">
+                                <div class="userMenuItemTitle redBg"><img src="images/svg/actions_icon.svg">Actions
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">LogOut</a>
+                                </div>
+                                <div class="userMenuLink">
+                                    <a href="#">Delete account</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </header>
+        <section class="organizationsPage firstSection">
+            <div class="container">
+                <div class="pageHeader">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-10">
+                            <h2 class="mainTitlePage blueFont">Organizations</h2>
+                        </div>
+                        <div class="col-md-3 col-lg-2">
+                            <nav>
+                                <div class="nav nav-tabs pageTabs" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-map-tab" data-toggle="tab" href="#nav-map"
+                                       role="tab" aria-controls="nav-map" aria-selected="true">
+                                        map
+                                    </a>
+                                    <a class="nav-item nav-link " id="nav-list-tab" data-toggle="tab" href="#nav-list"
+                                       role="tab" aria-controls="nav-list" aria-selected="true">
+                                        list
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="filterMenu">
+                        <div class="row">
+                            <div class="col-md-8 order-md-first order-last">
+                                <div class="filterBlock">
+                                    <p class="filterItem active">all</p>
+                                    <p class="filterItem">ngo</p>
+                                    <p class="filterItem">healthcare</p>
+                                    <p class="filterItem">community</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 order-md-last order-first">
+                                <form class="searchBlock">
+                                    <input type="text" placeholder="Search" id="search">
+                                    <label for="search">
+                                        <svg  class="searchLoupe blue" width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.7796 16.7216L13.4522 12.3943C14.5249 11.0865 15.1714 9.41143 15.1714 7.58571C15.1714 3.39796 11.7735 0 7.58571 0C3.39429 0 0 3.39796 0 7.58571C0 11.7735 3.39429 15.1714 7.58571 15.1714C9.41143 15.1714 11.0829 14.5286 12.3906 13.4559L16.718 17.7796C17.0118 18.0735 17.4857 18.0735 17.7796 17.7796C18.0735 17.4894 18.0735 17.0118 17.7796 16.7216ZM7.58571 13.6616C4.23184 13.6616 1.50612 10.9359 1.50612 7.58571C1.50612 4.23551 4.23184 1.50612 7.58571 1.50612C10.9359 1.50612 13.6653 4.23551 13.6653 7.58571C13.6653 10.9359 10.9359 13.6616 7.58571 13.6616Z" id="Shape" fill="#EF5350" stroke="none" />
+                                        </svg>
+                                    </label>
+                                </form>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="tab-pane fade show active" id="nav-map" role="tabpanel" aria-labelledby="nav-map-tab">
+
+                        <div class="organizationsListWrapp">
+                            <div class="organizationsList ">
+                                <a href="./single-organization.html" class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </a>
+                                <a href="./single-organization.html" class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle greenBg">HealthCare</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </a>
+
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle blueBg">Community</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade " id="nav-list" role="tabpanel" aria-labelledby="nav-list-tab">
+                        <div class="organizationsListWithMapWrapp">
+                            <div class="organizationsListWithMap scrollBlock">
+
+                                <a href="./single-organization.html" class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate ">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+                                </a>
+
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+                                <div class="organizationCard card">
+                                    <div class="organizationShortInfoWrapp">
+                                        <div class="organizationShortInfo">
+                                            <div class="organizationCardTitle">
+                                                Kharkiv Public Organization of Atmospheric Lawyers
+                                            </div>
+                                            <div class="organizationCardTypeTitle redBg">NGO</div>
+                                            <div class="organizationDescription"></div>
+                                            <div class="organizationRate">
+                                                <div class="star-ratings-sprite">
+                                                    <span style="width:52%" class="star-ratings-sprite-rating"></span>
+                                                </div>
+                                                <span class="rateNumber">4,2</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="organizationCardLogo"></div>
+                                    </div>
+                                    <div class="organizationAdress">Danilevsky street, 8, Kharkiv, Kharkiv region, 61000</div>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="organizationInMap">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.0211987107114!2d36.2311249154273!3d50.01095787941723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a120b108e0f1%3A0xf041e08cadf29c1a!2z0YPQuy4g0JTQsNC90LjQu9C10LLRgdC60L7Qs9C-LCA4LCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjEwMDA!5e0!3m2!1sru!2sua!4v1562052198797!5m2!1sru!2sua" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </div>
+    <footer>
+        <p>2019 NGO/MED Platform</p>
+    </footer>
+
+</div>
+
+</body>
+
+</html>

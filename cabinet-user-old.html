@@ -1,0 +1,998 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NGO</title>
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
+    <script type="text/javascript" src="./js/jQuery.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/select2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+<body>
+<div class="page">
+    <div class="pageWrapper">
+        <header>
+            <a href="./index.html" class="logo">
+                <img src="./images/svg/ngo_logo.svg" class="img-fluid" alt="logo">
+            </a>
+            <div class="container">
+                <div class="navWrapp">
+                    <div class="row">
+                        <div class="">
+                            <div class="overlay">
+                                <nav class="overlayMenu">
+                                    <ul class="mainMenu " role="menu" >
+                                        <li class="mainMenuList"><a class="mainMenuLink active homeLink"
+                                                                    href="./index.html">Home</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink organizationsLink" href="./organizations.html">Organizations</a>
+                                            <ul class="subMenu">
+                                                <li class="organizationsType redBlock">
+                                                    <div class="organizationsTypeTitle redBg">NGO</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType greenBlock">
+                                                    <div class="organizationsTypeTitle greenBg">HealthCare</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                                <li class="organizationsType blueBlock">
+                                                    <div class="organizationsTypeTitle blueBg">Community</div>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                    <a class="subMenuLink" href="#">Simple organization</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink programsLink" href="./programs.html">Programs &
+                                            Projects</a>
+                                        </li>
+                                        <li class="mainMenuList"><a class="mainMenuLink grantsLink" href="./grants.html">Grants</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./news.html">News</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./researches.html">Researhes</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink newsLink" href="./law-base.html">Law Base</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink faqLink" href="#">FAQ</a></li>
+                                        <li class="mainMenuList"><a class="mainMenuLink contactsLink" href="#">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="navBurger" role="navigation" id="navBurger"></div>
+
+                </div>
+
+            </div>
+            <div class="loginBlockWrapper">
+                <div class="loginBlock" data-toggle="modal" data-target="#loginModal">
+                    <p class="loginLink">Login</p>
+                    <img src="./images/svg/sign_in_icon.svg" alt="Login Icon">
+                </div>
+                <!--                <div class="userCabinetWrapp">-->
+                <!--                    <div class="userCabinet">-->
+                <!--                        <img src="images/svg/user_icon.svg" alt="User Icon">-->
+                <!--                        <p class="userName">User Name</p>-->
+                <!--                        <p class="count"><span>9</span></p>-->
+                <!--                    </div>-->
+                <!--                    <div class="userMenu">-->
+                <!--                        <div class="userMenuItems">-->
+                <!--                            <div class="userMenuItem myProfile blueBlock">-->
+                <!--                                <div class="userMenuItemTitle blueBg"><img src="images/svg/profile_icon.svg">My Profile-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="./cabinet-user.html">Messages</a>-->
+                <!--                                    <p class="count"><span>3</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Notifications</a>-->
+                <!--                                    <p class="count"><span>9</span></p>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Settings</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem favourite greenBlock">-->
+                <!--                                <div class="userMenuItemTitle greenBg"><img src="images/svg/favorite_icon.svg">Favourite-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Organizations</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Programs</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">News</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                            <div class="userMenuItem actions redBlock">-->
+                <!--                                <div class="userMenuItemTitle redBg"><img src="images/svg/actions_icon.svg">Actions-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">LogOut</a>-->
+                <!--                                </div>-->
+                <!--                                <div class="userMenuLink">-->
+                <!--                                    <a href="#">Delete account</a>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+
+                <!--                    </div>-->
+                <!--                </div>-->
+
+            </div>
+
+
+        </header>
+        <section class="userCabinetPage firstSection">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-2">
+                        <nav>
+                            <div class="nav nav-tabs pageTabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-mess-tab" data-toggle="tab" href="#nav-home"
+                                   role="tab" aria-controls="nav-mess" aria-selected="true">
+                                    <svg class="cabinetIconStroke userMess" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <defs></defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Desktop-Messages-Client" transform="translate(-449.000000, -90.000000)">
+                                                <g id="Group-9" transform="translate(449.000000, 88.000000)">
+                                                    <g id="Group-2" transform="translate(0.000000, 2.000000)">
+                                                        <g id="messages_icon">
+                                                            <path d="M3.55614587,22.9914917 L6.27425145,21.8118206 L6.5233015,21.9477314 C8.18822378,22.8563077 10.058368,23.3392659 12,23.3392659 C18.3071692,23.3392659 23.4193548,18.2441398 23.4193548,11.9599555 C23.4193548,5.67577122 18.3071692,0.580645161 12,0.580645161 C5.69283079,0.580645161 0.580645161,5.67577122 0.580645161,11.9599555 C0.580645161,14.6205728 1.49913605,17.1392708 3.15382742,19.1564891 L3.28554084,19.3170597 L3.28554084,22.8139438 C3.28554084,22.8404541 3.29098691,22.8666818 3.30154134,22.8910005 C3.34409855,22.9890574 3.45808889,23.0340489 3.55614587,22.9914917 Z" id="Combined-Shape" stroke="#333333" stroke-width="1.16129032"></path>
+                                                            <rect id="Rectangle-6" fill="#333333" x="6.96774194" y="14.3225806" width="10.0645161" height="1.16129032" rx="0.580645161"></rect>
+                                                            <rect id="Rectangle-6" fill="#333333" x="6.96774194" y="11.2258065" width="10.0645161" height="1.16129032" rx="0.580645161"></rect>
+                                                            <rect id="Rectangle-6" fill="#333333" x="6.58064516" y="8.12903226" width="10.4516129" height="1.20595533" rx="0.602977667"></rect>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    Messages
+                                    <span class="count">3</span>
+                                </a>
+                                <a class="nav-item nav-link " id="nav-notif-tab" data-toggle="tab" href="#nav-notif"
+                                   role="tab" aria-controls="nav-notif" aria-selected="false">
+
+                                    <svg class="cabinetIconFill" width="22px" height="26px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <defs></defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Desktop-Messages-Client" transform="translate(-648.000000, -88.000000)" fill="#333333" fill-rule="nonzero" stroke="#333333" stroke-width="0.300000012">
+                                                <g id="Group-10" transform="translate(649.000000, 88.000000)">
+                                                    <g id="notification_icon" transform="translate(0.000000, 1.000000)">
+                                                        <path d="M19.8980841,20.2430156 L18.1854206,17.3810156 C17.3958879,16.0600313 16.9781776,14.5480312 16.9781776,13.0070156 L16.9781776,10.5 C16.9781776,6.64101562 13.8469626,3.50001562 10,3.50001562 C6.15303738,3.50001562 3.02182243,6.64101562 3.02182243,10.5 L3.02182243,13.0070156 C3.02182243,14.5480312 2.60411215,16.0600313 1.81457944,17.3810156 L0.101915888,20.2430156 C0.00920560748,20.397 0.00719626168,20.5900312 0.094953271,20.7460313 C0.183691589,20.9030156 0.350140187,21.0000469 0.529579439,21.0000469 L19.4703738,21.0000469 C19.6498131,21.0000469 19.8163084,20.9030625 19.905,20.7460313 C19.992757,20.5899844 19.9907944,20.397 19.8980841,20.2430156 Z M1.40985981,20.0000156 L2.66892523,17.895 C3.55214953,16.419 4.01869159,14.7290156 4.01869159,13.0070156 L4.01869159,10.5 C4.01869159,7.191 6.70130841,4.5 10,4.5 C13.2986916,4.5 15.9813084,7.191 15.9813084,10.5 L15.9813084,13.0070156 C15.9813084,14.7290156 16.4478505,16.419 17.3300935,17.895 L18.5901402,20.0000156 L1.40985981,20.0000156 Z" id="Shape"></path>
+                                                        <path d="M10,0 C8.90042056,0 8.00621495,0.897 8.00621495,2.00001563 L8.00621495,4.00003125 C8.00621495,4.27598438 8.22953271,4.5 8.5046729,4.5 C8.77981308,4.5 9.00313084,4.27598438 9.00313084,3.99998437 L9.00313084,2.00001563 C9.00313084,1.44801563 9.44971963,1.00003125 10,1.00003125 C10.5502804,1.00003125 10.9968692,1.44801563 10.9968692,2.00001563 L10.9968692,4.00003125 C10.9968692,4.27598438 11.2201869,4.5 11.4953271,4.5 C11.7704673,4.5 11.993785,4.27598438 11.993785,3.99998437 L11.993785,2.00001563 C11.993785,0.897 11.0995794,0 10,0 Z" id="Shape"></path>
+                                                        <path d="M12.157243,20.247 C12.0166822,20.0090156 11.7126168,19.9310156 11.4743925,20.0679844 C11.2361215,20.208 11.1564019,20.5149844 11.2959346,20.7529688 C11.425514,20.9739844 11.4963084,21.2389688 11.4963084,21.4999688 C11.4963084,22.3269844 10.8254206,22.9999687 10.0009813,22.9999687 C9.17654206,22.9999687 8.50565421,22.3269844 8.50565421,21.4999688 C8.50565421,21.2389688 8.5764486,20.9739844 8.70602804,20.7529688 C8.84457944,20.5139531 8.76485981,20.2079531 8.52757009,20.0679844 C8.28733645,19.9309688 7.98425234,20.0089688 7.84471963,20.247 C7.62439252,20.625 7.50775701,21.0579844 7.50775701,21.5000156 C7.50780374,22.8789844 8.62528037,24 10,24 C11.3747196,24 12.4921963,22.8789844 12.4942056,21.5000156 C12.4942056,21.0579844 12.3775701,20.625 12.157243,20.247 Z" id="Shape"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    notifications
+                                    <span class="count">3</span>
+                                </a>
+                                <a class="nav-item nav-link " id="nav-settings-tab" data-toggle="tab"
+                                   href="#nav-settings" role="tab" aria-controls="nav-settings" aria-selected="false">
+                                    <svg class="cabinetIconFill" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                       <defs></defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Desktop-Messages-Client" transform="translate(-893.000000, -90.000000)" fill="#333333" fill-rule="nonzero">
+                                                <g id="Group-11" transform="translate(893.000000, 88.000000)">
+                                                    <g id="settings_icon" transform="translate(0.000000, 2.000000)">
+                                                        <path d="M22.7574113,9.47478914 L21.073904,9.18919415 C20.8985386,8.62301461 20.6730689,8.07687683 20.3974948,7.55579123 L21.3895616,6.16789979 C21.8104384,5.57666806 21.7453027,4.76998747 21.2292276,4.25892276 L19.7361169,2.76581211 C19.4555324,2.48522756 19.0847599,2.32990397 18.6889353,2.32990397 C18.3782881,2.32990397 18.0826722,2.4251023 17.8321503,2.60547808 L16.4392484,3.59754489 C15.8981211,3.3119499 15.3319415,3.07645929 14.7457203,2.90109395 L14.4651357,1.23762839 C14.3448852,0.521135699 13.7286013,5.01043841e-05 13.0020877,5.01043841e-05 L10.8926931,5.01043841e-05 C10.1661795,5.01043841e-05 9.54989562,0.521135699 9.42964509,1.23762839 L9.13903967,2.94117745 C8.57787056,3.1165428 8.03173278,3.34702296 7.51064718,3.62760752 L6.13277662,2.63554071 C5.8822547,2.45516493 5.58162839,2.3599666 5.27098121,2.3599666 C4.87515658,2.3599666 4.4993737,2.51529019 4.22379958,2.79587474 L2.7256785,4.28898539 C2.21461378,4.8000501 2.14446764,5.60673069 2.56534447,6.19796242 L3.56743215,7.60589562 C3.29185804,8.13199165 3.07139875,8.67812944 2.90104384,9.24430898 L1.23757829,9.52489353 C0.521085595,9.64514405 -2.84217094e-14,10.261428 -2.84217094e-14,10.9879415 L-2.84217094e-14,13.0973361 C-2.84217094e-14,13.8238497 0.521085595,14.4401336 1.23757829,14.5603841 L2.94112735,14.8509896 C3.11649269,15.4121587 3.34697286,15.9582965 3.62755741,16.479382 L2.64050104,17.8522422 C2.21962422,18.4434739 2.28475992,19.2501545 2.80083507,19.7612192 L4.29394572,21.2543299 C4.57453027,21.5349144 4.94530271,21.690238 5.34112735,21.690238 C5.65177453,21.690238 5.9473904,21.5950397 6.19791232,21.4146639 L7.60584551,20.4125762 C8.11189979,20.6781294 8.64300626,20.8935783 9.18914405,21.0639332 L9.4697286,22.7474405 C9.58997912,23.4639332 10.206263,23.9850188 10.9327766,23.9850188 L13.0471816,23.9850188 C13.7736952,23.9850188 14.3899791,23.4639332 14.5102296,22.7474405 L14.7958246,21.0639332 C15.3620042,20.8885678 15.908142,20.6630981 16.4292276,20.387524 L17.817119,21.3795908 C18.0676409,21.5599666 18.3682672,21.6551649 18.6789144,21.6551649 C19.074739,21.6551649 19.4455115,21.4998413 19.726096,21.2192568 L21.2192067,19.7261461 C21.7302714,19.2150814 21.8004175,18.4084008 21.3795407,17.8171691 L20.3874739,16.4242672 C20.663048,15.8981712 20.8935282,15.3520334 21.0638831,14.7908643 L22.7473904,14.5102797 C23.4638831,14.3900292 23.9849687,13.7737453 23.9849687,13.0472317 L23.9849687,10.9378372 C23.9949896,10.2113236 23.473904,9.59503967 22.7574113,9.47478914 Z M22.6421712,13.0472317 C22.6421712,13.1123674 22.5970772,13.1674823 22.5319415,13.1775031 L20.4275574,13.5282338 C20.1620042,13.5733278 19.9515658,13.7687349 19.8864301,14.0242672 C19.6960334,14.7608017 19.405428,15.4672735 19.0146138,16.1236409 C18.8793319,16.3541211 18.8893528,16.6397161 19.0446764,16.8601754 L20.2822547,18.6038079 C20.3173278,18.6539123 20.3123173,18.7290689 20.2672234,18.7741628 L18.7741127,20.2672735 C18.7390397,20.3023466 18.7039666,20.307357 18.6789144,20.307357 C18.6488518,20.307357 18.6237996,20.2973361 18.6037578,20.2823048 L16.8651357,19.0447265 C16.6496868,18.8894029 16.3590814,18.879382 16.1286013,19.0146639 C15.4722338,19.4054781 14.765762,19.6960835 14.0292276,19.8864802 C13.7686848,19.9516159 13.5732777,20.1670647 13.5331942,20.4276075 L13.177453,22.5319916 C13.1674322,22.5971273 13.1123173,22.6422213 13.0471816,22.6422213 L10.9377871,22.6422213 C10.8726514,22.6422213 10.8175365,22.5971273 10.8075157,22.5319916 L10.456785,20.4276075 C10.411691,20.1620543 10.2162839,19.9516159 9.96075157,19.8864802 C9.24425887,19.7010939 8.55281837,19.415499 7.90647182,19.0447265 C7.80125261,18.9846013 7.68100209,18.9545386 7.565762,18.9545386 C7.43048017,18.9545386 7.29018789,18.9946221 7.17494781,19.0797996 L5.42129436,20.3273987 C5.39624217,20.3424301 5.37118998,20.3524509 5.34613779,20.3524509 C5.32609603,20.3524509 5.28601253,20.3474405 5.25093946,20.3123674 L3.75782881,18.8192568 C3.71273486,18.7741628 3.70772443,18.7040167 3.74279749,18.6489019 L4.97536534,16.9203006 C5.13068894,16.6998413 5.14070981,16.4092359 5.00542797,16.1787557 C4.61461378,15.5273987 4.31398747,14.8209269 4.12359081,14.0843925 C4.05344468,13.8288601 3.84300626,13.633453 3.58246347,13.5883591 L1.46304802,13.2276075 C1.39791232,13.2175866 1.35281837,13.1624718 1.35281837,13.0973361 L1.35281837,10.9879415 C1.35281837,10.9228058 1.39791232,10.867691 1.46304802,10.8576701 L3.55240084,10.5069395 C3.81795407,10.4618455 4.03340292,10.2664384 4.09853862,10.0058956 C4.28392484,9.26936117 4.56951983,8.55787891 4.95532359,7.90151148 C5.09060543,7.67103132 5.07557411,7.38543633 4.92025052,7.16998747 L3.67265136,5.41633403 C3.63757829,5.36622965 3.64258873,5.29107307 3.68768267,5.24597912 L5.18079332,3.75286848 C5.21586639,3.71779541 5.25093946,3.71278497 5.27599165,3.71278497 C5.30605428,3.71278497 5.33110647,3.72280585 5.35114823,3.73783716 L7.07974948,4.97040501 C7.30020877,5.1257286 7.5908142,5.13574948 7.82129436,5.00046764 C8.47265136,4.60965344 9.17912317,4.30902714 9.91565762,4.11863048 C10.17119,4.04848434 10.3665971,3.83804593 10.411691,3.57750313 L10.7724426,1.45808768 C10.7824635,1.39295198 10.8375783,1.34785804 10.902714,1.34785804 L13.0121086,1.34785804 C13.0772443,1.34785804 13.1323591,1.39295198 13.14238,1.45808768 L13.4931106,3.5474405 C13.5382046,3.81299374 13.7336117,4.02844259 13.9941545,4.09357829 C14.7507307,4.28397495 15.4722338,4.57959081 16.1436326,4.97541545 C16.3741127,5.11069729 16.6597077,5.10067641 16.880167,4.94535282 L18.6087683,3.70276409 C18.6338205,3.68773278 18.6588727,3.6777119 18.6839248,3.6777119 C18.7039666,3.6777119 18.7440501,3.68272234 18.7791232,3.71779541 L20.2722338,5.21090605 C20.3173278,5.256 20.3223382,5.32614614 20.2872651,5.38126096 L19.0496868,7.11988309 C18.8943633,7.33533194 18.8843424,7.62593737 19.0196242,7.85641754 C19.4104384,8.51278497 19.7010438,9.21925678 19.8914405,9.95579123 C19.9565762,10.216334 20.1720251,10.4117411 20.4325678,10.4518246 L22.536952,10.8075658 C22.6020877,10.8175866 22.6471816,10.8727015 22.6471816,10.9378372 L22.6471816,13.0472317 L22.6421712,13.0472317 Z" id="Shape"></path>
+                                                        <path d="M11.9949896,6.81424635 C9.13903967,6.81424635 6.81920668,9.13407933 6.81920668,11.9900292 C6.81920668,14.8459791 9.13903967,17.1658121 11.9949896,17.1658121 C14.8509395,17.1658121 17.1707724,14.8459791 17.1707724,11.9900292 C17.1707724,9.13407933 14.8509395,6.81424635 11.9949896,6.81424635 Z M11.9949896,15.8129937 C9.88559499,15.8129937 8.17202505,14.0994238 8.17202505,11.9900292 C8.17202505,9.88063466 9.88559499,8.16706472 11.9949896,8.16706472 C14.1043841,8.16706472 15.8179541,9.88063466 15.8179541,11.9900292 C15.8179541,14.0994238 14.1043841,15.8129937 11.9949896,15.8129937 Z" id="Shape"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    settings
+                                </a>
+                                <a class="nav-item nav-link" id="nav-favourite-tab" data-toggle="tab"
+                                   href="#nav-favourite" role="tab" aria-controls="nav-favourite" aria-selected="false">
+                                    <svg class="cabinetIconFill" width="26px" height="24px" viewBox="0 0 26 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                         <path d="M25.923 9.05408C25.8377 8.80172 25.6139 8.62146 25.3422 8.58026L17.2439 7.46781L13.5996 0.386266C13.4771 0.149356 13.2266 0 12.9549 0L12.9549 0C12.6832 0 12.4328 0.149356 12.3103 0.391416L8.71394 7.49356L0.615578 8.65751C0.343857 8.69871 0.120087 8.87897 0.0348408 9.13133C-0.0504051 9.38369 0.0241851 9.6618 0.221316 9.84206L6.09796 15.3476L4.73935 23.1451C4.6914 23.4077 4.80328 23.6704 5.02705 23.8249C5.14959 23.9124 5.29878 23.9588 5.44796 23.9588C5.56517 23.9588 5.67705 23.933 5.78361 23.8764L13.0135 20.1734L20.2648 23.8352C20.3713 23.8867 20.4832 23.9124 20.5951 23.9124L20.5951 23.9124C20.9893 23.9124 21.3143 23.5983 21.3143 23.2172C21.3143 23.1605 21.309 23.109 21.293 23.0575L19.8918 15.3064L25.7312 9.76996C25.9389 9.58455 26.0082 9.30644 25.923 9.05408ZM18.6238 14.57C18.4533 14.7296 18.3787 14.9614 18.4213 15.188L19.6414 21.9502L13.3439 18.7725C13.1361 18.6644 12.8857 18.6695 12.6725 18.7725L6.39632 21.9863L7.57378 15.2137C7.61107 14.9871 7.53648 14.7605 7.36599 14.6009L2.27255 9.82146L9.3 8.81202C9.53443 8.77597 9.73689 8.63691 9.83812 8.4309L12.9602 2.26609L16.125 8.41545C16.2316 8.62146 16.434 8.76052 16.6684 8.79657L23.7012 9.76481L18.6238 14.57Z" id="Shape" fill="#333333" stroke="none" />
+                                    </svg>
+                                    favourite
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="tab-content userCabinetTabsContent" id="nav-tabContent">
+
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-mess-tab">
+                        <div class="chat">
+                            <div class="chatMenu">
+                                <form class="searchBlock">
+                                    <input type="text" placeholder="Search" id="search">
+                                    <label for="search">
+                                        <svg  class="searchLoupe blue" width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.7796 16.7216L13.4522 12.3943C14.5249 11.0865 15.1714 9.41143 15.1714 7.58571C15.1714 3.39796 11.7735 0 7.58571 0C3.39429 0 0 3.39796 0 7.58571C0 11.7735 3.39429 15.1714 7.58571 15.1714C9.41143 15.1714 11.0829 14.5286 12.3906 13.4559L16.718 17.7796C17.0118 18.0735 17.4857 18.0735 17.7796 17.7796C18.0735 17.4894 18.0735 17.0118 17.7796 16.7216ZM7.58571 13.6616C4.23184 13.6616 1.50612 10.9359 1.50612 7.58571C1.50612 4.23551 4.23184 1.50612 7.58571 1.50612C10.9359 1.50612 13.6653 4.23551 13.6653 7.58571C13.6653 10.9359 10.9359 13.6616 7.58571 13.6616Z" id="Shape" fill="#EF5350" stroke="none" />
+                                        </svg>
+                                    </label>
+                                </form>
+                                <div class="chatUsersList scrollBlock">
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+                                        <div class="count">3</div>
+                                    </div>
+                                    <div class="chatUserItem">
+                                        <div class="chatUserInfo">
+                                            <div class="chatUserIcon"></div>
+                                            <div class="chatUserData">
+                                                <p class="chatUserName">Gunilla Carlsson Gunilla</p>
+                                                <p class="chatUserCompany">UNAIDS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="chatBody">
+                                <div class="chatBodyHeader">
+                                    <div class="chatBodyHeaderUSer">
+                                        <p class="chatUserName">Gunilla Carlsson </p>
+                                        <p class="chatUserCompany">UNAIDS</p>
+                                    </div>
+                                    <div class="chatFavouriteIcon">
+                                        <img src="images/img/star.png" alt="favourite icon">
+                                    </div>
+
+                                </div>
+                                <div class="chatBodyMessages scrollBlock">
+                                    <div class="chatMessageWrapper left">
+                                        <div class="chatMessage messageLeft">
+                                            <div class="chatMessageTextWrapp">
+                                                <p class="chatMessageText">I am writing this text so that this text will
+                                                    fill the place where the text should be. Do not look for any meaning
+                                                    in this text, it simply replaces the message in the dialogue</p>
+                                                <p class="chatMessageData">12:57 PM</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="chatMessage messageLeft">
+                                            <div class="chatMessageTextWrapp">
+                                                <p class="chatMessageText">I am writing this text so that this text </p>
+                                                <p class="chatMessageData">12:57 PM</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="chatMessageWrapper right">
+                                        <div class="chatMessage messageRight">
+                                            <div class="chatMessageTextWrapp">
+                                                <p class="chatMessageText">This is just a text</p>
+                                                <p class="chatMessageData">13:04 PM</p>
+                                            </div>
+                                        </div>
+                                        <div class="chatMessage messageRight">
+                                            <div class="chatMessageTextWrapp">
+                                                <p class="chatMessageText">I am writing this text so that this text will
+                                                    fill the place where the text should be. Do not look for any meaning
+                                                    in this text, it simply replaces the message in the dialogue</p>
+                                                <p class="chatMessageData">13:04 PM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="chatMessageWrapper left">
+                                        <div class="chatMessage messageLeft">
+                                            <div class="chatMessageTextWrapp">
+                                                <p class="chatMessageText">I am writing this text so that this text will
+                                                    fill the place where the text should be. Do not look for any meaning
+                                                    in this text, it simply replaces the message in the dialogue</p>
+                                                <p class="chatMessageData">12:57 PM</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="chatMessageWrapper left">
+                                        <div class="chatMessage messageLeft">
+                                            <div class="chatMessageTextWrapp">
+                                                <p class="chatMessageText">I am writing this text so that this text will
+                                                    fill the place where the text should be. Do not look for any meaning
+                                                    in this text, it simply replaces the message in the dialogue</p>
+                                                <p class="chatMessageData">12:57 PM</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="chatMessage messageLeft">
+                                            <div class="chatMessageTextWrapp">
+                                                <p class="chatMessageText">I am writing this text so that this text </p>
+                                                <p class="chatMessageData">12:57 PM</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="chatBodySendMess">
+                                    <form enctype="multipart/form-data" method="post">
+                                        <p class="inputFileWrapp">
+                                            <label for="uploadbtn" class="uploadButton">
+                                                <img src="images/img/shape.png" alt="input file">
+                                            </label>
+                                            <input style="opacity: 0; z-index: -1; width: 0" type="file" name="upload"
+                                                   id="uploadbtn">
+
+                                        </p>
+                                        <input type="text" class="chatWriteMess" placeholder="Your message">
+                                        <button type="submit" class="chatSendBtn"><img src="images/img/sent_icon.png"
+                                                                                       alt="send"></button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-notif" role="tabpanel" aria-labelledby="nav-notif-tab">
+                        <div class="notifBlockWrapp  scrollBlock">
+                            <div class="notifBlock">
+                                <p class="blockTitle">New Notifications</p>
+                                <div class="notifItem newNotifNews">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem newNotifNews">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem newNotifOrganization">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="notifBlock">
+                                <p class="blockTitle">All Notifications</p>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/start-up.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Created new project
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifItem allNotif">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="notifFrom">
+                                                <div class="notifIcon">
+                                                    <img src="images/img/newspaper.png" alt="news icon">
+                                                </div>
+                                                <div class="notifAuthor">
+                                                    <img src="images/img/organization_icon.png" alt="organization icon">
+                                                    <span>UNAIDS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="notifText">
+                                                Published the news «TCompetition for small grants for trans initiatives 2019»
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 col-2">
+                                            <div class="notifData">
+                                                20.06.2019 10:01
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade " id="nav-settings" role="tabpanel" aria-labelledby="nav-settings-tab">
+                        <div class="userSettings user">
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="userAction">
+                                        <div class="settingsUserIcon"></div>
+                                        <div class="settingsUserName">User Name</div>
+                                        <button class="inputFileWrapp btn bordered">
+                                            <label for="uploadUserIcon" class="uploadButton">
+                                               + ADD PHOTO
+                                            </label>
+                                            <input style="opacity: 0; z-index: -1; width: 0; height: 0" type="file" name="upload" id="uploadUserIcon"/>
+
+                                        </button>
+                                        <button class="btn blue">save</button>
+                                        <button class="btn red">delete account</button>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <form action="">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="userInfo">
+                                                <p class="blockTitle">User Information</p>
+
+                                                    <div class="formItem">
+                                                        <input type="text" id="userFirstName" name="name" placeholder="">
+                                                        <label for="userFirstName">First Name</label>
+                                                    </div>
+                                                    <div class="formItem">
+                                                        <input type="text" id="userLastName" name="name" placeholder="">
+                                                        <label for="userLastName">Last Name</label>
+                                                    </div>
+                                                    <div class="formItemGroup">
+                                                        <div class="formItem">
+                                                            <input type="text" id="userAge" name="name" placeholder="">
+                                                            <label for="userAge">Age</label>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <select name="userGender" id="gender">
+                                                                <option value="1">Male</option>
+                                                                <option value="2">Female</option>
+                                                            </select>
+                                                            <label for="gender">Gender</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="formItem">
+                                                        <input type="email" id="userEmail" name="name" placeholder="">
+                                                        <label for="userEmail">Organization email</label>
+                                                    </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="userInfo">
+                                                <p class="blockTitle">Contact Information</p>
+                                                    <div class="formItem">
+                                                        <input type="text" id="userPhone" name="name" placeholder="">
+                                                        <label for="userPhone">Phone</label>
+                                                    </div>
+                                                <div class="formWithIcon">
+                                                    <div class="countrySelectIcon userCountry"><img src="./images/svg/select-country.svg" alt="select country"></div>
+                                                    <div class="formItem">
+                                                        <select name="userCountry" id="userCountry">
+                                                            <option value="1">Ukraine</option>
+                                                            <option value="2">Albania</option>
+                                                            <option value="3">Poland</option>
+                                                        </select>
+                                                        <label for="userCountry">Country</label>
+                                                    </div>
+                                                </div>
+
+
+                                                    <div class="formItem">
+                                                        <input type="text" id="userAdress1" name="name" placeholder="">
+                                                        <label for="userAdress1">Adress 1</label>
+                                                    </div>
+                                                    <div class="formItem">
+                                                        <input type="text" id="userAdress2" name="name" placeholder="">
+                                                        <label for="userAdress2">Adress 2</label>
+                                                    </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                                <div class="userInfo">
+                                                    <p class="blockTitle">Security</p>
+
+                                                        <div class="formItem">
+                                                            <input type="text" id="currentPass" name="name" placeholder="">
+                                                            <label for="currentPass">Current Password</label>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <input type="password" id="newPass" name="name" placeholder="">
+                                                            <label for="newPass">New Password</label>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <input type="password" id="confirmPass" name="name" placeholder="">
+                                                            <label for="confirmPass">Confirm New Password</label>
+                                                        </div>
+                                                </div>
+                                            </div>
+
+                                    </div>
+                                    </form>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-favourite" role="tabpanel" aria-labelledby="nav-favourite-tab">
+                        favourite text
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </div>
+    <footer>
+        <p>2019 NGO/MED Platform</p>
+    </footer>
+
+</div>
+
+</body>
+
+</html>

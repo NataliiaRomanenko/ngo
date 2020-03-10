@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1680px" height="310px" viewBox="0 0 1680 310" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L1680 0L1680 310L0 310L0 0Z" id="path_1" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(335.4893 251.6949)" id="path_2" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(-9.094947E-13 587.2881)" id="path_3" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(335.4893 419.4915)" id="path_4" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(335.4893 83.89831)" id="path_5" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(2.728484E-12 83.89831)" id="path_6" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(335.4893 671.1865)" id="path_7" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(335.4893 335.5932)" id="path_8" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(335.4893 503.3898)" id="path_9" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(335.4893 167.7966)" id="path_10" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(419.3617 587.2881)" id="path_11" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(419.3617 251.6949)" id="path_12" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(83.87234 587.2881)" id="path_13" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(419.3617 419.4915)" id="path_14" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(419.3617 83.89831)" id="path_15" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(83.87234 83.89831)" id="path_16" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" id="path_17" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(419.3617 671.1865)" id="path_18" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(419.3617 335.5932)" id="path_19" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(83.87234 671.1865)" id="path_20" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(419.3617 503.3898)" id="path_21" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(419.3617 167.7966)" id="path_22" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(83.87234 503.3898)" id="path_23" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(83.87234 167.7966)" id="path_24" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(83.87234 -5.456968E-12)" id="path_25" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(503.234 587.2881)" id="path_26" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(503.234 251.6949)" id="path_27" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(167.7447 587.2881)" id="path_28" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(503.234 419.4915)" id="path_29" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(503.234 83.89831)" id="path_30" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(167.7447 419.4915)" id="path_31" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(167.7447 83.89831)" id="path_32" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(503.234 671.1865)" id="path_33" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(503.234 335.5932)" id="path_34" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(167.7447 671.1865)" id="path_35" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 755.0847)" id="path_36" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(167.7447 755.0847)" id="path_37" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(503.234 503.3898)" id="path_38" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(503.234 167.7966)" id="path_39" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(167.7447 503.3898)" id="path_40" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(167.7447 167.7966)" id="path_41" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(587.1064 587.2881)" id="path_42" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(587.1064 251.6949)" id="path_43" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 587.2881)" id="path_44" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 251.6949)" id="path_45" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(587.1064 419.4915)" id="path_46" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(587.1064 83.89831)" id="path_47" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 419.4915)" id="path_48" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 83.89831)" id="path_49" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(587.1064 671.1865)" id="path_50" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(587.1064 335.5932)" id="path_51" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 671.1865)" id="path_52" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 335.5932)" id="path_53" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(587.1064 503.3898)" id="path_54" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(587.1064 167.7966)" id="path_55" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 503.3898)" id="path_56" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(251.617 167.7966)" id="path_57" />
+    <path d="M0 0L69.8936 0L69.8936 69.9153L0 69.9153L0 0Z" transform="translate(335.4893 587.2881)" id="path_58" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_2" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_3" />
+    </clipPath>
+    <clipPath id="clip_3">
+      <use xlink:href="#path_4" />
+    </clipPath>
+    <clipPath id="clip_4">
+      <use xlink:href="#path_5" />
+    </clipPath>
+    <clipPath id="clip_5">
+      <use xlink:href="#path_6" />
+    </clipPath>
+    <clipPath id="clip_6">
+      <use xlink:href="#path_7" />
+    </clipPath>
+    <clipPath id="clip_7">
+      <use xlink:href="#path_8" />
+    </clipPath>
+    <clipPath id="clip_8">
+      <use xlink:href="#path_9" />
+    </clipPath>
+    <clipPath id="clip_9">
+      <use xlink:href="#path_10" />
+    </clipPath>
+    <clipPath id="clip_10">
+      <use xlink:href="#path_11" />
+    </clipPath>
+    <clipPath id="clip_11">
+      <use xlink:href="#path_12" />
+    </clipPath>
+    <clipPath id="clip_12">
+      <use xlink:href="#path_13" />
+    </clipPath>
+    <clipPath id="clip_13">
+      <use xlink:href="#path_14" />
+    </clipPath>
+    <clipPath id="clip_14">
+      <use xlink:href="#path_15" />
+    </clipPath>
+    <clipPath id="clip_15">
+      <use xlink:href="#path_16" />
+    </clipPath>
+    <clipPath id="clip_16">
+      <use xlink:href="#path_17" />
+    </clipPath>
+    <clipPath id="clip_17">
+      <use xlink:href="#path_18" />
+    </clipPath>
+    <clipPath id="clip_18">
+      <use xlink:href="#path_19" />
+    </clipPath>
+    <clipPath id="clip_19">
+      <use xlink:href="#path_20" />
+    </clipPath>
+    <clipPath id="clip_20">
+      <use xlink:href="#path_21" />
+    </clipPath>
+    <clipPath id="clip_21">
+      <use xlink:href="#path_22" />
+    </clipPath>
+    <clipPath id="clip_22">
+      <use xlink:href="#path_23" />
+    </clipPath>
+    <clipPath id="clip_23">
+      <use xlink:href="#path_24" />
+    </clipPath>
+    <clipPath id="clip_24">
+      <use xlink:href="#path_25" />
+    </clipPath>
+    <clipPath id="clip_25">
+      <use xlink:href="#path_26" />
+    </clipPath>
+    <clipPath id="clip_26">
+      <use xlink:href="#path_27" />
+    </clipPath>
+    <clipPath id="clip_27">
+      <use xlink:href="#path_28" />
+    </clipPath>
+    <clipPath id="clip_28">
+      <use xlink:href="#path_29" />
+    </clipPath>
+    <clipPath id="clip_29">
+      <use xlink:href="#path_30" />
+    </clipPath>
+    <clipPath id="clip_30">
+      <use xlink:href="#path_31" />
+    </clipPath>
+    <clipPath id="clip_31">
+      <use xlink:href="#path_32" />
+    </clipPath>
+    <clipPath id="clip_32">
+      <use xlink:href="#path_33" />
+    </clipPath>
+    <clipPath id="clip_33">
+      <use xlink:href="#path_34" />
+    </clipPath>
+    <clipPath id="clip_34">
+      <use xlink:href="#path_35" />
+    </clipPath>
+    <clipPath id="clip_35">
+      <use xlink:href="#path_36" />
+    </clipPath>
+    <clipPath id="clip_36">
+      <use xlink:href="#path_37" />
+    </clipPath>
+    <clipPath id="clip_37">
+      <use xlink:href="#path_38" />
+    </clipPath>
+    <clipPath id="clip_38">
+      <use xlink:href="#path_39" />
+    </clipPath>
+    <clipPath id="clip_39">
+      <use xlink:href="#path_40" />
+    </clipPath>
+    <clipPath id="clip_40">
+      <use xlink:href="#path_41" />
+    </clipPath>
+    <clipPath id="clip_41">
+      <use xlink:href="#path_42" />
+    </clipPath>
+    <clipPath id="clip_42">
+      <use xlink:href="#path_43" />
+    </clipPath>
+    <clipPath id="clip_43">
+      <use xlink:href="#path_44" />
+    </clipPath>
+    <clipPath id="clip_44">
+      <use xlink:href="#path_45" />
+    </clipPath>
+    <clipPath id="clip_45">
+      <use xlink:href="#path_46" />
+    </clipPath>
+    <clipPath id="clip_46">
+      <use xlink:href="#path_47" />
+    </clipPath>
+    <clipPath id="clip_47">
+      <use xlink:href="#path_48" />
+    </clipPath>
+    <clipPath id="clip_48">
+      <use xlink:href="#path_49" />
+    </clipPath>
+    <clipPath id="clip_49">
+      <use xlink:href="#path_50" />
+    </clipPath>
+    <clipPath id="clip_50">
+      <use xlink:href="#path_51" />
+    </clipPath>
+    <clipPath id="clip_51">
+      <use xlink:href="#path_52" />
+    </clipPath>
+    <clipPath id="clip_52">
+      <use xlink:href="#path_53" />
+    </clipPath>
+    <clipPath id="clip_53">
+      <use xlink:href="#path_54" />
+    </clipPath>
+    <clipPath id="clip_54">
+      <use xlink:href="#path_55" />
+    </clipPath>
+    <clipPath id="clip_55">
+      <use xlink:href="#path_56" />
+    </clipPath>
+    <clipPath id="clip_56">
+      <use xlink:href="#path_57" />
+    </clipPath>
+    <clipPath id="clip_57">
+      <use xlink:href="#path_58" />
+    </clipPath>
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="_S9B08--основная-2">
+    <path d="M0 0L1680 0L1680 310L0 310L0 0Z" id="Mask" fill="#D8D8D8" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <g id="Group-2">
+        <path d="M0 0L1680 0L1680 310L0 310L0 0Z" id="Mask" fill="#347BB2" stroke="none" />
+        <g clip-path="url(#mask_1)">
+          <g id="Group-5" transform="matrix(0.7071066 0.7071069 -0.7071069 0.7071066 1608.363 -250)">
+            <g id="Rectangle-6-Copy-32">
+              <g clip-path="url(#clip_1)">
+                <use xlink:href="#path_2" fill="none" stroke="#3CD5FF" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-16">
+              <g clip-path="url(#clip_2)">
+                <use xlink:href="#path_3" fill="none" stroke="#3CD5FF" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-8">
+              <g clip-path="url(#clip_3)">
+                <use xlink:href="#path_4" fill="none" stroke="#3CD5FF" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-34">
+              <g clip-path="url(#clip_4)">
+                <use xlink:href="#path_5" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-35">
+              <g clip-path="url(#clip_5)">
+                <use xlink:href="#path_6" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-4">
+              <g clip-path="url(#clip_6)">
+                <use xlink:href="#path_7" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-36">
+              <g clip-path="url(#clip_7)">
+                <use xlink:href="#path_8" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-9">
+              <g clip-path="url(#clip_8)">
+                <use xlink:href="#path_9" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-38">
+              <g clip-path="url(#clip_9)">
+                <use xlink:href="#path_10" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy">
+              <g clip-path="url(#clip_10)">
+                <use xlink:href="#path_11" fill="none" stroke="#0097B3" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-40">
+              <g clip-path="url(#clip_11)">
+                <use xlink:href="#path_12" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-20">
+              <g clip-path="url(#clip_12)">
+                <use xlink:href="#path_13" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-10">
+              <g clip-path="url(#clip_13)">
+                <use xlink:href="#path_14" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-42">
+              <g clip-path="url(#clip_14)">
+                <use xlink:href="#path_15" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-43">
+              <g clip-path="url(#clip_15)">
+                <use xlink:href="#path_16" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-45">
+              <g clip-path="url(#clip_16)">
+                <use xlink:href="#path_17" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-5">
+              <g clip-path="url(#clip_17)">
+                <use xlink:href="#path_18" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-44">
+              <g clip-path="url(#clip_18)">
+                <use xlink:href="#path_19" fill="none" stroke="#3CD5FF" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-22">
+              <g clip-path="url(#clip_19)">
+                <use xlink:href="#path_20" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-11">
+              <g clip-path="url(#clip_20)">
+                <use xlink:href="#path_21" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-46">
+              <g clip-path="url(#clip_21)">
+                <use xlink:href="#path_22" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-23">
+              <g clip-path="url(#clip_22)">
+                <use xlink:href="#path_23" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-47">
+              <g clip-path="url(#clip_23)">
+                <use xlink:href="#path_24" fill="none" stroke="#3CD5FF" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-49">
+              <g clip-path="url(#clip_24)">
+                <use xlink:href="#path_25" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-2">
+              <g clip-path="url(#clip_25)">
+                <use xlink:href="#path_26" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-48">
+              <g clip-path="url(#clip_26)">
+                <use xlink:href="#path_27" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-24">
+              <g clip-path="url(#clip_27)">
+                <use xlink:href="#path_28" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-12">
+              <g clip-path="url(#clip_28)">
+                <use xlink:href="#path_29" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-50">
+              <g clip-path="url(#clip_29)">
+                <use xlink:href="#path_30" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-25">
+              <g clip-path="url(#clip_30)">
+                <use xlink:href="#path_31" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-51">
+              <g clip-path="url(#clip_31)">
+                <use xlink:href="#path_32" fill="none" stroke="#3CD5FF" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-6">
+              <g clip-path="url(#clip_32)">
+                <use xlink:href="#path_33" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-52">
+              <g clip-path="url(#clip_33)">
+                <use xlink:href="#path_34" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-26">
+              <g clip-path="url(#clip_34)">
+                <use xlink:href="#path_35" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-33">
+              <g clip-path="url(#clip_35)">
+                <use xlink:href="#path_36" fill="none" stroke="#0097B3" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-37">
+              <g clip-path="url(#clip_36)">
+                <use xlink:href="#path_37" fill="none" stroke="#00B396" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-13">
+              <g clip-path="url(#clip_37)">
+                <use xlink:href="#path_38" fill="none" stroke="#00B396" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-54">
+              <g clip-path="url(#clip_38)">
+                <use xlink:href="#path_39" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-27">
+              <g clip-path="url(#clip_39)">
+                <use xlink:href="#path_40" fill="none" stroke="#3CD5FF" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-55">
+              <g clip-path="url(#clip_40)">
+                <use xlink:href="#path_41" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-3">
+              <g clip-path="url(#clip_41)">
+                <use xlink:href="#path_42" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-56">
+              <g clip-path="url(#clip_42)">
+                <use xlink:href="#path_43" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-28">
+              <g clip-path="url(#clip_43)">
+                <use xlink:href="#path_44" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-57">
+              <g clip-path="url(#clip_44)">
+                <use xlink:href="#path_45" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-14">
+              <g clip-path="url(#clip_45)">
+                <use xlink:href="#path_46" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-58">
+              <g clip-path="url(#clip_46)">
+                <use xlink:href="#path_47" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-29">
+              <g clip-path="url(#clip_47)">
+                <use xlink:href="#path_48" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-59">
+              <g clip-path="url(#clip_48)">
+                <use xlink:href="#path_49" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-7">
+              <g clip-path="url(#clip_49)">
+                <use xlink:href="#path_50" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-60">
+              <g clip-path="url(#clip_50)">
+                <use xlink:href="#path_51" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-30">
+              <g clip-path="url(#clip_51)">
+                <use xlink:href="#path_52" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-61">
+              <g clip-path="url(#clip_52)">
+                <use xlink:href="#path_53" fill="none" stroke="#E9FF53" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-15">
+              <g clip-path="url(#clip_53)">
+                <use xlink:href="#path_54" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-62">
+              <g clip-path="url(#clip_54)">
+                <use xlink:href="#path_55" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-31">
+              <g clip-path="url(#clip_55)">
+                <use xlink:href="#path_56" fill="none" stroke="#FF9C9A" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6-Copy-63">
+              <g clip-path="url(#clip_56)">
+                <use xlink:href="#path_57" fill="none" stroke="#3CD5FF" stroke-width="27.9622135" />
+              </g>
+            </g>
+            <g id="Rectangle-6">
+              <g clip-path="url(#clip_57)">
+                <use xlink:href="#path_58" fill="none" stroke="#EF5350" stroke-width="27.9622135" />
+              </g>
+            </g>
+          </g>
+          <path d="M0 0L1680 0L1680 314L0 314L0 0Z" id="Rectangle-11" fill="#000B1B" fill-opacity="0.4" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
