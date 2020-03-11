@@ -3846,3 +3846,39 @@ input[type=checkbox] + label.rightCheckBox:before{
     border-bottom: 1px solid var(--blueColor);
     background: transparent!important;
 }
+.filterBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.statFilters{
+    margin-bottom: 25px;
+}
+.filterCategories{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.selectedFilter{
+    border: solid 1px #d9e1e8;
+    background: #efefef;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.filterInfo{
+    padding-right: 10px;
+}
+.btn-close{
+    cursor: pointer;
+    transition: opacity .3 ease;
+}
+.btn-close:hover{
+    opacity: .3;
+}
