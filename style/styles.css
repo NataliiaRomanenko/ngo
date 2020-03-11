@@ -3797,3 +3797,52 @@ input[type=checkbox] + label.rightCheckBox:before{
     bottom: 10px;
 }
 
+.filtersTable table{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.filtersTable table th{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.filtersTable table td:first-child,
+.filtersTable table th:first-child{
+    text-align: start;
+    padding-left: 30px;
+}
+
+.filtersTable table td{
+    color: #333333;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+.filtersTable table tr.generalStats td{
+    font-weight: 600;
+}
+.filtersTable .statsIcons{
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 3px;
+}
+.filtersTable .statsIcons.unresolved{
+    bottom: -1px;
+}
+.filtersTable table tr:nth-child(odd){
+    background: #f1fafc
+}
+.filtersTable table .tableTitle{
+    border-bottom: 1px solid var(--blueColor);
+    background: transparent!important;
+}
