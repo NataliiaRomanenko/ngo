@@ -916,7 +916,11 @@ input:focus ~ .label,
     border-bottom: 1px solid var(--blueColor);
     text-align: center;
 }
-
+.tabs.singleOrgTabs{
+    margin: 25px 0;
+    border-bottom: none;
+    text-align: left;
+}
 .tabs a {
     display: inline-block;
     padding: 0 19px;
@@ -952,6 +956,10 @@ input:focus ~ .label,
     transition:all .33s linear;
     -webkit-transition:all .33s linear;
 }
+.tabs.singleOrgTabs a:nth-child(2).active ~ .tabUnderline{
+    width: 105px;
+}
+
 /*checkBox*/
 input[type=checkbox]{
     display: none;
@@ -3881,4 +3889,7 @@ input[type=checkbox] + label.rightCheckBox:before{
 }
 .btn-close:hover{
     opacity: .3;
+}
+.orgTabs.nav a{
+    display: inline-block;
 }

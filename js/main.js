@@ -75,7 +75,7 @@ $(document).ready(function () {
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~tabs for modal registration~~~~~~~~~~~~~~~~~~~~~~~~~//
-    var tabs = $('#tabs');
+    var tabs = $('.tabsBlock');
     $('.tabs-content > div', tabs).each(function (i) {
         if (i != 0) $(this).hide(0);
     });
@@ -185,8 +185,6 @@ $(document).ready(function () {
             $('.chatShortUserInfo').addClass('close');
         }
     );
-
-
 });
 
 
@@ -203,4 +201,5 @@ $(window).scroll(function () {
         $('.firstSection').removeClass('margin');
     }
 });
+
 
