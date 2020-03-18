@@ -1140,7 +1140,7 @@ color: var(--blueColor);
 }
 .userCabinetWrapp:hover .userMenu{
     opacity: 1;
-    z-index: 2;
+    z-index: 999;
     transform: scaleY(1);
 }
 .logoUser{
@@ -3730,7 +3730,6 @@ input[type=checkbox] + label.rightCheckBox:before{
     width: 198px;
     padding-left: 0;
     padding-right: 0;
-    z-index: 5;
 }
 .actionEvent .btn span.withIcon:before{
     width: 16px;
