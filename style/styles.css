@@ -1143,6 +1143,13 @@ color: var(--blueColor);
     z-index: 2;
     transform: scaleY(1);
 }
+.logoUser{
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .userMenuItemTitle{
     padding-left: 10px;
     margin-bottom: 7px;
@@ -2619,11 +2626,11 @@ border-color: transparent;
 }
 .socialBlock{
     position: absolute;
-    right: -13%;
+    right: -5%;
     top: 60px;
 }
 .socialBlock.sticky{
-    right: 16%;
+    right: 4%;
     top: auto;
 }
 .socialLink{
