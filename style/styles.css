@@ -3815,6 +3815,7 @@ input[type=checkbox] + label.rightCheckBox:before{
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
+    border-bottom: 1px solid var(--blueColor);
 }
 .filtersTable table th{
     color: #333333;
@@ -3848,10 +3849,11 @@ input[type=checkbox] + label.rightCheckBox:before{
     display: inline-block;
     vertical-align: middle;
     position: relative;
-    bottom: 3px;
+    width: 24px;
+    height: 24px;
 }
 .filtersTable .statsIcons.unresolved{
-    bottom: -1px;
+    bottom: -5px;
 }
 .filtersTable table tr:nth-child(odd){
     background: #f1fafc
@@ -3891,11 +3893,50 @@ input[type=checkbox] + label.rightCheckBox:before{
 }
 .btn-close{
     cursor: pointer;
-    transition: opacity .3 ease;
+    transition: opacity .3s ease;
 }
 .btn-close:hover{
     opacity: .3;
 }
 .orgTabs.nav a{
     display: inline-block;
+}
+.organizationRate.singleOrg.statsTable .star-ratings-sprite{
+    height: 16px;
+    width: 85px;
+    background-size: contain;
+}
+.organizationRate.singleOrg.statsTable .star-ratings-sprite-rating{
+    height: 16px;
+    background-size: contain;
+}
+.organizationRate.singleOrg.statsTable .rateNumber{
+    font-size: 14px;
+}
+.organizationRate.singleOrg.statsTable{
+    justify-content: center;
+    align-items: flex-start;
+}
+.statsNumber{
+    display: inline-block;
+    width: 14%;
+}
+.filterMenu.stats{
+    margin-bottom: 40px;
+}
+.filterMenu.stats .filterMenuItem{
+    color: #777777;
+    display: flex;
+}
+.statsOrgName{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 67%;
+    overflow: hidden;
+    display: block;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.statsOrgName:hover{
+    max-width: 100%;
 }
