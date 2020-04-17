@@ -508,6 +508,24 @@ a:hover{
     font-size: 28px;
     font-weight: 600;
     line-height: 36px;
+    display: flex;
+    align-items: center;
+}
+.programLabel{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 3px;
+    padding: 4px 10px;
+    margin-left: 15px;
+}
+.programLabel.program{
+    background-color: var(--redColor);
+}
+.programLabel.project{
+    background-color: var(--lightBlueColor);
 }
 .newsText{
     color: #333333;
@@ -2545,7 +2563,8 @@ border-color: transparent;
     font-weight: 600;
     line-height: 46px;
     padding-top: 20px;
-
+    display: flex;
+    align-items: center;
 }
 .singleNewsTitle.whiteFont{
     text-transform: uppercase;
