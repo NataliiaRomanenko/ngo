@@ -823,6 +823,9 @@ select:focus{
     flex-direction: column-reverse;
     width: 100%;
 }
+.formItem.w315{
+    max-width: 315px;
+}
 .formWithIcon{
     display: flex;
     align-items: center;

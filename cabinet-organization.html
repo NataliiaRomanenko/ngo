@@ -2257,11 +2257,12 @@
                                 </div>
                                 <div class="programShotInfo">
                                     <div class="programTitlePeriod">
-                                        <div class="programOrgTitle">
-                                            <div class="formItem">
-                                                <input type="text" id="programTitle" name="programTitle" placeholder="">
-                                                <label for="programTitle">Program Title</label>
-                                            </div>
+                                        <div class="formItem w315">
+                                            <select name="selectProgramType" id="programType">
+                                                <option value="1">Program</option>
+                                                <option value="2">Project</option>
+                                            </select>
+                                            <label for="programType">Program or project</label>
                                         </div>
                                         <div class="programOrgPeriod">
                                             <span class="labelPeriod">Program period</span>
@@ -2275,6 +2276,12 @@
                                                        name="programPeriodTo" placeholder="">
                                                 <label for="programPeriodTo">To</label>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="programOrgTitle">
+                                        <div class="formItem">
+                                            <input type="text" id="programTitle" name="programTitle" placeholder="">
+                                            <label for="programTitle">Program Title</label>
                                         </div>
                                     </div>
                                     <div class="formItem">
