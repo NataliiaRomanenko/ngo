@@ -2720,7 +2720,7 @@ border-color: transparent;
 .infoWithIconsBlock{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 100%;
 
 }
@@ -3963,4 +3963,12 @@ input[type=checkbox] + label.rightCheckBox:before{
 .chatUserName:hover,
 .statsOrgName:hover{
     max-width: 100%;
+}
+.shortIcon {
+    max-width: 147px;
+    height: 147px;
+    background-image: url(../images/svg/icon.svg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
