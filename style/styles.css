@@ -3067,6 +3067,7 @@ select .countryList{
 }
 .cardItemDesc {
     padding: 0 15px;
+    transition: opacity .2s ease;
 }
 .cardsWrapp .cardItem .publishData{
     margin-top: 20px;
@@ -3421,9 +3422,9 @@ select .countryList{
 .addNewItem.rectangle{
    min-height: 165px;
     align-items: center;
-    justify-content: center;
+    padding: 0 36px;
     position: relative;
-    /*box-shadow: 0 1px 2px rgba(0,0,0,.2);*/
+    box-shadow: 0 2px 4px rgba(0,0,0,.2), inset 0 -1px #e8e8e8;
 }
 
 .cardRectangleImg{
@@ -3471,7 +3472,7 @@ select .countryList{
     font-size: 14px;
     font-weight: 600;
     line-height: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .shortLawInfoText{
     color: #333333;
@@ -3971,4 +3972,145 @@ input[type=checkbox] + label.rightCheckBox:before{
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
+}
+.sharedFileIcon{
+    width: 49px;
+    height: 64px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.sharedFileIcon.jpg{
+    background-image: url(../images/svg/jpg-file.svg);
+}
+.sharedFileIcon.pdf{
+    background-image: url(../images/svg/pdf-file.svg);
+}
+.modalSharedFileIcon.exl,
+.sharedFileIcon.xls{
+    background-image: url(../images/svg/excel-file.svg);
+}
+.sharedFileIcon.word{
+    background-image: url(../images/svg/word-file.svg);
+}
+
+.actionIconBlock{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+}
+.actionIcon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+}
+.actionIcon.share svg path{
+    fill: var(--lightBlueColor)
+}
+.actionIcon.download.slideLeft{
+    margin: 0 10px;
+    background-color: var(--greenColor);
+}
+.actionIcon.delete.slideLeft{
+    background-color: var(--redColor);
+
+}
+.actionIcon.appear{
+    z-index: -1;
+    opacity: 0;
+}
+.actionIcon.appear.slideLeft{
+    z-index: 1;
+    opacity: 1;
+}
+.actionIconBlock.active{
+     z-index: 1;
+}
+.actionIconBlock.active .actionIcon.share{
+    background-color: var(--lightBlueColor);
+}
+.actionIconBlock.active .actionIcon.share svg path{
+    fill: #ffffff;
+}
+
+.cardsWrapp .cardItem.card.sharedFileCard.active{
+    border: 1px solid var(--lightBlueColor)!important;
+}
+.sharedFileCard.active .cardItemDesc{
+    opacity: .2;
+}
+.actionIconBlock.active .actionIcon:hover{
+    box-shadow: 0 0px 7px rgba(0, 0, 0, 0.51), inset 0 -1px #b9b3b3;
+}
+
+.slideLeft{
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(150%);
+    }
+    50%{
+        transform: translateX(-8%);
+    }
+    65%{
+        transform: translateX(4%);
+    }
+    95%{
+        transform: translateX(2%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes slideLeft {
+    0% {
+        -webkit-transform: translateX(150%);
+    }
+    50%{
+        -webkit-transform: translateX(-8%);
+    }
+    65%{
+        -webkit-transform: translateX(4%);
+    }
+    95%{
+        -webkit-transform: translateX(2%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+.modalSharedFileIcon{
+    width: 21px;
+    height: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+.sharedFileTitle{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sharedFileTitle .sharedFileName{
+    margin-top: 0;
 }

@@ -1,7 +1,28 @@
 $(document).ready(function () {
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~ actions for shared files ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+let actionIconBlock = document.getElementsByClassName('actionIconBlock');
 
+    $(".actionIcon.share").hover(
+        function () {
+            let parent = $(this).parent('.actionIconBlock');
+            let block = $(parent).parent('.sharedFileCard');
 
+            parent.addClass("active");
+            block.addClass("active");
+            console.log(block);
+            $(this).siblings('.appear').addClass('slideLeft');
+
+        })
+
+    $('.actionIconBlock').mouseleave(function () {
+        if($(this).hasClass('active')){
+            $(this).removeClass("active");
+            $('.appear').removeClass('slideLeft');
+            $('.sharedFileCard').removeClass('active')
+        }
+
+    });
 
 // ~~~~~~~~~~~~~~~open registration modal when click btnReg in loginModal~~~~~~~~~~~~~~~~~~~~~~//
     $(".btnReg").click(function () {
@@ -185,6 +206,10 @@ $(document).ready(function () {
             $('.chatShortUserInfo').addClass('close');
         }
     );
+
+
+
+
 });
 
 
