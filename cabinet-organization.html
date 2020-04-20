@@ -3214,6 +3214,11 @@
 
                     </div>
                     <div class="tab-pane fade " id="nav-files" role="tabpanel" aria-labelledby="nav-files-tab">
+                        <div class="row">
+                            <div class="offset-9 col-3 btnCreateProgram">
+                                <button class="btn blue">+ add file</button>
+                            </div>
+                        </div>
                         <div class="userSettings tabWrapp">
                             <div class="filterMenu">
                                 <div class="row">
@@ -3517,14 +3522,21 @@
                                         <form action="">
                                             <p class="blockTitle">Information about organization</p>
                                             <div class="row">
-                                                <div class="col-6">
+                                                <div class="col-7">
                                                     <div class="formItem">
                                                         <input type="text" id="organizationName" name="name"
                                                                placeholder="">
                                                         <label for="organizationName">Organization Name</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-6">
+                                                <div class="col-5 d-flex justify-content-center">
+                                                    <div class="checkSwitch">
+                                                        <div class="formItem">
+                                                            <input type="checkbox" class="guarantor" id="guarantorCheckbox" />
+                                                            <label for="guarantorCheckbox">Guarantor</label>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div class="row">
