@@ -2017,6 +2017,26 @@ input + label .searchLoupe.orange path{
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
+    position: relative;
+}
+.guarantor{
+    top: 80%;
+    position: absolute;
+    bottom: -28px;
+    width: 24px;
+    height: 24px;
+    right: 0;
+}
+.single-guarantor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.single-guarantor p{
+    color: var(--redColor);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
 }
 .organizationShortInfoWrapp{
     display: grid;
@@ -2171,7 +2191,9 @@ padding-bottom: 65px;
 .singleOrganizationName{
 font-size: 28px;
 font-weight: 600;
-margin-bottom: 20px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
 }
 
 .organizationRate.singleOrg .rateNumber{
@@ -4162,3 +4184,4 @@ input[type=checkbox].guarantor:checked + label:after {
 input[type=checkbox].guarantor:focus + label:before {
     box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0 0 0 3px rgba(255,255,0,.7);
 }
+
